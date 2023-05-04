@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Vite React App
 
 ## Clone করে তারপর নিচের Command গুলো চালাবেন
 
