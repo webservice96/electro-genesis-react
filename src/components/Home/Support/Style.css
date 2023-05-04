@@ -1,0 +1,30 @@
+.support-section {
+	position: relative;
+	display: block;
+	height: 47.0588235294vw;
+	background-color: #ff4134;
+	overflow: hidden;
+}
+.support-content h1 {
+	font-size: calc(1.71875rem + 4.375vw);
+	line-height: 1em;
+	font-weight: 500;
+}
+
+.support-section .support-left h1 {
+    padding: 0 12.5vw 0 6.25vw;
+}
+
+.support-section .button-text {
+    padding: 0 1.5vw 0 6.25vw;
+}
+
+.support-btn .sec-btn {
+    background-color: #fff;
+    color: #484747;
+}
+
+.support-btn .sec-btn span {
+    background-color: #ff4134;
+    color: #fff;
+}

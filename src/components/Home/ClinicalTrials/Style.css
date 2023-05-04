@@ -1,0 +1,71 @@
+.glance-section{
+    padding: 100px 0;
+}
+
+.glance-wrapper{
+    width: 86% !important;
+}
+
+.glance-section .st0{fill:none;stroke:#2c2c2c;stroke-width:1.9;stroke-miterlimit:10}
+
+.glance-section .galnce-title {
+	font-size: 60px;
+	font-size: 3.5294117647vw;
+	font-family: aeonik-medium;
+	color: #2c2c2c;
+	line-height: 1.1em;
+	letter-spacing: -0.02em;
+	text-align: start;
+}
+.glance-section .glance-right {
+	background: #fab394;
+}
+.glance-wrapper .row{
+    background: #fab394;
+}
+.glance-section .glance-item {
+	cursor: pointer;
+}
+.glance-section .glance-item svg {
+	width: 40px;
+	color: #000;
+}
+.glance-section .icon-text {
+	position: relative;
+	font-size: 18px;
+	font-family: aeonik-regular;
+	color: #2c2c2c;
+	line-height: 1em;
+	transition: 0.5s;
+    text-align: left;
+}
+.glance-section .icon-text::before {
+	position: absolute;
+	content: "";
+	bottom: 6px;
+	left: 0px;
+	width: 8px;
+	height: 1px;
+	background: #2c2c2c;
+	visibility: hidden;
+	transition: 0.3s;
+}
+.glance-section .glance-item:hover ::before {
+	visibility: visible;
+}
+.glance-section .glance-item:hover .icon-text {
+	padding-left: 10px;
+}
+
+.glance-section .subtitle {
+	position: relative;
+	display: block;
+	padding-right: calc(2.26563rem + 9.47917vw);
+	font-size: 34px;
+	font-size: 2vw;
+	font-family: aeonik-medium;
+	color: #2c2c2c;
+	line-height: 1.1em;
+	margin-left: 28px;
+	margin-bottom: 30px;
+}

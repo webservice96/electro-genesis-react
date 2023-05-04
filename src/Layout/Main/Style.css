@@ -1,0 +1,15 @@
+.home.page-content:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 100%;
+	top: -2px;
+	height: 200vh;
+	max-height: 1400px;
+	background: linear-gradient(-180deg, #fa9688, rgba(250, 150, 136, 0));
+}
+.without-banner {
+	background-color: #f9f9f9;
+    padding-top: calc(2.26563rem + 9.47917vw);
+}

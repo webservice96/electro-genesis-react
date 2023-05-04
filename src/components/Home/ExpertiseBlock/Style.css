@@ -1,0 +1,120 @@
+.expertise-block {
+	padding: 7.5rem 0 25rem;
+}
+
+.title-bio-list-container {
+	margin-left: 18.75%;
+    z-index: 2;
+}
+
+.title-bio-list-container h2 {
+	position: relative;
+	font-size: 110px;
+	font-size: 6.4705882353vw;
+	font-family: aeonik-regular;
+	color: #fff;
+	line-height: 1em;
+	letter-spacing: -0.02em;
+	white-space: pre-line;
+}
+
+.floating-images {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    z-index: 1;
+}
+
+.floating-images .img-1 {
+	position: absolute;
+	top: 10%;
+	right: 12%;
+	width: 200px;
+}
+
+.floating-images .img-2 {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	width: 240px;
+}
+
+.floating-images .img-3 {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+	width: 210px;
+}
+
+.floating-images .img-4 {
+	position: absolute;
+	top: 80%;
+	right: 25%;
+	width: 160px;
+}
+
+.floating-images .img-5 {
+	position: absolute;
+	top: -7%;
+	right: 0;
+	width: 160px;
+}
+
+.bio-list-container{
+    margin-top: 80px;
+}
+
+.bio-list-container .sub-title {
+    position: relative;
+    padding-right: 0.625rem;
+    font-size: .8823529412vw;
+    font-family: aeonik-medium;
+    color: #fff;
+    line-height: 1em;
+}
+
+.bio-list-container .bio-subtile-line {
+    position: relative;
+    display: inline-block;
+    height: 1px;
+    background-color: #fff;
+    width: 70%;
+}
+
+.bio-list-container .bio-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.2941176471vw;
+    font-family: aeonik-medium;
+    color: #fff;
+    line-height: 1.2em;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.bio-list-container .label {
+    flex-grow: 1;
+    transition: transform .5s cubic-bezier(.19,1,.22,1),opacity .5s cubic-bezier(.19,1,.22,1);
+}
+
+.bio-list-container .number {
+    flex: 0 0 50px;
+	font-size: .9411764706vw;
+}
+
+.bio-list-container .bio-item:hover .label, .bio-list-container .bio-item:hover .icon {
+    transform: translateX(4px);
+}
+
+.bio-list-container .icon {
+    transition: transform .5s cubic-bezier(.19,1,.22,1),opacity .5s cubic-bezier(.19,1,.22,1);
+}
+
+.bio-list-container .bio-item:hover {
+    opacity: .7;
+}
