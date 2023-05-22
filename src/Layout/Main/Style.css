@@ -13,3 +13,13 @@
 	background-color: #f9f9f9;
     padding-top: calc(2.26563rem + 9.47917vw);
 }
+.bg-gray-pink {
+	background-color: #f8edec;
+	position: relative;
+	top:20px;
+	left: 20px;
+	display: block;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	border-radius: 20px;
+}

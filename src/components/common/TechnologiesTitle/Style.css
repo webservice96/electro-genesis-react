@@ -1,0 +1,27 @@
+.title {
+    position: relative;
+    max-width: 81.25%;
+    padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
+    font-size: 60px;
+    font-size: 3.5294117647vw;
+    font-family: aeonik-medium;
+    color: #2c2c2c;
+    line-height: 1em;
+    margin-left: 18.75%;
+    letter-spacing: -.02em;
+    
+}
+
+h1.technologies-title-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
+    font-size: 84px;
+    font-size: 4.9411764706vw;
+    font-family: aeonik-medium;
+    color: #2c2c2c;
+    line-height: 1em;
+    letter-spacing: -.03em;
+    width: 50%;
+}

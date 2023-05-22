@@ -1,0 +1,126 @@
+.block-inner {
+    position: relative;
+    display: block;
+    /* padding: 135px 0; */
+    height: calc(100% - 110px);
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    position: relative;
+    max-width: 81.25%;
+    padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
+    font-size: 60px;
+    font-size: 3.5294117647vw;
+    font-family: aeonik-medium;
+    color: #2c2c2c;
+    line-height: 1em;
+    margin-left: 18.75%;
+    letter-spacing: -.02em;
+}
+
+
+
+
+.max-width {
+    max-width: 81.25%;
+    margin-left: 18.75%;
+}
+
+.flowcy_description {
+    position: relative;
+    margin-top: calc(1.40625rem + 1.45833vw);
+    font-size: 34px;
+    font-size: 2vw;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1.1em;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.flowcy_image-box {
+    position: relative;
+    height: 100%;
+    padding: 0 30px 0 0px;
+}
+.margin-top-lass{
+    margin-top: -100px;
+}
+.image-caption {
+    position: relative;
+    bottom: 30px;
+    left: 35%;
+    color: #999;
+}
+
+.Platforms-img-caption {
+    left: 10% !important;
+    width: 70%;
+    text-align: center;
+    bottom: 0px !important;
+}
+.Companin_content-box {
+    width: 100%;
+}
+
+
+
+ .pagination {
+     margin: 0 15px !important;
+     padding-bottom: 15px !important;
+ }
+
+ .number,
+ .text {
+     font-size: 17px;
+     font-size: 1vw;
+     font-family: aeonik-regular;
+     color: #2c2c2c;
+     line-height: 1em;
+ }
+
+ .Diseases-section .underline-item,.Assays-section .underline-item{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: calc(0.5625rem + 2.91667vw);
+     border-bottom: 2px solid #2c2c2c;
+    opacity: .7;
+ }
+ .Diseases-section .underline-item div ,.Assays-section .underline-item div{
+     flex-grow: 1;
+     font-size: 28px;
+     font-size: 1.6470588235vw;
+     font-family: aeonik-regular;
+     color: #2c2c2c;
+     line-height: 1.1em;
+ }
+
+
+
+ .Sample-type-section .list .item{
+   margin-bottom: 20px;
+ } 
+ .Sample-type-section .list .item .inner {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 10vw;
+     height: 10vw;
+     border-radius: 100%;
+     background-color: #ff4134;
+ }
+.Sample-type-section .list .item .inner .label {
+     display: block;
+     text-align: center;
+     padding: 0 10px;
+     font-size: 16px;
+     font-size: .9411764706vw;
+     font-family: aeonik-medium;
+     color: #fff;
+     line-height: 1em;
+ }

@@ -1,0 +1,104 @@
+
+.block-inner{
+    position: relative;
+    display: block;
+    height: calc(100% - 110px);
+    width: 100%;
+    overflow: hidden;
+}
+.title{
+    position: relative;
+    max-width: 81.25%;
+    padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
+    font-size: 60px;
+    font-size: 3.5294117647vw;
+    font-family: aeonik-medium;
+    color: #2c2c2c;
+    line-height: 1em;
+    margin-left: 18.75%;
+    letter-spacing: -.02em;
+}
+.title-border-top,
+.title-border-bottom {
+    width: 90%;
+    margin: auto;
+    transition: .5s;
+}
+
+.title-border-top {
+    margin-right: 10%;
+}
+
+.title-border-animation {
+    margin-right: 2% !important;
+    width: 98% !important;
+    transition: .5s;
+}
+
+.title-border-bottom {
+    margin-left: 8%;
+}
+
+.title-bottom-border-animation {
+    margin-left: 0% !important;
+    width: 98% !important;
+    transition: .5s;
+}
+
+.max-width{
+    max-width: 81.25%;
+    margin-left: 18.75%;
+}
+.solidTitle{
+    position: relative;
+    margin-top: calc(1.40625rem + 1.45833vw);
+    font-size: 34px;
+    font-size: 2vw;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1.1em;
+}
+.image-box {
+    position: relative;
+    top: -70px !important;
+    padding: 0 0px 0 0px !important;
+}
+
+.publications-list{
+    position: relative;
+}
+.publications-list .item {
+    margin: 1.25rem 0;
+    padding-top: 0.625rem;
+    border-top: 1px solid #2c2c2c;
+}
+.publications-list .name {
+    display: block;
+    font-size: 14px;
+    font-size: .8235294118vw;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1.3em;
+}
+.publications-list .date{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-size: .8235294118vw;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1.3em;
+    opacity: .5;
+}
+
+ .pagination{
+    margin: 0 15px;
+    padding-bottom: 15px;
+ }
+ .number,.text{
+     font-size: 17px;
+     font-size: 1vw;
+     font-family: aeonik-regular;
+     color: #2c2c2c;
+     line-height: 1em;
+ }

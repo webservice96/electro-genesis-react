@@ -1,12 +1,49 @@
 import React from "react";
 import "./Style.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Footer() {
 	return (
 		<footer className="site-footer position-relative">
 			<Container fluid className="footer-top">
 				<Row>
+					<Col></Col>
+					<Col>
+						<h4 className="footer-title">Expertise</h4>
+						<ul>
+							<li>
+								<Link to={'expertise/hematopathology'}>
+									<span>Hematopathology</span>
+								</Link>
+							</li>
+							<li>
+								<Link to={'expertise/solid-tumor-pathology'}>
+									<span>Solid Tumor Pathology</span>
+								</Link>
+							</li>
+							<li>
+								<Link to={'expertise/minimal-residual-disease'}>
+									<span>Minimal Residual Disease (MRD)</span>
+								</Link>
+							</li>
+							<li>
+								<Link to='expertise/companion-diagnostics-cdx'>
+									<span>Companion Diagnostics (CDx)</span>
+								</Link>
+							</li>
+							<li>
+								<Link to='expertise/next-generation-sequencing'>
+									<span>Next-Generation Sequencing (NGS)</span>
+								</Link>
+							</li>
+							<li>
+								<Link to={'expertise/immuno-oncology'}>
+									<span>Immuno-Oncology</span>
+								</Link>
+							</li>
+						</ul>
+					</Col>
 					<Col>
 						<h4 className="footer-title">Services</h4>
 						<ul>
@@ -36,39 +73,44 @@ function Footer() {
 						<h4 className="footer-title">Clinical Trials</h4>
 						<ul>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/test-offering">
 									<span>Test Offering</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/processes">
 									<span>Processes</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/assay-development">
 									<span>Assay Development</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/logistics">
 									<span>Logistics</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/companion-diagnostics">
 									<span>Companion Diagnostics</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/project-management">
 									<span>Project Management</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="clinical-trials/global">
 									<span>Global</span>
-								</a>
+								</Link>
+							</li>
+							<li>
+								<Link to="clinical-trials/reporting">
+									<span>Reporting</span>
+								</Link>
 							</li>
 						</ul>
 					</Col>
@@ -76,36 +118,36 @@ function Footer() {
 						<h4 className="footer-title">Technologies</h4>
 						<ul>
 							<li>
-								<a href="#">
+								<Link to="technologies/flow-cytometry">
 									<span>Flow Cytometry</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="technologies/molecular-genetics">
 									<span>Molecular Genetics</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="technologies/cytogenetics-fish">
 									<span>Cytogenetics / FISH</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="technologies/histology">
 									<span>Histology / IHC</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="technologies/immunoassays">
 									<span>
 										Immunoassays & Clinical Chemistry
 									</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="technologies/digital-pathology">
 									<span>Digital Pathology</span>
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</Col>
