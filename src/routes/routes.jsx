@@ -23,6 +23,9 @@ import CytogeneticsPage from "../pages/TechnologyPage/CytogeneticsPage";
 import HistologyPage from "../pages/TechnologyPage/HistologyPage";
 import ImmunoassaysPage from "../pages/TechnologyPage/ImmunoassaysPage";
 import DigitalPathologyPage from "../pages/TechnologyPage/DigitalPathologyPage";
+import Service from "../pages/Service";
+import ClinicalTrail from "../pages/ClinicalTrail";
+import Technology from "../pages/Technology";
 
 const routes = createBrowserRouter([
 	{
@@ -36,6 +39,18 @@ const routes = createBrowserRouter([
 			{
 				path: "/expertise",
 				element: <Expertise />,
+			},
+			{
+				path: "/service",
+				element: <Service />,
+			},
+			{
+				path: "/clinical-trials",
+				element: <ClinicalTrail />,
+			},
+			{
+				path: "/technologies",
+				element: <Technology />,
 			},
 			{
 				path: "resources",

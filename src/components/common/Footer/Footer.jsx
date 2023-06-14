@@ -10,7 +10,8 @@ function Footer() {
 				<Row>
 					<Col></Col>
 					<Col>
-						<h4 className="footer-title">Expertise</h4>
+					<Link to={'expertise'}><h4 className="footer-title">Expertise</h4></Link>
+						
 						<ul>
 							<li>
 								<Link to={'expertise/hematopathology'}>
@@ -45,7 +46,7 @@ function Footer() {
 						</ul>
 					</Col>
 					<Col>
-						<h4 className="footer-title">Services</h4>
+					<Link to={'service'}><h4 className="footer-title">Services</h4></Link>
 						<ul>
 							<li>
 								<a href="#">
@@ -70,7 +71,7 @@ function Footer() {
 						</ul>
 					</Col>
 					<Col>
-						<h4 className="footer-title">Clinical Trials</h4>
+						<Link to={'clinical-trials'}><h4 className="footer-title">Clinical Trials</h4></Link>
 						<ul>
 							<li>
 								<Link to="clinical-trials/test-offering">
@@ -115,7 +116,8 @@ function Footer() {
 						</ul>
 					</Col>
 					<Col>
-						<h4 className="footer-title">Technologies</h4>
+					<Link to={'technologies'}><h4 className="footer-title">Technologies</h4></Link>
+						
 						<ul>
 							<li>
 								<Link to="technologies/flow-cytometry">

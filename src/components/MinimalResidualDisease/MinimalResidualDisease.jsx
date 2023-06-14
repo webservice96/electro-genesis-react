@@ -40,7 +40,7 @@ function MinimalResidualDisease() {
             </Col>
             <Col md={8}>
               <div className="text">
-                <span>Hematopathology</span>
+                <span>Minimal Residual Disease (MRD)</span>
               </div>
             </Col>
         </Row>

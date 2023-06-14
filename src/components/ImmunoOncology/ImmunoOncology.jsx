@@ -73,7 +73,7 @@ function ImmunoOncology() {
             </Col>
             <Col md={8}>
               <div className="text ms-3">
-                <span>Solid Tumor Pathology</span>
+                <span>Immuno-Oncology</span>
               </div>
             </Col>
         </Row>

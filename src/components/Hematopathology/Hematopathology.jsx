@@ -8,7 +8,7 @@ function Hematopathology() {
   BorderAnimation()
   return (
     <>
-      <div className='block-inner'>
+      <div className='block-inner '>
         <h2 className='title'>
           <span id='title-border-top' className='title-border-top border border-dark d-block'></span>
           <h1 className='title-text m-0 py-3'>Hematopathology</h1>
