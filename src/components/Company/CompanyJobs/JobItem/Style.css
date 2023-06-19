@@ -1,0 +1,46 @@
+.job-item{
+    margin: 0.625rem 0;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(182,192,203,.05);
+    border-radius: 12px;
+    padding: 1.25rem 1.875rem 1.25rem 2.625rem;
+}
+
+.job-title{
+    font-size: 1.5294117647vw;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1em;
+}
+
+.job-type{
+    font-size: 1.0588235294vw;
+    font-family: aeonik-regular;
+    color: #909ea0;
+    line-height: 1em;
+}
+
+.job-location{
+    font-size: 1.0588235294vw;
+    font-family: aeonik-regular;
+    color: #909ea0;
+    line-height: 1em;
+}
+
+.job-appy-btn{
+	width: 132px;
+	height: 3.5rem;
+	font-size: 1rem;
+    padding-left: 24px;
+background-color: #ff4134;
+}
+
+.job-appy-btn span{
+	width: 30px;
+    height: 30px;
+    font-size: 1em;
+}
+
+.job-appy-btn:hover span {
+    left: calc(100% - 56px);
+}

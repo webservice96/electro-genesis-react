@@ -1,15 +1,4 @@
-.block-inner {
-    position: relative;
-    display: block;
-    height: calc(100% - 110px);
-    width: 100%;
-    overflow: hidden;
-}
 
-.max-width {
-    width: 81.25%;
-    margin-left: 18.75%;
-}
 
 .margin-bottom {
     margin-bottom: 100px;

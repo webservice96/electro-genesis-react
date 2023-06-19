@@ -266,7 +266,7 @@ function ClinicalTrials() {
 							</div>
 						</div>
 						<div className="clinic-button mt-5 d-flex justify-content-center">
-							<Button lavel='Clinical Trials' link={`#`} icon={faArrowRight} />
+							<Button lavel='Clinical Trials' link={`/clinical-trials`} icon={faArrowRight} />
 						</div> 
 					</Col>
 				</Row>

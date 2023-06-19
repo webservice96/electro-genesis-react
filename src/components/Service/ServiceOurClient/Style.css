@@ -1,0 +1,33 @@
+.percentage-boxes {
+	width: 86% !important;
+}
+
+.percentage-box {
+	background: rgb(2, 0, 36);
+	background: radial-gradient(
+		circle,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(0, 73, 0, 1) 33%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	border-radius: 30% 70% 66% 34% / 30% 30% 70% 70%;
+	width: 100%;
+	height: 330px;
+}
+
+.percentage {
+	font-size: 2.9411764706vw;
+	font-family: aeonik-regular;
+	color: #fff;
+	line-height: 1em;
+	letter-spacing: -0.01em;
+}
+
+.percentage-text{
+    font-size: 30px;
+    font-size: 1.7647058824vw;
+    font-family: aeonik-regular;
+    color: #fff;
+    line-height: 1em;
+    letter-spacing: -.01em
+}

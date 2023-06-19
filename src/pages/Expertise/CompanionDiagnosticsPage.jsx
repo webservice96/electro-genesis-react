@@ -7,8 +7,6 @@ function CompanionDiagnosticsPage() {
     <Layout className='bg-gray-pink'>
       <CompanionDiagnostics/>
     </Layout>
-     
-    
   )
 }
 

@@ -12,7 +12,7 @@
     font-family: aeonik-regular;
     color: #2c2c2c;
     margin-top: 1.25rem;
-    font-size: 3.5294117647vw;
+    font-size: 3.5294117647vw !important;
     line-height: 1.1em;
     letter-spacing: -.02em;
 }
@@ -128,7 +128,7 @@ h5.mini_title {
 }
 .service-item .image-text h6 {
     margin-bottom: 0.625rem;
-    font-size: 1.4117647059vw;
+    font-size: 1.4117647059vw !important;
     font-family: aeonik-medium;
     color: #2c2c2c;
     line-height: 1.1em;
@@ -188,7 +188,7 @@ li.list-item-li:hover .icon-svg svg{
 }
 .left-textAnd-button h2{
     margin-bottom: 0.625rem;
-    font-size: 3.5117647059vw;
+    font-size: 3.5117647059vw !important;
     font-family: aeonik-medium;
     color: #2c2c2c;
     line-height: 1.1em;
@@ -237,7 +237,7 @@ li.list-item-li:hover .icon-svg svg{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     font-size: 60px;
-    font-size: 3.5294117647vw;
+    font-size: 3.5294117647vw !important;
     font-family: aeonik-medium;
     color: #2c2c2c;
     line-height: 1em;
@@ -247,7 +247,7 @@ li.list-item-li:hover .icon-svg svg{
     position: relative;
     width: 80%;
     font-size: 18px;
-    font-size: 1.0588235294vw;
+    font-size: 1.0588235294vw !important;
     font-family: aeonik-regular;
     color: #2c2c2c;
     line-height: 1.8em;

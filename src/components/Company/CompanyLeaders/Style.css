@@ -1,0 +1,12 @@
+.company-leaders-wrapper{
+    width: 90% !important;
+}
+
+.company-leaders-wrapper h1{
+    font-size: 3.8235294118vw;
+}
+
+.company-leaders-wrapper p{
+    font-size: 1.0588235294vw;
+    color: #8c8c8c;
+}

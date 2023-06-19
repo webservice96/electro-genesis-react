@@ -1,11 +1,4 @@
-.block-inner {
-    position: relative;
-    display: block;
-    /* padding: 135px 0; */
-    height: calc(100% - 110px);
-    width: 100%;
-    overflow: hidden;
-}
+
 
 .title {
     position: relative;
@@ -20,13 +13,6 @@
     letter-spacing: -.02em;
 }
 
-
-
-
-.max-width {
-    max-width: 81.25%;
-    margin-left: 18.75%;
-}
 
 .flowcy_description {
     position: relative;

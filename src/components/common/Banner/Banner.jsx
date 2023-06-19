@@ -5,8 +5,7 @@ import { useState } from "react";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { AudioIcon } from "../../Icons/SvgIcons";
 
-function Banner({ isPost = false, title, video }) {
-
+function Banner({ isPost = false, title, video, className }) {
 	const [audioPlay, setAudioPlay] = useState(true);
 
 	const handleClickScroll = () => {
@@ -19,7 +18,7 @@ function Banner({ isPost = false, title, video }) {
 	return (
 		<>
 			<header
-				className="home-hero-banner position-relative vh-100"
+				className={`home-hero-banner position-relative vh-100 ${className}`}
 				id="home-hero-banner"
 			>
 				<div className="header-background video">

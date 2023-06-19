@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation, ScrollRestoration } from "react-router-dom";
 import PopupSearchMenu from "../../components/common/PopupSearchMenu/PopupSearchMenu";
 import Footer from "../../components/common/Footer/Footer";
 import GradientBg from "../../components/GradientBg/GradientBg";
@@ -25,6 +25,7 @@ const Main = () => {
 			<PopupSearchMenu />
 			<Outlet />
 			<Footer />
+			<ScrollRestoration />
 		</>
 	);
 };

@@ -10,68 +10,76 @@ function Footer() {
 				<Row>
 					<Col></Col>
 					<Col>
-					<Link to={'expertise'}><h4 className="footer-title">Expertise</h4></Link>
-						
+						<Link to={"expertise"}>
+							<h4 className="footer-title">Expertise</h4>
+						</Link>
+
 						<ul>
 							<li>
-								<Link to={'expertise/hematopathology'}>
+								<Link to={"expertise/hematopathology"}>
 									<span>Hematopathology</span>
 								</Link>
 							</li>
 							<li>
-								<Link to={'expertise/solid-tumor-pathology'}>
+								<Link to={"expertise/solid-tumor-pathology"}>
 									<span>Solid Tumor Pathology</span>
 								</Link>
 							</li>
 							<li>
-								<Link to={'expertise/minimal-residual-disease'}>
+								<Link to={"expertise/minimal-residual-disease"}>
 									<span>Minimal Residual Disease (MRD)</span>
 								</Link>
 							</li>
 							<li>
-								<Link to='expertise/companion-diagnostics-cdx'>
+								<Link to="expertise/companion-diagnostics-cdx">
 									<span>Companion Diagnostics (CDx)</span>
 								</Link>
 							</li>
 							<li>
-								<Link to='expertise/next-generation-sequencing'>
-									<span>Next-Generation Sequencing (NGS)</span>
+								<Link to="expertise/next-generation-sequencing">
+									<span>
+										Next-Generation Sequencing (NGS)
+									</span>
 								</Link>
 							</li>
 							<li>
-								<Link to={'expertise/immuno-oncology'}>
+								<Link to={"expertise/immuno-oncology"}>
 									<span>Immuno-Oncology</span>
 								</Link>
 							</li>
 						</ul>
 					</Col>
 					<Col>
-					<Link to={'service'}><h4 className="footer-title">Services</h4></Link>
+						<Link to={"service"}>
+							<h4 className="footer-title">Services</h4>
+						</Link>
 						<ul>
 							<li>
-								<a href="#">
+								<Link to="/service#capabilities">
 									<span>Capabilities</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/service#pathology">
 									<span>Pathology</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/service#test-offering">
 									<span>Test Offering</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/service#assay-development">
 									<span>Assay Development</span>
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</Col>
 					<Col>
-						<Link to={'clinical-trials'}><h4 className="footer-title">Clinical Trials</h4></Link>
+						<Link to={"clinical-trials"}>
+							<h4 className="footer-title">Clinical Trials</h4>
+						</Link>
 						<ul>
 							<li>
 								<Link to="clinical-trials/test-offering">
@@ -116,8 +124,10 @@ function Footer() {
 						</ul>
 					</Col>
 					<Col>
-					<Link to={'technologies'}><h4 className="footer-title">Technologies</h4></Link>
-						
+						<Link to={"technologies"}>
+							<h4 className="footer-title">Technologies</h4>
+						</Link>
+
 						<ul>
 							<li>
 								<Link to="technologies/flow-cytometry">
@@ -157,34 +167,34 @@ function Footer() {
 						<h4 className="footer-title">Company</h4>
 						<ul>
 							<li>
-								<a href="#">
+								<Link to="/company#about">
 									<span>About</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/company#leaders">
 									<span>Leaders</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/company#history">
 									<span>History</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/company#culture">
 									<span>Culture</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/company#mission">
 									<span>Mission</span>
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="#">
+								<Link to="/company#careers">
 									<span>Careers</span>
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</Col>
@@ -194,11 +204,11 @@ function Footer() {
 			<Container fluid className="footer-bottom">
 				<Row>
 					<Col className="f-bt-first-col">
-                        <span>2023 © 1moonshot</span>
-                    </Col>
+						<span>2023 © 1moonshot</span>
+					</Col>
 					<Col className="f-bt-second-col">
-                        <a href="https://1moonshot.com/">Made by Helal Uddin</a>
-                    </Col>
+						<a href="https://1moonshot.com/">Made by Helal Uddin</a>
+					</Col>
 				</Row>
 			</Container>
 		</footer>

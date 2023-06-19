@@ -53,7 +53,7 @@ function OurTechnology() {
 							</Col>
 							<Col lg={3}>
 								<Button
-									link={`#`}
+									link={`/technologies`}
 									lavel={"Technology"}
 									icon={faArrowRight}
 								/>

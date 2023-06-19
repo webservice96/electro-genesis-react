@@ -13,13 +13,70 @@
 	background-color: #f9f9f9;
     padding-top: calc(2.26563rem + 9.47917vw);
 }
+
+
 .bg-gray-pink {
 	background-color: #f8edec;
 	position: relative;
-	top:20px;
-	left: 20px;
 	display: block;
 	width: calc(100% - 40px);
 	height: calc(100% - 40px);
 	border-radius: 20px;
+	margin: 20px;
 }
+
+.bg-gray-secondary-pink{
+	background-color: #fef8f7;
+}
+
+.expertise-template:before{
+	top: -2px;
+    background: linear-gradient(-180deg,#fa9688,rgba(250,150,136,0));
+	content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 50vh;
+}
+
+.service-template, .clinical-template, .technologies-template{
+	z-index: 1;
+}
+
+.service-template:before{
+	height: 99vh;
+    top: -2px;
+    background: linear-gradient(-180deg,#cbd7b5,rgba(203,215,181,0));
+	content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+	z-index: -1;
+}
+
+.clinical-template:before{
+	top: -2px;
+    background: linear-gradient(-180deg,#fdc8a5,rgba(253,200,165,0));
+	content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 99vh;
+	z-index: -1;
+}
+
+.technologies-template:before{
+	top: -2px;
+    background: linear-gradient(-180deg,#75e8e3,hsla(0,0%,100%,0));
+	content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 99vh;
+	z-index: -1;
+}
+

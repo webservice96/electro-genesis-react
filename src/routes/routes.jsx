@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import Main from "../Layout/Main/Main";
-import Resources from "../pages/Resources";
 import Expertise from "../pages/Expertise";
 import HematopathologyPage from "../pages/Expertise/HematopathologyPage";
 import SolidTumorPathologyPage from "../pages/Expertise/SolidTumorPathologyPage";
@@ -26,6 +25,9 @@ import DigitalPathologyPage from "../pages/TechnologyPage/DigitalPathologyPage";
 import Service from "../pages/Service";
 import ClinicalTrail from "../pages/ClinicalTrail";
 import Technology from "../pages/Technology";
+import NotFound404 from "../pages/NotFound404";
+import Company from "../pages/Company";
+import Contact from "../pages/Contact";
 
 const routes = createBrowserRouter([
 	{
@@ -53,8 +55,12 @@ const routes = createBrowserRouter([
 				element: <Technology />,
 			},
 			{
-				path: "resources",
-				element: <Resources />,
+				path: "/company",
+				element: <Company />,
+			},
+			{
+				path: "/contact",
+				element: <Contact />,
 			},
 			{
 				path: "expertise/hematopathology",
@@ -135,6 +141,10 @@ const routes = createBrowserRouter([
 			{
 				path: "technologies/digital-pathology",
 				element: <DigitalPathologyPage />,
+			},
+			{
+				path: "*",
+				element: <NotFound404 />,
 			},
 		],
 	},

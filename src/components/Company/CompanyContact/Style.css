@@ -1,0 +1,10 @@
+.company-contact h3{
+    font-size: 2vw !important;
+    font-family: aeonik-regular;
+    color: #2c2c2c;
+    line-height: 1.1em;
+}
+
+.company-contact-btn .sec-btn{
+    width: 22vw;
+}

@@ -71,7 +71,7 @@ function PopupSearchMenu() {
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/services"
+									to="/service"
 									level="Services"
 									target=""
 									onClick={() => handleMenuOpen()}

@@ -17,7 +17,7 @@ function Support() {
 								<Button
 									lavel="Contact us"
 									icon={faPen}
-									link="#"
+									link="/contact"
 								/>
 							</div>
 							<div className="support-short-desc">

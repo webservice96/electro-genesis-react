@@ -1,15 +1,13 @@
-import React from 'react'
-import Layout from '../../Layout/Main/Layout';
-import NextGeneration from '../../components/NextGeneration/NextGeneration';
+import React from "react";
+import Layout from "../../Layout/Main/Layout";
+import NextGeneration from "../../components/NextGeneration/NextGeneration";
 
 function NextGenerationPage() {
-  return (
-    <Layout className='bg-gray-pink'>
-      <NextGeneration/>
-    </Layout>
-     
-    
-  )
+	return (
+		<Layout className="bg-gray-pink">
+			<NextGeneration />
+		</Layout>
+	);
 }
 
 export default NextGenerationPage;

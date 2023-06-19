@@ -1,0 +1,15 @@
+.company-history {
+	background-color: #2c2c2c;
+}
+
+.company-history-container {
+	width: 86% !important;
+}
+
+.company-history-heading {
+	font-size: 3.8235294118vw !important;
+    font-family: 'aeonik-regular';
+    line-height: 1.2em;
+    letter-spacing: -.01em;
+	color: #fff;
+}
