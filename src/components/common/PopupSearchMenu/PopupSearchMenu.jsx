@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Style.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import useScrollDirection from "../../../hooks/useScrollDirection";
 
 const NavLink = ({ to, level, target, onClick, className = "" }) => {
 	return (
@@ -20,6 +21,8 @@ function PopupSearchMenu() {
 	const [searchOpen, setSearchOpen] = useState(false);
 	const { isBanner } = useSelector((state) => state.bannerState);
 
+	const scrollDirection = useScrollDirection();
+
 	const handleMenuOpen = () => {
 		setMenuOpen(false);
 	};
@@ -33,7 +36,7 @@ function PopupSearchMenu() {
 			>
 				<div className="popup-right-bg"></div>
 				<Row>
-					<Col lg={3}>
+					<Col lg={3} className="d-none d-md-block">
 						<div className="popup-menu-first-col p-4 d-flex flex-column justify-content-between">
 							<div className="popup-menu-logo">
 								<Link onClick={() => handleMenuOpen()} to={"/"}>
@@ -55,7 +58,15 @@ function PopupSearchMenu() {
 							</div>
 						</div>
 					</Col>
-					<Col lg={5}>
+					<Col lg={5} xs={9}>
+						<div className="mobile-popup-logo d-none">
+							<Link onClick={() => handleMenuOpen()} to={"/"}>
+								<img
+									src="/assets/img/white-logo.png"
+									alt="Not found!"
+								/>
+							</Link>
+						</div>
 						<div className="popup-main-menu p-2">
 							<ul>
 								<NavLink
@@ -97,12 +108,12 @@ function PopupSearchMenu() {
 							</ul>
 						</div>
 					</Col>
-					<Col lg={4}>
+					<Col lg={4} xs={3}>
 						<div className="popup-others-menu p-4 d-flex flex-column justify-content-between align-items-center">
 							<div className="popup-right-top">
 								<button
 									onClick={() => setMenuOpen(!open)}
-									className="menu-btn position-relative"
+									className="menu-btn menu-popup-op-cl-btn position-relative"
 								>
 									<span className="line-wrapper">
 										<span className="line-1 line"></span>
@@ -155,7 +166,7 @@ function PopupSearchMenu() {
 			<div
 				className={`search-wrapper position-fixed ${
 					searchOpen ? "search-open" : ""
-				} ${!isBanner && "no-banner"}`}
+				} ${!isBanner && "no-banner"} ${ scrollDirection === "down" ? "hide-search-menu" : "show-search-menu"}`}
 			>
 				<div
 					onClick={() => setSearchOpen(!searchOpen)}
@@ -167,6 +178,7 @@ function PopupSearchMenu() {
 							<div className="search-open-bg"></div>
 							<Col
 								lg={3}
+								xs={6}
 								data-aos="fade-right"
 								data-aos-duration="1000"
 							>
@@ -186,7 +198,7 @@ function PopupSearchMenu() {
 									</Link>
 								</div>
 							</Col>
-							<Col lg={7}>
+							<Col lg={7} xs={1} className="search-form-column position-relative">
 								<div className="searc-container d-none">
 									<form>
 										<input
@@ -199,16 +211,17 @@ function PopupSearchMenu() {
 							</Col>
 							<Col
 								lg={2}
+								xs={5}
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>
-								<div className="search-box d-flex justify-content-center align-items-center">
+								<div className="search-box d-flex justify-content-end justify-content-md-center align-items-center">
 									{searchOpen ? (
 										<button
 											onClick={() =>
 												setSearchOpen(!searchOpen)
 											}
-											className="search-button"
+											className="search-button search-closer"
 										>
 											<span className="search-label">
 												Close
@@ -254,7 +267,11 @@ function PopupSearchMenu() {
 												onClick={() =>
 													setSearchOpen(!searchOpen)
 												}
-												className={`search-button ${isBanner ? '' : "dark-search-icon"}`}
+												className={`search-button ${
+													isBanner
+														? ""
+														: "dark-search-icon"
+												}`}
 											>
 												<span className="search-label">
 													Search
@@ -293,7 +310,7 @@ function PopupSearchMenu() {
 												onClick={() =>
 													setMenuOpen(!menuOpen)
 												}
-												className={`menu-btn position-relative ${
+												className={`menu-btn menu-opener position-relative ${
 													menuIconDark || !isBanner
 														? "dark-menu-icon"
 														: ""

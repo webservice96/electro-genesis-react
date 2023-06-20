@@ -4,6 +4,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@splidejs/react-splide/css";
 import "./index.css";
+import "./ResponsiveStyle.css"; 
 import { Provider } from "react-redux";
 import { store } from "./app/store";
 

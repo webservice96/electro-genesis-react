@@ -207,7 +207,7 @@ function Footer() {
 						<span>2023 © 1moonshot</span>
 					</Col>
 					<Col className="f-bt-second-col">
-						<a href="https://1moonshot.com/">Made by Helal Uddin</a>
+						<a href="https://1moonshot.com/">Made by 1moonshot</a>
 					</Col>
 				</Row>
 			</Container>

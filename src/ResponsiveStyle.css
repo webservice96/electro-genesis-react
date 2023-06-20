@@ -1,0 +1,133 @@
+/* mobilde device */
+@media (max-width: 768px) {
+	.site-logo {
+		width: 100%;
+	}
+	.search-label {
+		display: none;
+	}
+
+	.search-open .site-logo {
+		display: none;
+	}
+
+	.search-open .search-form-column .searc-container {
+		width: 65%;
+		position: absolute;
+	}
+
+	.searc-container input {
+		height: 21px;
+	}
+
+	.search-wrapper .search-open-bg {
+		height: 90px;
+	}
+
+	.popup-left-bg {
+		width: calc(70vw + 30px);
+	}
+
+	.mobile-popup-logo {
+		display: block !important;
+		margin: 0 15px;
+		margin-top: 20px;
+	}
+
+	.popup-main-menu ul li a {
+		font-size: calc(1.64063rem + 3.64583vw);
+	}
+
+	.hide-search-menu {
+		top: -6rem;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 500ms;
+	}
+
+	.show-search-menu {
+		position: sticky;
+		top: 0px;
+		/* background-color: #fff;
+		height: 5rem;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 500ms; */
+		padding: 8px 0;
+	}
+
+	.hide-search-menu {
+		top: -6rem;
+	}
+
+	.show-search-menu {
+		position: sticky;
+		top: 0px;
+		background-color: #fff;
+		height: 5rem;
+		transition-property: all;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 500ms;
+		padding: 8px 0;
+	}
+
+	.menu-opener {
+		background-color: #ff4134;
+	}
+
+	.menu-btn .line-wrapper .line {
+		background-color: #fff;
+	}
+
+	.search-button .search-icon-sp circle,
+	.search-button .search-icon-sp line {
+		stroke: #ff4134;
+	}
+
+	.menu-popup-op-cl-btn {
+		background: #fff;
+	}
+
+	.menu-popup-op-cl-btn .line-wrapper .line {
+		background-color: #ff4134;
+	}
+}
+
+/* extra large device */
+@media (min-width: 1920px) {
+    .container{
+        max-width: 75% !important;
+    }
+
+	.slide-post-content a {
+		font-size: 18px;
+	}
+	.slide-lebel-btn a {
+		font-size: 13px;
+	}
+	.section-title {
+		font-size: 124px;
+	}
+	.section-description .subtitle {
+		font-size: 56px !important;
+	}
+
+	.section-description .description {
+		font-size: 38px;
+	}
+    .imgae-slider-block .img-slider-item {
+        height: 85vh;
+    }
+
+    .glance-item .w-25{
+        width: 10% !important;
+    }
+
+    .support-right-video video{
+        width: 100%;
+    }
+
+    .post-sliders:after{
+        top: 11px;
+    }
+}

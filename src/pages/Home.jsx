@@ -40,7 +40,7 @@ function Home() {
 		<>
 			<Banner
 				isBanner={true}
-				title="Leveraging Science to Brighten the Future"
+				title="Leveraging A.I For Critical Business Intelligence"
 				video={"/assets/videos/homepage-hd.mp4"}
 				isPost={true}
 			/>

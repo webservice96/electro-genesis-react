@@ -18,7 +18,7 @@ function Banner({ isPost = false, title, video, className }) {
 	return (
 		<>
 			<header
-				className={`home-hero-banner position-relative vh-100 ${className}`}
+				className={`home-hero-banner position-relative ${className}`}
 				id="home-hero-banner"
 			>
 				<div className="header-background video">
