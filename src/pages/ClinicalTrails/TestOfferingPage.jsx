@@ -5,7 +5,7 @@ import TestOffering from '../../components/ClinicalTrialsAllPage/TestOffering/Te
 function TestOfferingPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <TestOffering/>
     </Layout>
     </>

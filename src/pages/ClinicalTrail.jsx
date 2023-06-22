@@ -319,10 +319,10 @@ function ClinicalTrail() {
 						</div>
 					</Row>
 				</Container>
-				<section className="support-bg">
-					<div className="d-flex position-relative">
+				<section className="support-bg contact-cta-area">
+					<div className="d-flex contact-cta-row position-relative">
 						<div className="contat_us_text bg-white border-right-runded d-flex align-items-center">
-							<div className="left-textAnd-button w-75 mx-auto text-center" data-aos="fade-right" data-aos-duration="2000">
+							<div className="left-textAnd-button mobile-w-100 w-75 mx-auto text-center" data-aos="fade-right" data-aos-duration="2000">
 								<h2 className="grand_title ">
 									We are here to support you.
 								</h2>
@@ -330,7 +330,7 @@ function ClinicalTrail() {
 									Contact us to find out how our services can
 									help achieve your goals.
 								</h6>
-								<div className="d-flex py-5 align-items-center justify-content-evenly">
+								<div className="d-flex contact-cta-btn-text py-5 align-items-center justify-content-evenly">
 									<ReadMoreButton
 										lable="Contact us"
 										link={"/contact"}

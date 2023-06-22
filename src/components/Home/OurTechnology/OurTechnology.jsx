@@ -11,7 +11,6 @@ import { useDispatch } from "react-redux";
 import { menuIconMode } from "../../../features/scrollPositionTracker/scrollPositionTrackerSlice";
 
 function OurTechnology() {
-
 	const dispatch = useDispatch();
 
 	const barRef = useRef(null);
@@ -20,10 +19,10 @@ function OurTechnology() {
 	useScrollPosition(
 		({ prevPos, currPos }) => {
 			let technologyPosition = Math.floor(currPos.y);
-			if(technologyPosition < 77){
-				dispatch(menuIconMode(true))
-			}else{
-				dispatch(menuIconMode(false))
+			if (technologyPosition < 77) {
+				dispatch(menuIconMode(true));
+			} else {
+				dispatch(menuIconMode(false));
 			}
 		},
 		[],
@@ -95,9 +94,14 @@ function OurTechnology() {
 							type: "loop",
 							perPage: 4,
 							perMove: 1,
-							autoplay: true,
+							autoplay: false,
 							pagination: false,
 							arrows: true,
+							breakpoints: {
+								768: {
+									perPage: 1,
+								},
+							},
 						}}
 						onMove={(splide) => {
 							var end = splide.Components.Controller.getEnd() + 1;

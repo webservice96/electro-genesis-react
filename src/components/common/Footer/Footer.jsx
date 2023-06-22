@@ -8,8 +8,7 @@ function Footer() {
 		<footer className="site-footer position-relative">
 			<Container fluid className="footer-top">
 				<Row>
-					<Col></Col>
-					<Col>
+					<Col >
 						<Link to={"expertise"}>
 							<h4 className="footer-title">Expertise</h4>
 						</Link>
@@ -49,7 +48,7 @@ function Footer() {
 							</li>
 						</ul>
 					</Col>
-					<Col>
+					<Col >
 						<Link to={"service"}>
 							<h4 className="footer-title">Services</h4>
 						</Link>
@@ -76,7 +75,7 @@ function Footer() {
 							</li>
 						</ul>
 					</Col>
-					<Col>
+					<Col >
 						<Link to={"clinical-trials"}>
 							<h4 className="footer-title">Clinical Trials</h4>
 						</Link>
@@ -123,7 +122,7 @@ function Footer() {
 							</li>
 						</ul>
 					</Col>
-					<Col>
+					<Col >
 						<Link to={"technologies"}>
 							<h4 className="footer-title">Technologies</h4>
 						</Link>
@@ -163,7 +162,7 @@ function Footer() {
 							</li>
 						</ul>
 					</Col>
-					<Col>
+					<Col >
 						<h4 className="footer-title">Company</h4>
 						<ul>
 							<li>

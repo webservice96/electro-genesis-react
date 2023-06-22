@@ -5,7 +5,7 @@ import Histology from '../../components/Technologies/Histology/Histology'
 function HistologyPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Histology/>
     </Layout>
     </>

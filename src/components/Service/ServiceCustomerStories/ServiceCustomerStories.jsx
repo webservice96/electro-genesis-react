@@ -24,7 +24,7 @@ function ServiceCustomerStories() {
 						data-aos-duration="2000"
 					>
 						<Row>
-							<Col md={4}>
+							<Col md={4} className="mobile-mb-20">
 								<Card>
 									<div className="story-item">
 										<span className="story-excerpt">
@@ -46,7 +46,7 @@ function ServiceCustomerStories() {
 									</div>
 								</Card>
 							</Col>
-							<Col md={4}>
+							<Col md={4} className="mobile-mb-20">
 								<Card>
 									<div className="story-item">
 										<span className="story-excerpt">
@@ -67,7 +67,7 @@ function ServiceCustomerStories() {
 									</div>
 								</Card>
 							</Col>
-							<Col md={4}>
+							<Col md={4} className="mobile-mb-20">
 								<Card>
 									<div className="story-item">
 										<span className="story-excerpt">

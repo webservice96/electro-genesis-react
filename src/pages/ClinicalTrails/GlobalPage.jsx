@@ -5,7 +5,7 @@ import Global from '../../components/ClinicalTrialsAllPage/Global/Global';
 function GlobalPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Global/>
     </Layout>
     </>

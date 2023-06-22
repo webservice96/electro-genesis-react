@@ -6,11 +6,11 @@ import { Col, Row } from "react-bootstrap";
 function Logistics() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"Logistics"} />
 
 				<div className="mt-4">
-					<Row className="mb-5">
+					<Row className="mb-md-5 mb-lg-5">
 						<Col md={{ span: 6 }}>
 							<div
 								className="text-content pe-0 ms-3"
@@ -38,7 +38,7 @@ function Logistics() {
 						</Col>
 						<Col md={{ span: 5, offset: 1 }}>
 							<div
-								className="image-div mb-3 "
+								className="image-div mb-md-3 mb-lg-3"
 								data-aos="fade-left"
 								data-aos-duration="2000"
 							>
@@ -50,7 +50,7 @@ function Logistics() {
 							</div>
 						</Col>
 					</Row>
-					<Row className="py-5">
+					<Row className="py-md-5 py-lg-5">
 						<Col md={{ span: 4, offset: 2 }}>
 							<div
 								className="image-div mb-3 "
@@ -65,7 +65,7 @@ function Logistics() {
 							</div>
 						</Col>
 						<Col md={{ span: 5, offset: 1 }}>
-							<div className="text-content px-5">
+							<div className="text-content px-md-5 px-lg-5">
 								<h2
 									className="mb-3 ps-3"
 									data-aos="fade-up"

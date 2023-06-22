@@ -72,6 +72,7 @@
 footer.site-footer {
     padding: 40px 0;
     padding-top: 70px;
+    padding-bottom: 0;
 }
 
 .footer-bottom {

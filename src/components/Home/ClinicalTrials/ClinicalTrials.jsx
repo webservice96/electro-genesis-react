@@ -20,14 +20,14 @@ function ClinicalTrials() {
 
 				<div className="section-description">
 					<Row>
-						<Col lg={6} className="pe-5">
+						<Col lg={6} className="pe-lg-5 pe-md-5">
 							<h3 className="subtitle">
 								Hematogenix's mission is to assist pharma
 								companies bring novel treatments from bench to
 								bedside.
 							</h3>
 						</Col>
-						<Col lg={6} className="pe-5">
+						<Col lg={6} className="pe-lg-5 pe-md-5">
 							<p className="description">
 								Our use of cutting-edge technologies, highly
 								sensitive assays, and interpretation from expert
@@ -51,7 +51,7 @@ function ClinicalTrials() {
 							/>
 						</div>
 					</Col>
-					<Col className="glance-right p-5">
+					<Col className="glance-right p-lg-5 p-md-5">
 						<div className=" text-center">
 							<h1 className="galnce-title mb-5">At a Glance</h1>
 							<div className="row row-cols-2 g-lg-3">
@@ -79,6 +79,7 @@ function ClinicalTrials() {
 										</div>
 									</div>
 								</div>
+
 								<div className="col">
 									<div className="glance-item d-flex align-items-center">
 										<div className="w-25">
@@ -148,6 +149,7 @@ function ClinicalTrials() {
 										</div>
 									</div>
 								</div>
+
 								<div className="col">
 									<div className="glance-item d-flex align-items-center">
 										<div className="w-25">
@@ -169,6 +171,7 @@ function ClinicalTrials() {
 										</div>
 									</div>
 								</div>
+
 								<div className="col">
 									<div className="glance-item d-flex align-items-center">
 										<div className="w-25">
@@ -190,6 +193,7 @@ function ClinicalTrials() {
 										</div>
 									</div>
 								</div>
+
 								<div className="col">
 									<div className="glance-item d-flex align-items-center">
 										<div className="w-25">
@@ -232,6 +236,7 @@ function ClinicalTrials() {
 										</div>
 									</div>
 								</div>
+
 								<div className="col">
 									<div className="glance-item d-flex align-items-center">
 										<div className="w-25">

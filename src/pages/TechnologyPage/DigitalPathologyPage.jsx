@@ -5,7 +5,7 @@ import DigitalPathology from '../../components/Technologies/DigitalPathology/Dig
 function DigitalPathologyPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <DigitalPathology/>
     </Layout>
     </>

@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 function Global() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"GLOBAL"} />
 
 				<div className="mt-4">

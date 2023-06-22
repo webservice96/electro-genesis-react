@@ -6,7 +6,7 @@ import TitleHeader from "../common/TitleHeader/TitleHeader";
 function Hematopathology() {
 	return (
 		<>
-			<div className="block-inner ">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"Hematopathology"} />
 
 				<div className="content-text-part max-width">

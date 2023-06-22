@@ -46,7 +46,7 @@ function Services() {
 			<Container>
 				<Row data-aos="fade-up" data-aos-duration="1000">
 					<div className="col-md-6 ">
-						<div className="d-flex flex-column w-75">
+						<div className="d-flex flex-column w-md-75 w-lg-75">
 							<div className="col service-item">
 								<div className="image">
 									<img

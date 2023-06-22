@@ -4,7 +4,7 @@ import Hematopathology from "../../components/Hematopathology/Hematopathology.js
 
 function HematopathologyPage() {
 	return (
-		<Layout className="bg-gray-pink">
+		<Layout>
 			<Hematopathology />
 		</Layout>
 	);

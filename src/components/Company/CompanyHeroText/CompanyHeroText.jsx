@@ -7,7 +7,7 @@ function CompanyHeroText() {
 		<>
 			<Container className="section-space" id="about">
 				<Row>
-					<Col className="col-md-10 offset-1">
+					<Col className="col-md-10 offset-md-1 offset-lg-1">
 						<div
 							className="company-hero-text position-relative pt-4"
 							data-aos="fade-up"

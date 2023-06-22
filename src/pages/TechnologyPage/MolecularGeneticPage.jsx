@@ -5,7 +5,7 @@ import MolecularGenetic from '../../components/Technologies/MolecularGenetic/Mol
 function MolecularGeneticPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <MolecularGenetic/>
     </Layout>
     </>

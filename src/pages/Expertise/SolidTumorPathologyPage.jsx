@@ -4,7 +4,7 @@ import SolidTumorPathology from "../../components/SolidTumorPathology/SolidTumor
 
 function SolidTumorPathologyPage() {
 	return (
-		<Layout className="bg-gray-pink">
+		<Layout>
 			<SolidTumorPathology />
 		</Layout>
 	);

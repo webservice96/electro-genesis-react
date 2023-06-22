@@ -169,10 +169,6 @@ button.search-button:hover .search-icon-sp:after {
 	z-index: -1;
 }
 
-button.search-button:hover {
-	background-color: rgba(44, 44, 44, 0.15);
-	backdrop-filter: blur(4px);
-}
 
 .search-button:hover .search-icon circle,
 .search-button:hover .search-icon line,

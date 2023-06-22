@@ -6,7 +6,7 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function Immunoassays() {
 	return (
 		<>
-			<section className="block-inner Flow-Cytometry-section">
+			<section className="block-inner bg-gray-pink  Flow-Cytometry-section">
 				<TechnologiesTitle title="Immunoassays & Clinical Chemistry" />
 				<div className="content-text-part max-width">
 					{/* text and image row */}
@@ -66,7 +66,7 @@ function Immunoassays() {
 				</Row>
 			</section>
 
-			<section className="block-inner Diseases-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Diseases-section">
 				<TechnologiesTitle title="Diseases" />
 				<div className="content-text-part max-width mb-5">
 					{/* text and image row */}
@@ -128,7 +128,7 @@ function Immunoassays() {
 				</Row>
 			</section>
 
-			<section className="block-inner platform-section">
+			<section className="block-inner bg-gray-pink platform-section">
 				<TechnologiesTitle title="Platforms" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5 borderd border-bottom border-1 border-dark">
@@ -250,7 +250,7 @@ function Immunoassays() {
 				</Row>
 			</section>
 
-			<section className="block-inner Assays-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Assays-section">
 				<TechnologiesTitle title="Assays" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">
@@ -327,7 +327,7 @@ function Immunoassays() {
 				</Row>
 			</section>
 
-			<section className="block-inner Sample-type-section">
+			<section className="block-inner bg-gray-pink Sample-type-section">
 				<TechnologiesTitle title="Sample Types" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">

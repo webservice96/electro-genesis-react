@@ -5,7 +5,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import "../Service_Clinical_Technology.css";
 import { ReadMoreButton } from "../components/common/ReadMoreButton/ReadMoreButton";
 
-
 function Technology() {
 	return (
 		<>
@@ -38,9 +37,14 @@ function Technology() {
 						</Col>
 					</Row>
 				</Container>
+
 				<section className="card-section pt-5">
-					<div className="card-wreper">
-						<div className="card-item position-relative" data-aos="fade-right" data-aos-duration="2000">
+					<div className="card-wreper technologies-items">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-right"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -57,7 +61,12 @@ function Technology() {
 											molecular diagnostic tests to
 											facilitate patient care.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/flow-cytometry"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/technologies/flow-cytometry"
+											}
+										/>
 									</div>
 								</div>
 								<div className="card-image ">
@@ -68,7 +77,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="card-item position-relative" data-aos="fade-left" data-aos-duration="2000">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -84,7 +97,12 @@ function Technology() {
 											— We provide an in-depth look at
 											diseases at the cellular level.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/molecular-genetics"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/technologies/molecular-genetics"
+											}
+										/>
 									</div>
 								</div>
 								<div className="card-image ">
@@ -95,7 +113,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="card-item position-relative" data-aos="fade-right" data-aos-duration="2000">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-right"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -112,7 +134,12 @@ function Technology() {
 											the detection of chromosomal
 											abnormalities.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/cytogenetics-fish"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/technologies/cytogenetics-fish"
+											}
+										/>
 									</div>
 								</div>
 								<div className="card-image">
@@ -123,7 +150,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="card-item position-relative" data-aos="fade-left" data-aos-duration="2000">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -140,7 +171,10 @@ function Technology() {
 											anatomic pathology tests and
 											services.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/histology"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/technologies/histology"}
+										/>
 									</div>
 								</div>
 								<div className="card-image">
@@ -151,7 +185,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="card-item position-relative" data-aos="fade-right" data-aos-duration="2000">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-right"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -169,7 +207,10 @@ function Technology() {
 											systems with rapid
 											turn-around-times.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/immunoassays"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/technologies/immunoassays"}
+										/>
 									</div>
 								</div>
 								<div className="card-image">
@@ -180,7 +221,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="card-item position-relative" data-aos="fade-left" data-aos-duration="2000">
+						<div
+							className="card-item position-relative"
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<span className="top-line"></span>
 							<span className="right-line"></span>
 							<div className="card-content d-flex align-items-center">
@@ -196,7 +241,12 @@ function Technology() {
 											— We believe that digital pathology
 											is the future of pathology.
 										</h3>
-										<ReadMoreButton lable="More" link={"/technologies/digital-pathology"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/technologies/digital-pathology"
+											}
+										/>
 									</div>
 								</div>
 								<div className="card-image">
@@ -209,9 +259,14 @@ function Technology() {
 						</div>
 					</div>
 				</section>
-				<section className="support-bg">
-					<div className="d-flex position-relative">
-						<div className="contat_us_text bg-white border-right-runded d-flex align-items-center" data-aos="fade-right" data-aos-duration="2000">
+
+				<section className="support-bg contact-cta-area">
+					<div className="d-flex contact-cta-row position-relative">
+						<div
+							className="contat_us_text bg-white border-right-runded d-flex align-items-center"
+							data-aos="fade-right"
+							data-aos-duration="2000"
+						>
 							<div className="left-textAnd-button w-75 mx-auto text-center">
 								<h2 className="grand_title ">
 									We are here to support you.
@@ -220,8 +275,11 @@ function Technology() {
 									Contact us to find out how our services can
 									help achieve your goals.
 								</h6>
-								<div className="d-flex py-5 align-items-center justify-content-evenly">
-									<ReadMoreButton lable="Contact us" link={"/contact"} />
+								<div className="d-flex contact-cta-btn-text py-5 align-items-center justify-content-evenly">
+									<ReadMoreButton
+										lable="Contact us"
+										link={"/contact"}
+									/>
 									<span className="">
 										A member of our team will contact you
 										shortly.
@@ -229,7 +287,11 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-						<div className="video-div" data-aos="fade-left" data-aos-duration="2000">
+						<div
+							className="video-div"
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<div className="w-100 h-100">
 								<video
 									autoPlay

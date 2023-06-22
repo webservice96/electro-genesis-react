@@ -13,13 +13,13 @@ function CompanyLeaders() {
 				data-aos-duration="2000"
 			>
 				<Row className="align-items-center">
-					<Col className="col-md-6">
+					<Col className="col-md-6" xs={12}>
 						<img
 							src="https://cdn.sanity.io/images/6g05c3t1/production/6a8694c0d8d07f98ec384be66b6b51146c514c02-3840x5760.jpg"
 							alt="..."
 						/>
 					</Col>
-					<Col className="col-md-5 offset-md-1">
+					<Col className="col-md-5 offset-md-1" xs={12}>
 						<SectionNumber textNumber={`1`} className="mb-4" />
 
 						<h1 className="mb-md-5">

@@ -6,7 +6,7 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function FlowCytometry() {
 	return (
 		<>
-			<section className="block-inner">
+			<section className="block-inner bg-gray-pink">
 				<TechnologiesTitle title="Flow Cytometry" />
 
 				<div className="content-text-part max-width">
@@ -75,7 +75,7 @@ function FlowCytometry() {
 				</Row>
 			</section>
 
-			<section className="block-inner Diseases-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Diseases-section">
 				<TechnologiesTitle title="Diseases" />
 				<div className="content-text-part max-width mb-5">
 					{/* text and image row */}
@@ -135,7 +135,7 @@ function FlowCytometry() {
 				</Row>
 			</section>
 
-			<section className="block-inner Flow-Cytometry-section">
+			<section className="block-inner bg-gray-pink Flow-Cytometry-section">
 				<TechnologiesTitle title="Platforms" />
 				<div className="content-text-part max-width">
 					<Row className="borderd border-bottom border-1 border-dark pb-5">
@@ -269,7 +269,7 @@ function FlowCytometry() {
 				</Row>
 			</section>
 
-			<section className="block-inner Assays-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Assays-section">
 				<TechnologiesTitle title="Assays" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">
@@ -367,7 +367,7 @@ function FlowCytometry() {
 				</Row>
 			</section>
 
-			<section className="block-inner Sample-type-section">
+			<section className="block-inner bg-gray-pink Sample-type-section">
 				<TechnologiesTitle title="Sample Types" />
 
 				<div className="content-text-part max-width">
@@ -390,7 +390,7 @@ function FlowCytometry() {
 							data-aos="fade-left"
 							data-aos-duration="2000"
 						>
-							<Row className="list margin-top-lass">
+							<Row className="list margin-top-lass mt-4 mt-md-0 mt-lg-0">
 								<Col xs={6} className="column item">
 									<div className="inner">
 										<span className="label">

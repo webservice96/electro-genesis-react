@@ -6,7 +6,7 @@ import TitleHeader from "../common/TitleHeader/TitleHeader";
 function NextGeneration() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"Next-Generation Sequencing (NGS)"} />
 				<div className="content-text-part max-width">
 					{/* text and image row */}

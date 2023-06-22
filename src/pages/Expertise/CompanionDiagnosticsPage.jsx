@@ -4,7 +4,7 @@ import CompanionDiagnostics from '../../components/CompanionDiagnostics/Companio
 
 function CompanionDiagnosticsPage() {
   return (
-    <Layout className='bg-gray-pink'>
+    <Layout>
       <CompanionDiagnostics/>
     </Layout>
   )

@@ -6,7 +6,7 @@ import ContactFormPopup from "../components/Contact/ContactFormPopup/ContactForm
 function Contact() {
 	return (
 		<>
-			<Layout className="overflow-hidden">
+			<Layout className="overflow-hidden contact-page-template">
 				<ContactPlace
 					country={"United States"}
 					address={

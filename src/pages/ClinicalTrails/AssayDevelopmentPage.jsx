@@ -5,7 +5,7 @@ import AssayDevelopment from "../../components/ClinicalTrialsAllPage/AssayDevelo
 function AssayDevelopmentPage() {
 	return (
 		<>
-			<Layout className="bg-gray-pink">
+			<Layout>
 				<AssayDevelopment />
 			</Layout>
 		</>

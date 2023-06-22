@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 function TestOffering() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"TEST OFFERING"} />
 				<div className="max-width">
 					<Row data-aos="fade-right" data-aos-duration="2000">

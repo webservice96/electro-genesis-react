@@ -4,7 +4,7 @@ import CompanionDiagnosticsClinical from '../../components/ClinicalTrialsAllPage
 function CompanionDiagnosticPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <CompanionDiagnosticsClinical/>
     </Layout>
     </>

@@ -4,7 +4,7 @@ import ProjectManagement from '../../components/ClinicalTrialsAllPage/ProjectMan
 function ProjectManagementPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <ProjectManagement/>
     </Layout>
     </>

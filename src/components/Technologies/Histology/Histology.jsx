@@ -6,7 +6,7 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function Histology() {
 	return (
 		<>
-			<section className="block-inner Histology-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Histology-section">
 				<TechnologiesTitle title="Histology / IHC" />
 				<div className="content-text-part max-width">
 					{/* text and image row */}
@@ -98,7 +98,7 @@ function Histology() {
 				</Row>
 			</section>
 
-			<section className="block-inner Diseases-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Diseases-section">
 				<TechnologiesTitle title="Diseases" />
 				<div className="content-text-part max-width mb-5">
 					{/* text and image row */}
@@ -222,7 +222,7 @@ function Histology() {
 				</Row>
 			</section>
 
-			<section className="block-inner platform-section">
+			<section className="block-inner bg-gray-pink platform-section">
 				<TechnologiesTitle title="Platforms" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5 borderd border-bottom border-1 border-dark">
@@ -363,7 +363,7 @@ function Histology() {
 				</Row>
 			</section>
 
-			<section className="block-inner Assays-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Assays-section">
 				<TechnologiesTitle title="Assays" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">
@@ -432,7 +432,7 @@ function Histology() {
 				</Row>
 			</section>
 
-			<section className="block-inner Sample-type-section">
+			<section className="block-inner bg-gray-pink  Sample-type-section">
 				<TechnologiesTitle title="Sample Types" />
 				<div className="content-text-part">
 					<Row
@@ -455,14 +455,14 @@ function Histology() {
 								data-aos="fade-left"
 								data-aos-duration="2000"
 							>
-								<Col xs={4} className="column item">
+								<Col xs={6} className="column item">
 									<div className="inner">
 										<span className="label">
 											Fresh Tissue
 										</span>
 									</div>
 								</Col>
-								<Col xs={4} className="column item">
+								<Col xs={6} className="column item">
 									<div className="inner">
 										<span className="label">
 											Formalin-Fixed, Paraffin-Embedded
@@ -470,7 +470,7 @@ function Histology() {
 										</span>
 									</div>
 								</Col>
-								<Col xs={4} className="column item">
+								<Col xs={6} className="column item">
 									<div className="inner">
 										<span className="label">
 											Unstained Slides

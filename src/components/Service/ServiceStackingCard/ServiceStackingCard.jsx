@@ -53,7 +53,7 @@ function ServiceStackingCard() {
 
 	return (
 		<>
-			<div ref={containerRef} id="services-stacking" className="mb-4">
+			<div ref={containerRef} id="services-stacking" className="services-stacking mb-4">
 				<div className="bg-gray-pink stack" id="pathology">
 					<div className="block-inner pt-5">
 						<TitleHeader title={"Pathology Services"} />
@@ -71,7 +71,7 @@ function ServiceStackingCard() {
 											src="/assets/img/b3af76.png"
 											alt="image"
 										/>
-										<ul className="list w-75">
+										<ul className="list w-75 mobile-w-100">
 											<li className="item">
 												<span className="name">
 													World-renowned pathologists
@@ -107,7 +107,7 @@ function ServiceStackingCard() {
 										research studies, analyses, and
 										integrated reporting.
 									</h3>
-									<div className="d-flex flex-column w-75">
+									<div className="d-flex flex-column w-75 mobile-w-100">
 										<div
 											className="col service-item"
 											data-aos="fade-up"

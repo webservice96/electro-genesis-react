@@ -6,7 +6,7 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function DigitalPathology() {
 	return (
 		<>
-			<section className="block-inner Flow-Cytometry-section">
+			<section className="block-inner bg-gray-pink Flow-Cytometry-section">
 				<TechnologiesTitle title="Digital Pathology" />
 				<div className="content-text-part max-width">
 					{/* text and image row */}
@@ -69,7 +69,7 @@ function DigitalPathology() {
 				</Row>
 			</section>
 
-			<section className="block-inner Analysis-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Analysis-section">
 				<TechnologiesTitle title="Image Analysis" />
 				<div className="content-text-part max-width mb-5">
 					{/* text and image row */}

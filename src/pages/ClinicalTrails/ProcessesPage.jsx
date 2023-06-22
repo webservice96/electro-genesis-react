@@ -5,7 +5,7 @@ import Processes from '../../components/ClinicalTrialsAllPage/Processes/Processe
 function ProcessesPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Processes/>
     </Layout>
     </>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Style.css";
 import { useSelector } from "react-redux";
@@ -21,11 +21,36 @@ function PopupSearchMenu() {
 	const [searchOpen, setSearchOpen] = useState(false);
 	const { isBanner } = useSelector((state) => state.bannerState);
 
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
 	const scrollDirection = useScrollDirection();
 
 	const handleMenuOpen = () => {
 		setMenuOpen(false);
 	};
+
+	useEffect(() => {
+		// Update windowWidth state when the window is resized
+		const handleResize = () => {
+			setWindowWidth(window.innerWidth);
+		};
+
+		window.addEventListener("resize", handleResize);
+
+		// Clean up the event listener on component unmount
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	}, []);
+
+	let searchPlaceHolder = "";
+	if (windowWidth >= 768) {
+		searchPlaceHolder = "Search for something in the Hematogenix world...";
+	} else {
+		searchPlaceHolder = "Search...";
+	}
+
+	console.log("screen size:", windowWidth);
 
 	return (
 		<>
@@ -58,15 +83,36 @@ function PopupSearchMenu() {
 							</div>
 						</div>
 					</Col>
-					<Col lg={5} xs={9}>
+					<Col lg={5} xs={12}>
 						<div className="mobile-popup-logo d-none">
-							<Link onClick={() => handleMenuOpen()} to={"/"}>
-								<img
-									src="/assets/img/white-logo.png"
-									alt="Not found!"
-								/>
-							</Link>
+							<Row className="align-items-center">
+								<Col xs={9}>
+									<Link
+										onClick={() => handleMenuOpen()}
+										to={"/"}
+									>
+										<img
+											src="/assets/img/white-logo.png"
+											alt="Not found!"
+										/>
+									</Link>
+								</Col>
+								<Col xs={2}>
+									<div className="popup-right-top">
+										<button
+											onClick={() => setMenuOpen(!open)}
+											className="menu-btn menu-popup-op-cl-btn position-relative"
+										>
+											<span className="line-wrapper">
+												<span className="line-1 line"></span>
+												<span className="line-2 line"></span>
+											</span>
+										</button>
+									</div>
+								</Col>
+							</Row>
 						</div>
+
 						<div className="popup-main-menu p-2">
 							<ul>
 								<NavLink
@@ -107,8 +153,53 @@ function PopupSearchMenu() {
 								/>
 							</ul>
 						</div>
+
+						{/* mobile popup small menu start */}
+						<div className="mobile-popup-sm-menu d-none d-mobile-block p-2 mt-4">
+							<Row className="align-items-center">
+								<Col xs={6}>
+									<ul className="first-menu mb-4">
+										<NavLink
+											to="/careers"
+											level="Careers"
+											target=""
+											onClick={() => handleMenuOpen()}
+										/>
+										<NavLink
+											to="/resources"
+											level="Resources"
+											target=""
+											onClick={() => handleMenuOpen()}
+										/>
+										<NavLink
+											to="/contact"
+											level="Contact"
+											target=""
+											onClick={() => handleMenuOpen()}
+										/>
+									</ul>
+								</Col>
+								<Col xs={6}>
+									<ul className="second-menu">
+										<NavLink
+											to="/privacy-policy-and-cookies"
+											level="Privacy Policy & Cookies"
+											target=""
+											onClick={() => handleMenuOpen()}
+										/>
+										<NavLink
+											to="/hippa-notice"
+											level="HIPAA Notice"
+											target=""
+											onClick={() => handleMenuOpen()}
+										/>
+									</ul>
+								</Col>
+							</Row>
+						</div>
+						{/* mobile popup small menu end */}
 					</Col>
-					<Col lg={4} xs={3}>
+					<Col lg={4} xs={0} className="d-mobile-none">
 						<div className="popup-others-menu p-4 d-flex flex-column justify-content-between align-items-center">
 							<div className="popup-right-top">
 								<button
@@ -166,7 +257,11 @@ function PopupSearchMenu() {
 			<div
 				className={`search-wrapper position-fixed ${
 					searchOpen ? "search-open" : ""
-				} ${!isBanner && "no-banner"} ${ scrollDirection === "down" ? "hide-search-menu" : "show-search-menu"}`}
+				} ${!isBanner && "no-banner"} ${
+					scrollDirection === "down"
+						? "hide-search-menu"
+						: "show-search-menu"
+				}`}
 			>
 				<div
 					onClick={() => setSearchOpen(!searchOpen)}
@@ -198,11 +293,15 @@ function PopupSearchMenu() {
 									</Link>
 								</div>
 							</Col>
-							<Col lg={7} xs={1} className="search-form-column position-relative">
+							<Col
+								lg={7}
+								xs={4}
+								className="search-form-column position-relative"
+							>
 								<div className="searc-container d-none">
 									<form>
 										<input
-											placeholder="Search for something in the Hematogenix world..."
+											placeholder={`${searchPlaceHolder}`}
 											type="search"
 											name="search"
 										/>
@@ -211,7 +310,7 @@ function PopupSearchMenu() {
 							</Col>
 							<Col
 								lg={2}
-								xs={5}
+								xs={2}
 								data-aos="fade-left"
 								data-aos-duration="1000"
 							>

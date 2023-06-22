@@ -78,6 +78,11 @@ function CompanyTeamMembers() {
 							autoplay: false,
 							pagination: false,
 							arrows: true,
+							breakpoints: {
+								768: {
+									perPage: 1,
+								},
+							},
 						}}
 						onMove={(splide) => {
 							var end = splide.Components.Controller.getEnd() + 1;

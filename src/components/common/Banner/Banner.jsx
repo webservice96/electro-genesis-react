@@ -30,6 +30,7 @@ function Banner({ isPost = false, title, video, className }) {
 					<Row>
 						<Col
 							lg={{ span: 8, offset: 2 }}
+							xs={12}
 							data-aos="fade-up"
 							data-aos-duration="2000"
 						>
@@ -42,9 +43,9 @@ function Banner({ isPost = false, title, video, className }) {
 					data-aos="fade-up"
 					data-aos-duration="3000"
 				>
-					<Container fluid="xl">
+					<Container fluid="xl" className="audio-arrow-slide-container">
 						<Row className="justify-content-between">
-							<Col lg={2}>
+							<Col lg={2} xs={6}>
 								<div className="arrow-down-container">
 									<button
 										onClick={handleClickScroll}
@@ -99,9 +100,9 @@ function Banner({ isPost = false, title, video, className }) {
 									</button>
 								</div>
 							</Col>
-							<Col lg={10}>
+							<Col lg={10} xs={6}>
 								{isPost ? (
-									<div className="hero-post-slider">
+									<div className="hero-post-slider d-mobile-none">
 										<Splide
 											hasTrack={false}
 											options={{
@@ -229,6 +230,22 @@ function Banner({ isPost = false, title, video, className }) {
 										</button>
 									</div>
 								)}
+								<div className="audio-container d-flex justify-content-end d-none">
+									<button
+										onClick={() => setAudioPlay(!audioPlay)}
+										className={`audio-btn ${
+											audioPlay ? "audio-on" : "audio-off"
+										} d-flex align-items-center`}
+									>
+										<span className="audio-label">
+											Turn audio{" "}
+											{audioPlay ? "Off" : "On"}
+										</span>
+										<span className="audio-icon position-relative">
+											<AudioIcon />
+										</span>
+									</button>
+								</div>
 							</Col>
 						</Row>
 					</Container>

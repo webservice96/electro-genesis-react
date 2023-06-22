@@ -8,7 +8,7 @@ function ImmunoOncology() {
 	BorderAnimation();
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"Immuno-Oncology"} />
 				<div className="content-text-part">
 					{/* text and image row */}

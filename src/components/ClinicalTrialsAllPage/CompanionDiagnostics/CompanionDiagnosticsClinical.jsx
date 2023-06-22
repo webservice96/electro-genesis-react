@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 function CompanionDiagnosticsClinical() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"COMPANION DIAGNOSTICS"} />
 
 				<div className="mt-4">

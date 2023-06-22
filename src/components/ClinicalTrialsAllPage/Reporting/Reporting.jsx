@@ -6,13 +6,16 @@ import { Col, Row } from "react-bootstrap";
 function Reporting() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"REPORTING"} />
 
 				<div className="mt-4">
 					<Row>
-						<Col md={{ span: 6 }} data-aos="fade-right"
-data-aos-duration="2000">
+						<Col
+							md={{ span: 6 }}
+							data-aos="fade-right"
+							data-aos-duration="2000"
+						>
 							<div className="text-content pe-0 ms-3">
 								<p>
 									Hematogenix® data delivery and case
@@ -23,8 +26,11 @@ data-aos-duration="2000">
 								</p>
 							</div>
 						</Col>
-						<Col md={{ span: 5, offset: 1 }} data-aos="fade-left"
-data-aos-duration="2000">
+						<Col
+							md={{ span: 5, offset: 1 }}
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<ul className="ul-list w-75 mx-auto">
 								<li className="item">
 									<svg

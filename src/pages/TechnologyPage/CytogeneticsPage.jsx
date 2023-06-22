@@ -5,7 +5,7 @@ import Cytogenetics from '../../components/Technologies/Cytogenetics/Cytogenetic
 function CytogeneticsPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Cytogenetics/>
     </Layout>
     </>

@@ -6,7 +6,7 @@ import TitleHeader from "../common/TitleHeader/TitleHeader";
 function MinimalResidualDisease() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"Minimal Residual Disease (MRD)"} />
 				<div className="content-text-part mb-4">
 					{/* text and image row */}

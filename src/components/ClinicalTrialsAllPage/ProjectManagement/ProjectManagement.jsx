@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 function ProjectManagement() {
 	return (
 		<>
-			<div className="block-inner">
+			<div className="block-inner gray-pink-bg">
 				<TitleHeader title={"PROJECT MANAGEMENT"} />
 
 				<div className="mt-4">
@@ -76,7 +76,7 @@ function ProjectManagement() {
 						>
 							<div className="image-div mb-3 ">
 								<img
-									className="rounded-3 w-75 mx-auto"
+									className="rounded-3 w-md-75 w-lg-75 mx-auto"
 									src="/assets/img/clinical/lady-lab.png"
 									alt="madecin test"
 								/>
@@ -90,7 +90,7 @@ function ProjectManagement() {
 							data-aos="fade-up"
 							data-aos-duration="2000"
 						>
-							<h2 className="title-text my-5">
+							<h2 className="title-text my-md-5 my-lg-5">
 								We excel on morphological and molecular assays
 								development.
 							</h2>

@@ -18,7 +18,7 @@ function CompanyHistoryBox({ history, count }) {
 			<div className="company-history-item" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-offset="200">
 				<Row className={`${reverseClass} align-items-center`}>
 					{imgSrc && (
-						<Col md={4} className="w-25">
+						<Col md={4} className="w-25 mobile-w-100">
 							<img src={imgSrc} alt={year} />
 						</Col>
 					)}

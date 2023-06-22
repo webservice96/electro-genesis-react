@@ -5,7 +5,7 @@ import Reporting from '../../components/ClinicalTrialsAllPage/Reporting/Reportin
 function ReportingPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Reporting/>
     </Layout>
     </>

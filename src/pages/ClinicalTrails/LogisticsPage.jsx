@@ -4,7 +4,7 @@ import Logistics from '../../components/ClinicalTrialsAllPage/Logistics/Logistic
 function LogisticsPage() {
   return (
     <>
-    <Layout className='bg-gray-pink'>
+    <Layout>
         <Logistics/>
     </Layout>
     </>

@@ -6,7 +6,7 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function Cytogenetics() {
 	return (
 		<>
-			<section className="block-inner Cytogenetics-section">
+			<section className="block-inner bg-gray-pink Cytogenetics-section">
 				<TechnologiesTitle title="Cytogenetics / FISH" />
 				<div className="content-text-part max-width">
 					{/* text and image row */}
@@ -78,7 +78,7 @@ function Cytogenetics() {
 				</Row>
 			</section>
 
-			<section className="block-inner Diseases-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Diseases-section">
 				<TechnologiesTitle title="Diseases" />
 				<div className="content-text-part max-width mb-5">
 					{/* text and image row */}
@@ -154,7 +154,7 @@ function Cytogenetics() {
 				</Row>
 			</section>
 
-			<section className="block-inner Platforms-section">
+			<section className="block-inner bg-gray-pink Platforms-section">
 				<TechnologiesTitle title="Platforms" />
 
 				<div className="content-text-part max-width">
@@ -171,7 +171,7 @@ function Cytogenetics() {
 						<Col md={8}>
 							<Row>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-up"
 									data-aos-duration="2000"
 								>
@@ -186,7 +186,7 @@ function Cytogenetics() {
 									</div>
 								</Col>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-up"
 									data-aos-duration="2000"
 								>
@@ -215,7 +215,7 @@ function Cytogenetics() {
 						<Col md={{ span: 8, offset: 0 }}>
 							<Row>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
@@ -233,7 +233,7 @@ function Cytogenetics() {
 									</div>
 								</Col>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
@@ -251,7 +251,7 @@ function Cytogenetics() {
 									</div>
 								</Col>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
@@ -268,7 +268,7 @@ function Cytogenetics() {
 									</div>
 								</Col>
 								<Col
-									xs={4}
+									xs={12}
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
@@ -304,7 +304,7 @@ function Cytogenetics() {
 				</Row>
 			</section>
 
-			<section className="block-inner Assays-section">
+			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Assays-section">
 				<TechnologiesTitle title="Assays" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">
@@ -367,7 +367,7 @@ function Cytogenetics() {
 				</Row>
 			</section>
 
-			<section className="block-inner Sample-type-section">
+			<section className="block-inner bg-gray-pink Sample-type-section">
 				<TechnologiesTitle title="Sample Types" />
 				<div className="content-text-part max-width">
 					<Row className="pb-5">

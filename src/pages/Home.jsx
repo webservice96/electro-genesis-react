@@ -43,6 +43,7 @@ function Home() {
 				title="Leveraging A.I For Critical Business Intelligence"
 				video={"/assets/videos/homepage-hd.mp4"}
 				isPost={true}
+				className={'home-page-hero'}
 			/>
 
 			<Layout>

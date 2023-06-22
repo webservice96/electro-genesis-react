@@ -167,14 +167,14 @@ function Service() {
 				{/* our client end */}
 				<Container>
 					<Row
-						className="d-flex row-cols-lg-3 row-cols-1 g-3 py-5 w-75 m-auto align-items-md-center align-self-center"
+						className="d-flex row-cols-lg-3 row-cols-1 g-3 py-5 mobile-w-100 w-75 m-auto justify-content-center align-items-md-center align-self-center"
 						data-aos="fade-up"
 						data-aos-duration="1000"
 					>
 						<div className="col item">
 							<div className="image-wrapper mb-4">
 								<img
-									src="https://cdn.sanity.io/images/6g05c3t1/production/b054344c93541ede6e0f43da26466c0d31b37aee-89x136.svg?auto=format&amp;max-w=250"
+									src="https://cdn.sanity.io/images/6g05c3t1/production/b054344c93541ede6e0f43da26466c0d31b37aee-89x136.svg"
 									alt="Not found!"
 								/>
 							</div>
@@ -188,7 +188,7 @@ function Service() {
 						<div className="col item">
 							<div className="image-wrapper mb-4">
 								<img
-									src="https://cdn.sanity.io/images/6g05c3t1/production/39264784a180e9c8f1849d09f85f9cef422fc8de-85x98.svg?auto=format&amp;max-w=250"
+									src="https://cdn.sanity.io/images/6g05c3t1/production/39264784a180e9c8f1849d09f85f9cef422fc8de-85x98.svg"
 									alt="Not found!"
 								/>
 							</div>
@@ -202,7 +202,7 @@ function Service() {
 						<div className="col item">
 							<div className="image-wrapper mb-4">
 								<img
-									src="https://cdn.sanity.io/images/6g05c3t1/production/87fd2d923b19cd52f0d1d953280214926b14012a-94x94.svg?auto=format&amp;max-w=250"
+									src="https://cdn.sanity.io/images/6g05c3t1/production/87fd2d923b19cd52f0d1d953280214926b14012a-94x94.svg"
 									alt="Not found!"
 								/>
 							</div>
@@ -215,7 +215,7 @@ function Service() {
 						</div>
 					</Row>
 					{/* Integrated Results section */}
-					<Row className="py-5">
+					<Row className="py-5 integrated-results-row">
 						<div className="row expanded align-center">
 							<div className=" text-center ">
 								<div
@@ -243,7 +243,7 @@ function Service() {
 									viewBox="0 0 1132 624"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
-									className="lines-landscape"
+									className="lines-landscape d-mobile-none"
 								>
 									<path
 										d="M1131 1C1131 209.211 878.041 378 566 378C462.469 378 365.442 359.419 282 326.983C113.949 261.657 1 140.13 1 1"

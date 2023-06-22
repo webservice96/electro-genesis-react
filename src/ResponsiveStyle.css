@@ -1,5 +1,14 @@
 /* mobilde device */
 @media (max-width: 768px) {
+	.d-mobile-none {
+		display: none;
+	}
+	.d-mobile-block {
+		display: block !important;
+	}
+	.mobile-w-100 {
+		width: 100% !important;
+	}
 	.site-logo {
 		width: 100%;
 	}
@@ -12,7 +21,7 @@
 	}
 
 	.search-open .search-form-column .searc-container {
-		width: 65%;
+		width: 100%;
 		position: absolute;
 	}
 
@@ -25,7 +34,7 @@
 	}
 
 	.popup-left-bg {
-		width: calc(70vw + 30px);
+		width: 100%;
 	}
 
 	.mobile-popup-logo {
@@ -91,13 +100,838 @@
 	.menu-popup-op-cl-btn .line-wrapper .line {
 		background-color: #ff4134;
 	}
+
+	.popup-right-bg,
+	.popup-left-bg,
+	.poup-menu-container {
+		height: 100vh;
+	}
+
+	.mobile-popup-sm-menu .first-menu a {
+		font-size: calc(1.40625rem + 1.45833vw);
+	}
+
+	.mobile-popup-sm-menu .second-menu a {
+		font-size: 1rem;
+	}
+	.searc-container input {
+		font-size: calc(1.28125rem + 0.29167vw);
+	}
+	.search-bar-container .row {
+		justify-content: space-between;
+	}
+	.search-open .search-form-column {
+		width: 75%;
+	}
+	.search-icon-sp {
+		background-color: #fff;
+	}
+	/* banner css */
+	.home-hero-text {
+		top: 50%;
+		margin-top: -50px;
+	}
+	.title {
+		width: 100% !important;
+		padding: 0 !important;
+		margin-left: 50px;
+		font-size: 32px !important;
+	}
+	.arrow-down-container button {
+		width: 5rem;
+		height: 5rem;
+	}
+	.home-page-hero .audio-container {
+		display: block !important;
+	}
+
+	.audio-arrow-slide-container .row {
+		align-items: center;
+		justify-content: space-between !important;
+	}
+
+	.title-bio-list-container h2 {
+		font-size: 50px !important;
+	}
+
+	.title-bio-list-container {
+		margin: 15px;
+	}
+
+	.expertise-block {
+		padding: 3rem 0;
+	}
+
+	.bio-list-container .sub-title,
+	.bio-list-container p {
+		font-size: 18px;
+	}
+	.bio-list li {
+		font-size: 18px !important;
+	}
+
+	.bio-list-container .number {
+		font-size: 18px !important;
+	}
+
+	.bio-list {
+		margin-top: 30px;
+	}
+	.section-title {
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.sec-btn {
+		margin-top: 28px !important;
+		margin: auto;
+	}
+
+	.subtitle {
+		font-size: 21px !important;
+		margin-bottom: 20px;
+	}
+
+	.description {
+		font-size: 21px !important;
+		margin-right: 0;
+	}
+
+	.technology-slider .techno-sliode-item {
+		height: inherit !important;
+	}
+
+	.technology-name h4 {
+		font-size: 17px;
+	}
+
+	.technology-slider .number span {
+		font-size: 17px;
+	}
+
+	.splide__arrow {
+		font-size: 20px;
+	}
+
+	.technology-slider-arrow .splide__arrow--prev {
+		right: 0 !important;
+	}
+
+	.technology-slider-arrow .splide__arrow--next {
+		right: 58px !important;
+	}
+
+	.support-section {
+		height: inherit !important;
+	}
+
+	.support-section .row {
+		flex-direction: column-reverse;
+	}
+
+	.support-left {
+		padding: 60px 0;
+	}
+
+	.support-short-desc p {
+		font-size: 13px;
+		color: #fff;
+	}
+
+	.support-btn {
+		margin-bottom: 20px !important;
+	}
+
+	.support-short-desc {
+		display: block;
+	}
+
+	.support-section .button-text {
+		flex-direction: column;
+	}
+
+	.support-section .support-left h1 {
+		text-align: center;
+	}
+
+	.our-technology {
+		padding: 50px 0;
+	}
+
+	.glance-section {
+		padding: 50px 0;
+	}
+	.glance-section .subtitle {
+		margin-left: 0;
+	}
+
+	.glance-wrapper {
+		width: 100% !important;
+	}
+
+	.glance-section .galnce-title {
+		font-size: 29px;
+		padding: 20px;
+	}
+
+	.glance-item {
+		margin-bottom: 20px;
+	}
+
+	.clinic-button {
+		padding-bottom: 35px;
+	}
+
+	.imgae-slider-block {
+		margin-bottom: 0;
+	}
+
+	.imgae-slider-block .img-slider-item img {
+		height: 100%;
+	}
+	.imgae-slider-block {
+		padding-bottom: 50px;
+	}
+	.imgae-slider-block {
+		padding-bottom: 50px;
+	}
+
+	.service-section .image-text {
+		font-size: 16px;
+	}
+
+	.service-section .underline-item div {
+		font-size: 16px;
+	}
+
+	.number,
+	.text {
+		font-size: 16px;
+	}
+
+	.f-bt-first-col span,
+	.f-bt-second-col a {
+		font-size: 15px;
+	}
+
+	.footer-title {
+		font-size: 15px;
+	}
+	.footer-top .col {
+		flex: 1 0 100% !important;
+		margin-bottom: 30px;
+	}
+	.pagination {
+		display: none;
+	}
+
+	.title-text {
+		font-size: 21px !important;
+		text-align: center;
+	}
+
+	.block-inner .title {
+		margin-bottom: 25px;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 100%;
+	}
+
+	.Minimal_description,
+	.Companion_description,
+	.solidTitle {
+		font-size: 21px !important;
+		margin-bottom: 50px;
+		margin-right: 0;
+	}
+
+	.image-box,
+	.Companion_image-box {
+		top: 0 !important;
+	}
+
+	.read-more-btn.small-size .inner {
+		height: 40px;
+	}
+
+	#page-content {
+		overflow: hidden;
+	}
+
+	.without-banner {
+		padding-top: 98px !important;
+		margin: 0 20px;
+		background-color: inherit;
+		padding: 0;
+	}
+
+	/* experties pages css */
+	.hematolog-content-box {
+		width: 100% !important;
+		margin-bottom: 30px;
+	}
+
+	.margin-left {
+		margin-left: 0;
+	}
+
+	.pragraph p {
+		font-size: 21px;
+		width: 100% !important;
+		padding: 0 !important;
+	}
+
+	.pragraph {
+		flex-direction: column;
+	}
+
+	h4.block-title {
+		font-size: 21px;
+	}
+
+	.list .name,
+	.ourPatho_list .item .name {
+		font-size: 21px;
+	}
+
+	.content-box {
+		width: 100% !important;
+	}
+
+	ul.list.ul-box {
+		margin: 0;
+		margin-bottom: 25px;
+	}
+
+	.content-text-part p {
+		font-size: 21px;
+		padding: 0 !important;
+	}
+
+	.List-box li {
+		font-size: 21px;
+	}
+
+	.publications-list .name {
+		font-size: 21px;
+	}
+
+	h4.publications-title,
+	.publications-list .date {
+		font-size: 17px;
+		padding-top: 20px;
+	}
+
+	p {
+		font-size: 21px;
+	}
+
+	.image-div {
+		width: 100% !important;
+	}
+
+	.text-content {
+		margin-bottom: 20px;
+		padding: 0 !important;
+	}
+
+	.sub-title {
+		font-size: 21px;
+	}
+
+	.test-offer-full-width-img {
+		margin-bottom: 50px;
+	}
+
+	.description-title .title {
+		font-size: 21px !important;
+	}
+
+	.description-title h2.title {
+		font-size: 22px !important;
+	}
+
+	.text-content h2 {
+		font-size: 22px !important;
+	}
+
+	.order-number-wrapper .index {
+		font-size: 21px;
+	}
+
+	.order-number-wrapper.order-number {
+		margin-bottom: 20px;
+	}
+	.ul-list .item {
+		font-size: 21px;
+	}
+	.ul-list {
+		width: 100% !important;
+	}
+
+	.technologies-title {
+		max-width: 100% !important;
+		padding-right: 0 !important;
+	}
+
+	.technologies-title-text {
+		justify-content: center;
+		font-size: 28px !important;
+	}
+
+	.image-caption {
+		font-size: 21px;
+		left: 0;
+		line-height: 28px;
+	}
+
+	h3.flowcy_description {
+		font-size: 21px !important;
+		margin-right: 0 !important;
+		margin-bottom: 0 !important;
+	}
+
+	.Diseases-section .underline-item div,
+	.Assays-section .underline-item div {
+		font-size: 21px;
+	}
+
+	ul.underline-text {
+		margin-top: 10px !important;
+	}
+
+	.margin-top-lass {
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.content-text-part {
+		margin-bottom: 20px !important;
+	}
+
+	.block-inner.bg-gray-pink {
+		margin-top: 0;
+	}
+
+	.flowcy_image-box {
+		padding-right: 0;
+	}
+
+	.content-text-part .col {
+		flex: 1 0 100%;
+	}
+
+	.Platforms-img-caption {
+		width: 100%;
+		left: 0 !important;
+	}
+	.Sample-type-section .list .item .inner {
+		width: 30vw;
+		height: 30vw;
+	}
+
+	.Sample-type-section .list .item .inner {
+		width: 30vw;
+		height: 30vw;
+	}
+
+	.Sample-type-section .list .item .inner .label {
+		font-size: 17px;
+	}
+
+	.Platforms-img-caption.image-caption {
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	.Diseases-section .underline-item,
+	.Assays-section .underline-item {
+		height: inherit !important;
+	}
+
+	.grand_title {
+		font-size: 28px !important;
+	}
+
+	.o-number {
+		font-size: 18px;
+	}
+
+	.card-title {
+		font-size: 21px !important;
+	}
+
+	.underline-item div {
+		font-size: 21px;
+	}
+
+	.percentage .percentage-text {
+		font-size: 25px !important;
+	}
+
+	span.percentage,
+	.percentage-text {
+		font-size: 21px !important;
+	}
+
+	.percentage-box {
+		margin-bottom: 20px;
+	}
+
+	.service-item .image-text h6 {
+		font-size: 18px !important;
+	}
+
+	.story-item {
+		height: 95vh !important;
+		padding: calc(1.5625rem + 2.91667vw) calc(1.40625rem + 1.45833vw);
+	}
+
+	.story-excerpt {
+		font-size: 16px;
+	}
+
+	.story-name-location .name {
+		font-size: 16px;
+	}
+
+	.story-name-location .location {
+		font-size: 14px;
+	}
+
+	.mobile-mb-20 {
+		margin-bottom: 20px;
+	}
+	.results-cta-button-wrapper button {
+		width: 100% !important;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+
+	ul.results-list {
+		position: relative;
+		display: block;
+		margin-top: 30px !important;
+		top: 0;
+	}
+
+	ul.results-list li.item {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 30px;
+		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	}
+
+	.margin-bottom {
+		bottom: inherit !important;
+	}
+
+	ul.results-list li.item .item-title {
+		font-size: 21px;
+		line-height: 28px;
+	}
+
+	h5.mini_title {
+		font-size: 21px;
+	}
+
+	.integrated-results-row {
+		justify-content: center !important;
+	}
+	.image-wrapper img {
+		margin: 0 auto;
+	}
+
+	.text-wrapper {
+		text-align: center;
+	}
+
+	/* company css */
+	.company-hero-text h1 {
+		font-size: 28px;
+		text-align: inherit;
+	}
+
+	.section-space {
+		margin-bottom: 50px;
+	}
+
+	.section-order-number span {
+		font-size: 17px;
+	}
+
+	.company-leaders-wrapper p {
+		font-size: 21px;
+	}
+
+	.company-leaders-wrapper h1,
+	.company-leaders-wrapper h3 {
+		font-size: 24px !important;
+		margin: 20px 0;
+	}
+
+	.company-leaders-wrapper img {
+		margin-bottom: 30px;
+	}
+
+	.section-order-number {
+		margin-bottom: 20px !important;
+	}
+
+	.company-clients-detail {
+		position: relative;
+		z-index: 9;
+		margin: 20px;
+	}
+
+	.company-team-header {
+		margin-bottom: 86px;
+	}
+
+	.technology-slider-arrow {
+		position: relative;
+		z-index: 999;
+	}
+
+	.comp-team-headline {
+		font-size: 21px !important;
+	}
+
+	.title-container h3 {
+		font-size: 18px !important;
+	}
+
+	.company-clients-block:after {
+		height: 160vh;
+	}
+
+	.company-history-item .history-year {
+		font-size: 100px;
+	}
+
+	.company-history-item .history-description {
+		font-size: 16px;
+	}
+
+	.company-history-item {
+		margin-bottom: 30px;
+	}
+
+	.company-history-item img {
+		width: 50vw;
+		margin-bottom: 20px !important;
+		margin: 0 auto;
+	}
+
+	.company-history-heading {
+		margin-bottom: 50px;
+	}
+
+	.culture-second-row {
+		margin-top: 50px !important;
+	}
+
+	.culture-name .short-name {
+		font-size: 24px;
+	}
+
+	.culture-name .full-name {
+		font-size: 16px;
+	}
+
+	.culture-name {
+		right: 0;
+		width: 100px;
+		height: 100px;
+		top: -120px;
+	}
+
+	.culture-second-row .col-md-4 {
+		margin-bottom: 150px;
+	}
+
+	.culture-second-row .col-md-4:last-child {
+		margin: 0;
+	}
+
+	.company-culture-header {
+		margin-bottom: 100px;
+	}
+
+	.company-jobs-header .company-culture-header {
+		margin-bottom: 50px;
+	}
+
+	.job-search-lebel {
+		font-size: 21px;
+	}
+
+	.job-search-box {
+		padding: 10px;
+	}
+
+	.job-search-lebel {
+		margin-bottom: 14px !important;
+		display: block;
+	}
+
+	.job-search-box .form-select {
+		margin-bottom: 18px;
+	}
+
+	.job-title {
+		font-size: 20px;
+	}
+
+	.job-apply .sec-btn.job-appy-btn {
+		margin-top: 0 !important;
+	}
+	.company-contact-btn .sec-btn {
+		width: 100%;
+	}
+
+	.clinical-template .o-number {
+		margin: 0 !important;
+	}
+
+	.clinical-template .grand_title {
+		font-size: 16px !important;
+	}
+
+	.clinical-template .title-button {
+		text-align: center;
+	}
+	.clinical-template .list-item-li {
+		padding: 0 10px;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.contact-cta-row {
+		flex-direction: column-reverse;
+	}
+
+	.contat_us_text {
+		width: 100%;
+		position: relative;
+		border-radius: 47% 53% 50% 50% / 30% 30% 70% 70%;
+		padding: 10px;
+	}
+
+	.video-div {
+		position: relative;
+		right: inherit;
+		width: 100%;
+	}
+
+	.contact-cta-btn-text {
+		flex-direction: column-reverse;
+	}
+
+	.contact-cta-btn-text span {
+		font-size: 18px;
+		display: block;
+		line-height: 28px;
+	}
+
+	.contact-cta-btn-text button {
+		margin-top: 17px;
+	}
+
+	.technologies-items .card-title .subtitle {
+		width: 100%;
+		font-size: 16px !important;
+		line-height: 22px;
+	}
+
+	.technologies-items .card-content {
+		margin: 0;
+	}
+
+	.technologies-items .card-content {
+		flex-direction: column;
+	}
+
+	.technologies-items .card-content .card-text {
+		width: 100%;
+	}
+
+	.technologies-items .card-title .grand_title {
+		font-size: 23px !important;
+	}
+
+	.technologies-items .card-content .card-image {
+		width: 100%;
+	}
+
+	.technologies-items {
+		margin-bottom: 50px;
+	}
+
+	/* contact css */
+	.contact-page-template {
+		background-color: #fff;
+		padding: 10px !important;
+		border-radius: 20px;
+		top: 98px;
+		margin-bottom: 98px;
+	}
+
+	.location-map p {
+		font-size: 16px;
+	}
+
+	.contact-map-location {
+		width: 100%;
+	}
+
+	.location-map {
+		margin-bottom: 20px;
+	}
+
+	.contact-details .phone .label,
+	.contact-details a {
+		font-size: 16px;
+	}
+
+	.contact-details .phone .label {
+		flex: 0 0 45px;
+	}
+
+	.contact-place-container {
+		margin-bottom: 50px;
+	}
+
+	.contact-form-popup {
+		margin-bottom: 50px;
+	}
+
+	.modal-dialog {
+		max-width: 100% !important;
+	}
+
+	.close-Button {
+		right: -11px;
+		top: -11px;
+	}
+
+	.form-wrepper .form-item label {
+		font-size: 13px;
+	}
+
+	.check-uot .label {
+		font-size: 13px;
+	}
+
+	.check-uot .w-50 {
+		width: 100% !important;
+	}
 }
 
 /* extra large device */
 @media (min-width: 1920px) {
-    .container{
-        max-width: 75% !important;
-    }
+	.container {
+		max-width: 1460px !important;
+	}
 
 	.slide-post-content a {
 		font-size: 18px;
@@ -115,19 +949,29 @@
 	.section-description .description {
 		font-size: 38px;
 	}
-    .imgae-slider-block .img-slider-item {
-        height: 85vh;
-    }
+	.imgae-slider-block .img-slider-item {
+		height: 85vh;
+	}
 
-    .glance-item .w-25{
-        width: 10% !important;
-    }
+	.glance-item .w-25 {
+		width: 10% !important;
+	}
 
-    .support-right-video video{
-        width: 100%;
-    }
+	.support-right-video video {
+		width: 100%;
+	}
 
-    .post-sliders:after{
-        top: 11px;
-    }
+	.post-sliders:after {
+		bottom: 0 !important;
+		margin-bottom: -10px !important;
+		top: inherit;
+	}
+
+	.service-section .subtitle {
+		font-size: 56px !important;
+	}
+
+	.service-section .underline-item div {
+		font-size: 32px;
+	}
 }

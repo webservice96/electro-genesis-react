@@ -305,8 +305,9 @@ span.arrow-down-icon svg:not(.shadow-icon) path {
 .post-sliders:after {
 	content: "";
 	position: absolute;
-	top: -14px;
+	top: 0;
 	left: 0;
+	margin-top: -15px;
 	display: block;
 	width: 100%;
 	height: 59px;

@@ -4,7 +4,7 @@ import NextGeneration from "../../components/NextGeneration/NextGeneration";
 
 function NextGenerationPage() {
 	return (
-		<Layout className="bg-gray-pink">
+		<Layout>
 			<NextGeneration />
 		</Layout>
 	);
