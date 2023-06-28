@@ -12,7 +12,8 @@
 }
 
 .support-section .support-left h1 {
-    padding: 0 12.5vw 0 6.25vw;
+	padding: 0 7.5vw 0 6.25vw;
+    font-family: 'aeonik-regular';
 }
 
 .support-section .button-text {

@@ -16,6 +16,11 @@
     line-height: 1.1em;
     letter-spacing: -.02em;
 }
+
+.main-pages-header-title{
+    font-family: aeonik-regular !important;
+}
+
 .image_box{
     background: none !important;
     border: none !important;

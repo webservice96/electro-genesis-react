@@ -37,7 +37,7 @@ function Cytogenetics() {
 								data-aos="fade-up"
 								data-aos-duration="2000"
 							>
-								Hematogenix® offers routine analysis of
+								Workflow 24 offers routine analysis of
 								chromosomes and a wide variety of fluorescent in
 								situ hybridization (FISH) probes.
 							</h3>
@@ -47,7 +47,7 @@ function Cytogenetics() {
 								data-aos="fade-up"
 								data-aos-duration="2000"
 							>
-								Hematogenix uses a variety of commercially
+								Workflow 24 uses a variety of commercially
 								available RUO and IVD FISH probes. The
 								Cytogenetics Department utilizes automation for
 								processing and analysis workflow to increase

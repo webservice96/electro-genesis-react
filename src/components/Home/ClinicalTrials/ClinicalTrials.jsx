@@ -8,12 +8,16 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 function ClinicalTrials() {
 	return (
 		<section className="glance-section bg-white">
-			<Container className="mb-5" data-aos="fade-up" data-aos-duration="1000">
+			<Container
+				className="mb-5"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+			>
 				<div className="section-header position-relative">
 					<span className="bottom-line"></span>
 					<Row className="align-items-center">
 						<Col lg={{ span: 9 }}>
-							<h1 className="section-title">Clinical Trials</h1>
+							<h1 className="section-title">Efficiencies</h1>
 						</Col>
 					</Row>
 				</div>
@@ -22,25 +26,30 @@ function ClinicalTrials() {
 					<Row>
 						<Col lg={6} className="pe-lg-5 pe-md-5">
 							<h3 className="subtitle">
-								Hematogenix's mission is to assist pharma
-								companies bring novel treatments from bench to
-								bedside.
+								Workflow 24's mission is to assist critical
+								industries unlock 360 solutions from top floor
+								to shop floor.
 							</h3>
 						</Col>
 						<Col lg={6} className="pe-lg-5 pe-md-5">
 							<p className="description">
-								Our use of cutting-edge technologies, highly
-								sensitive assays, and interpretation from expert
-								pathologists provides a level of quality that is
-								required to accentuate the efficacy of a novel
-								therapeutic.
+								Our use of cutting-edge industry 4.0
+								technologies, highly sensitive sensors, and
+								expert interpretation of data that is required
+								to open up Decision Intelligence required for
+								novel and competitive business advantages.
 							</p>
 						</Col>
 					</Row>
 				</div>
 			</Container>
 
-			<Container className="glance-wrapper" fluid data-aos="fade-up" data-aos-duration="1000">
+			<Container
+				className="glance-wrapper"
+				fluid
+				data-aos="fade-up"
+				data-aos-duration="1000"
+			>
 				<Row className="row-cols-lg-2 row-cols-1 g-0 align-items-center">
 					<Col>
 						<div className="galnce-left-image h-100">
@@ -271,8 +280,12 @@ function ClinicalTrials() {
 							</div>
 						</div>
 						<div className="clinic-button mt-5 d-flex justify-content-center">
-							<Button lavel='Clinical Trials' link={`/clinical-trials`} icon={faArrowRight} />
-						</div> 
+							<Button
+								lavel="Efficiencies"
+								link={`/system-efficiencies`}
+								icon={faArrowRight}
+							/>
+						</div>
 					</Col>
 				</Row>
 			</Container>

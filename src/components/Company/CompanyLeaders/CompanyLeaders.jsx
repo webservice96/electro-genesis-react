@@ -22,7 +22,7 @@ function CompanyLeaders() {
 					<Col className="col-md-5 offset-md-1" xs={12}>
 						<SectionNumber textNumber={`1`} className="mb-4" />
 
-						<h1 className="mb-md-5">
+						<h1 className="mb-md-5 main-pages-header-title">
 							Industry <br /> Leaders
 						</h1>
 
@@ -41,7 +41,7 @@ function CompanyLeaders() {
 						<h3 className="fs-3 mb-md-5">Unbending...</h3>
 
 						<p className="mb-md-5">
-							Hematogenix® was established with a clear commitment
+							Workflow 24 was established with a clear commitment
 							— to put patient care above all. We are unbending
 							when it comes to being patient centric. With no
 							venture capitalists or shareholders to influence our

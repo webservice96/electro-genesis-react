@@ -14,7 +14,7 @@ function Service() {
 		<>
 			<Banner
 				isBanner={true}
-				title="Propelling Cancer Diagnostics & Treatments"
+				title="Streamlined Workflow For Any Industry"
 				video={"/assets/videos/services-hd.mp4"}
 				className={`service-banner`}
 			/>
@@ -97,7 +97,7 @@ function Service() {
 						>
 							<div className=" text-center">
 								<h2 className="grand_title">
-									Hematogenix® is proud to offer the highest
+								Workflow 24 is proud to offer the highest
 									standard of pharmaceutical research and
 									diagnostic services.
 								</h2>
@@ -371,7 +371,7 @@ function Service() {
 												</svg>
 											</span>
 											<span className="fs-5 text-white ms-2">
-												Full Hematogenix Capabilities
+												Full Workflow 24 Capabilities
 											</span>
 										</button>
 									</Link>

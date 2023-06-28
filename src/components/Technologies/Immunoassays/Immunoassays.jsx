@@ -40,7 +40,7 @@ function Immunoassays() {
 							</h3>
 
 							<p className="mt-5 pe-5">
-								Hematogenix® offers an extensive test menu for
+							Workflow 24 offers an extensive test menu for
 								the measurement of antibodies, proteins,
 								cytokines/chemokines, metabolites, and other
 								chemical compounds.

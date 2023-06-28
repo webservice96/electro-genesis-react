@@ -21,7 +21,7 @@ function ImageSlider() {
 						<div className="img-slider-item">
 							<img src="/assets/img/slider/img1.jpg" className="img-fluid" alt="Image 1" />
 							<span className="img-lab-caption">
-								Hematogenix Labs
+							Workflow 24 Labs
 							</span>
 						</div>
 					</SplideSlide>
@@ -29,7 +29,7 @@ function ImageSlider() {
 						<div className="img-slider-item">
 							<img src="/assets/img/slider/img2.jpg" className="img-fluid" alt="Image 2" />
 							<span className="img-lab-caption">
-								Hematogenix Labs
+								Workflow 24 Labs
 							</span>
 						</div>
 					</SplideSlide>
@@ -37,7 +37,7 @@ function ImageSlider() {
 						<div className="img-slider-item">
 							<img src="/assets/img/slider/img3.jpg" className="img-fluid" alt="Image 3" />
 							<span className="img-lab-caption">
-								Hematogenix Labs
+								Workflow 24 Labs
 							</span>
 						</div>
 					</SplideSlide>

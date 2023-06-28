@@ -173,7 +173,7 @@ function Logistics() {
 									We have dedicated teams that are assigned to
 									oversee shipments of supplies as well as the
 									shipment of samples scheduled to arrive at
-									any of the Hematogenix® laboratories.
+									any of the Workflow 24 laboratories.
 									Oversight of shipments allows us to modify
 									staffing in instances when there are
 									unforeseen courier delays.

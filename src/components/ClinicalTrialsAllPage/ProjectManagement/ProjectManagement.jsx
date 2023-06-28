@@ -18,7 +18,7 @@ function ProjectManagement() {
 									data-aos="fade-right"
 									data-aos-duration="2000"
 								>
-									At Hematogenix®, Project Managers are highly
+									At Workflow 24, Project Managers are highly
 									skilled team members that employ best
 									practices from past experiences.
 								</h2>
@@ -53,7 +53,7 @@ function ProjectManagement() {
 									data-aos="fade-up"
 									data-aos-duration="2000"
 								>
-									The Project Managers at Hematogenix®
+									The Project Managers at Workflow 24
 									understand the management of tissue,
 									development of molecular assays and the
 									logistics of drug development. Our team
@@ -139,7 +139,7 @@ function ProjectManagement() {
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
-									Hematogenix® board-certified pathologists
+									Workflow 24 board-certified pathologists
 									are full-time employees. A Principal
 									Pathologist and a backup pathologist will be
 									assigned to your project.
@@ -165,7 +165,7 @@ function ProjectManagement() {
 									data-aos="fade-left"
 									data-aos-duration="2000"
 								>
-									The Hematogenix® Scientific Team is well
+									The Workflow 24 Scientific Team is well
 									published in biomarker research and will
 									accommodate requests to support and
 									contribute to manuscripts and conference

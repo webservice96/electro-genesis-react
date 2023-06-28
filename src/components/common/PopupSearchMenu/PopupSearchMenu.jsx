@@ -45,12 +45,10 @@ function PopupSearchMenu() {
 
 	let searchPlaceHolder = "";
 	if (windowWidth >= 768) {
-		searchPlaceHolder = "Search for something in the Hematogenix world...";
+		searchPlaceHolder = "Search for something in the Workflow 24 world...";
 	} else {
 		searchPlaceHolder = "Search...";
 	}
-
-	console.log("screen size:", windowWidth);
 
 	return (
 		<>
@@ -122,32 +120,33 @@ function PopupSearchMenu() {
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/expertise"
-									level="Expertise"
+									to="/industry-4.0"
+									level="Industry 4.0"
 									target=""
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/service"
-									level="Services"
+									to="/business-intel"
+									level="Business Intel"
+									target=""
+									onClick={() => handleMenuOpen()}
+								/>
+
+								<NavLink
+									to="/system-efficiencies"
+									level="System Efficiencies"
 									target=""
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/clinical-trials"
-									level="Clinical Trials"
+									to="/advanced-modelling"
+									level="Advanced Modelling"
 									target=""
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/technologies"
-									level="Technologies"
-									target=""
-									onClick={() => handleMenuOpen()}
-								/>
-								<NavLink
-									to="/company"
-									level="Company"
+									to="/our-story"
+									level="Our Story"
 									target=""
 									onClick={() => handleMenuOpen()}
 								/>
@@ -160,17 +159,17 @@ function PopupSearchMenu() {
 								<Col xs={6}>
 									<ul className="first-menu mb-4">
 										<NavLink
-											to="/careers"
+											to="/company#careers"
 											level="Careers"
 											target=""
 											onClick={() => handleMenuOpen()}
 										/>
-										<NavLink
+										{/* <NavLink
 											to="/resources"
 											level="Resources"
 											target=""
 											onClick={() => handleMenuOpen()}
-										/>
+										/> */}
 										<NavLink
 											to="/contact"
 											level="Contact"
@@ -182,14 +181,14 @@ function PopupSearchMenu() {
 								<Col xs={6}>
 									<ul className="second-menu">
 										<NavLink
-											to="/privacy-policy-and-cookies"
-											level="Privacy Policy & Cookies"
+											to="/privacy-policy"
+											level="Privacy Policy"
 											target=""
 											onClick={() => handleMenuOpen()}
 										/>
 										<NavLink
-											to="/hippa-notice"
-											level="HIPAA Notice"
+											to="/cookie-policy"
+											level="Cookie Policy"
 											target=""
 											onClick={() => handleMenuOpen()}
 										/>
@@ -215,17 +214,17 @@ function PopupSearchMenu() {
 							<div className="popup-right-bottom">
 								<ul className="first-menu mb-4">
 									<NavLink
-										to="/careers"
+										to="/company#careers"
 										level="Careers"
 										target=""
 										onClick={() => handleMenuOpen()}
 									/>
-									<NavLink
+									{/* <NavLink
 										to="/resources"
 										level="Resources"
 										target=""
 										onClick={() => handleMenuOpen()}
-									/>
+									/> */}
 									<NavLink
 										to="/contact"
 										level="Contact"
@@ -236,14 +235,14 @@ function PopupSearchMenu() {
 
 								<ul className="second-menu">
 									<NavLink
-										to="/privacy-policy-and-cookies"
-										level="Privacy Policy & Cookies"
+										to="/privacy-policy"
+										level="Privacy Policy"
 										target=""
 										onClick={() => handleMenuOpen()}
 									/>
 									<NavLink
-										to="/hippa-notice"
-										level="HIPAA Notice"
+										to="/cookie-policy"
+										level="Cookie Policy"
 										target=""
 										onClick={() => handleMenuOpen()}
 									/>

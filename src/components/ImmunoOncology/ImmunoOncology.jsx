@@ -60,12 +60,12 @@ function ImmunoOncology() {
 									continue to design and develop
 									immunotherapies, the need to assess the
 									efficacies of these therapies grows. The
-									Hematogenix® clinical, scientific and
+									Workflow 24 clinical, scientific and
 									project management teams serve our biopharma
 									partners as they advance these therapies.
 								</p>
 								<p>
-									Hematogenix has been, and continues to be,
+									Workflow 24 has been, and continues to be,
 									involved in several clinical trials
 									monitoring key biomarkers, such as PD-L1 and
 									BCMA, and changes to the immune response
@@ -85,7 +85,7 @@ function ImmunoOncology() {
 						<Col md={4}>
 							<div>
 								<p>
-									Hematogenix is also one of the leading
+									Workflow 24 is also one of the leading
 									global facilities for PD-L1 IHC testing,
 									utilizing all major PD-L1 clones (Ventana
 									SP263, Ventana SP142, Dako 22C3, Dako 28-8
@@ -102,14 +102,14 @@ function ImmunoOncology() {
 									clones in respected peer reviewed journals,
 									in an effort to provide insight to
 									harmonization of the PD-L1 diagnostic
-									assays. Hematogenix also provides additional
+									assays. Workflow 24 also provides additional
 									comprehensive assays by flow cytometry to
 									assess the immune response, with targeted
 									focus on PD-L1 in multiple disease types.
 								</p>
 								<p>
 									As immunotherapies continue to develop,
-									Hematogenix continues to grow with the
+									Workflow 24 continues to grow with the
 									field. We currently provide services for
 									CAR-T cell clinical trials and look forward
 									to providing this service for new and

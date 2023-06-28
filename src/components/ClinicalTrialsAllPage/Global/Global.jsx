@@ -24,7 +24,7 @@ function Global() {
 									continue to support your efforts by
 									providing access to top scientists and
 									high-quality testing services at each of our
-									facilities around the world. Hematogenix®
+									facilities around the world. Workflow 24
 									operates four locations.
 								</p>
 							</div>

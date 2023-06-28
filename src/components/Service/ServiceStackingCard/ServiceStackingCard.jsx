@@ -103,7 +103,7 @@ function ServiceStackingCard() {
 									<h3 className="description mb-5">
 										World-renowned pathologists with
 										expertise in many different
-										subspecialties lead Hematogenix®
+										subspecialties lead Workflow 24
 										research studies, analyses, and
 										integrated reporting.
 									</h3>
@@ -224,7 +224,7 @@ function ServiceStackingCard() {
 									</h3>
 
 									<p className=" pe-5">
-										HEMATOGENIX® IS AT THE FOREFRONT OF
+										Workflow 24 IS AT THE FOREFRONT OF
 										BIOMARKER ASSAY DEVELOPMENT, FROM EARLY
 										EXPLORATORY MARKERS TO PERSONALIZED
 										MARKERS FOR COMPANION DIAGNOSTIC
@@ -235,7 +235,7 @@ function ServiceStackingCard() {
 										utilizing multiple technologies and
 										methodologies. Some examples of
 										biomarker assays developed at
-										Hematogenix include: PD-L1, BCMA, and
+										Workflow 24 include: PD-L1, BCMA, and
 										FLT3.
 									</p>
 								</Col>
@@ -338,7 +338,7 @@ function ServiceStackingCard() {
 									data-aos-duration="2000"
 								>
 									<h3 className="Companion_description mb-4">
-										Hematogenix®’s scientific experts are
+										Workflow 24’s scientific experts are
 										well equipped to develop an assay that
 										is specific to your clinical trial.
 									</h3>
@@ -369,7 +369,7 @@ function ServiceStackingCard() {
 										<br /> We have a proven track record
 										validating and utilizing our assays for
 										multiple Phase 3 registrational trials.
-										Hematogenix has also co-developed
+										Workflow 24 has also co-developed
 										several assays as a companion
 										diagnostic.
 									</p>

@@ -10,18 +10,42 @@ function ExpertiseBlock() {
 			id="expertise-block"
 		>
 			<div className="floating-images d-mobile-none">
-				<img src="/assets/img/expertise/expertise-1.jpg" className="img-1" alt="Not found!" data-aos="fade-up" data-aos-duration="2000" />
-				<img src="/assets/img/expertise/expertise-2.jpg" className="img-2" alt="Not found!" data-aos="fade-up" data-aos-duration="2000" />
-				<img src="/assets/img/expertise/expertise-3.jpg" className="img-3" alt="Not found!" data-aos="fade-up" data-aos-duration="2000" />
-				<img src="/assets/img/expertise/expertise-4.jpg" className="img-4" alt="Not found!" data-aos="fade-up" data-aos-duration="2000" />
-				<img src="/assets/img/expertise/expertise-5.jpg" className="img-5" alt="Not found!" data-aos="fade-up" data-aos-duration="2000" />
+				<img
+					src="/assets/img/expertise/expertise-1.jpg"
+					className="img-1"
+					alt="Not found!"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+				/>
+				<img
+					src="/assets/img/expertise/expertise-2.jpg"
+					className="img-2"
+					alt="Not found!"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+				/>
+				<img
+					src="/assets/img/expertise/expertise-3.jpg"
+					className="img-3"
+					alt="Not found!"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+				/>
+				<img
+					src="/assets/img/expertise/expertise-4.jpg"
+					className="img-4"
+					alt="Not found!"
+					data-aos="fade-up"
+					data-aos-duration="2000"
+				/>
+				
 			</div>
 
 			<div className="title-bio-list-container position-relative">
 				<Row className="mb-4">
 					<Col lg={7} xs={12}>
 						<h2 data-aos="fade-up" data-aos-duration="2000">
-							Transforming Discoveries
+							Transforming Industries
 						</h2>
 					</Col>
 				</Row>

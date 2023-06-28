@@ -48,7 +48,7 @@ function CompanyClientClock() {
 							our vision to continue to support your efforts by
 							providing access to top scientists and high-quality
 							testing services at each of our facilities around
-							the world. Hematogenix® has fully staffed
+							the world. Workflow 24 has fully staffed
 							laboratories in North America, Europe, China and
 							Asia-Pacific that are ready to serve you.
 						</p>

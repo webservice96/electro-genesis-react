@@ -80,7 +80,7 @@ function DigitalPathology() {
 							data-aos-duration="2000"
 						>
 							<p>
-								Hematogenix employs the latest technologies in
+							Workflow 24 employs the latest technologies in
 								machine learning and computerized algorithms to
 								navigate the complex interpretation of digital
 								images.

@@ -1,0 +1,73 @@
+.privacy-cooki {
+	overflow: inherit;
+}
+.table-of-content-nav {
+	top: 155px;
+}
+
+.privacy-cookie-page-title h2 {
+	font-size: 3.8235294118vw !important;
+}
+
+.privacy-cookie-title {
+	font-size: 1.8823529412vw !important;
+	font-family: "aeonik-medium";
+	margin-bottom: 1.5625rem;
+	color: #2c2c2c;
+}
+
+.privacy-cookie-item {
+	margin-top: 6.25rem;
+}
+
+.privacy-cookie-item:first-of-type {
+	margin-top: 0;
+}
+
+.privacy-cookie-page-title {
+	border-bottom: 1px solid rgba(44, 44, 44, 0.2);
+	padding-bottom: 2.8125rem;
+}
+
+.privacy-cooki-content-column,
+.table-of-content-column {
+	margin-top: 4.375rem !important;
+}
+
+nav.table-of-content-nav li a {
+	font-size: 0.8235294118vw;
+	font-family: "aeonik-medium";
+	color: #2c2c2c;
+}
+
+.privacy-cookie-item ul {
+	list-style: inherit;
+}
+
+.privacy-cookie-item ol {
+	list-style: auto;
+}
+
+.privacy-cookie-item ol,
+.privacy-cookie-item ul {
+	padding: revert;
+}
+
+.privacy-cookie-item ol li,
+.privacy-cookie-item ul li {
+	font-size: 13px;
+	font-family: aeonik-regular;
+    margin-bottom: .625rem;
+}
+
+.privacy-cookie-item p{
+    font-size: 14px;
+	font-family: aeonik-regular;
+    line-height: 23px;
+    margin-bottom: 1.5rem;
+}
+.privacy-cookie-item h4{
+    margin-bottom: .9375rem;
+    font-size: 1.2941176471vw;
+    font-family: "aeonik-medium";
+}

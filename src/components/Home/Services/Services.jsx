@@ -10,9 +10,13 @@ function Services() {
 			<Container className="mb-5">
 				<div className="section-header position-relative">
 					<span className="bottom-line"></span>
-					<Row className="align-items-center" data-aos="fade-up" data-aos-duration="1000" >
+					<Row
+						className="align-items-center"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+					>
 						<Col lg={{ span: 9 }}>
-							<h1 className="section-title" >Services</h1>
+							<h1 className="section-title">Services</h1>
 						</Col>
 						<Col lg={3}>
 							<Button
@@ -117,7 +121,11 @@ function Services() {
 						</div>
 					</div>
 				</Row>
-				<Row className="row-cols-lg-3 row-cols-1 g-3 py-5 w-75 m-auto" data-aos="fade-up" data-aos-duration="1000">
+				<Row
+					className="row-cols-lg-3 row-cols-1 g-3 py-5 w-75 m-auto"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+				>
 					<div className="col item">
 						<div className="image-wrapper">
 							<img
@@ -141,8 +149,8 @@ function Services() {
 						</div>
 						<div className="text-wrapper">
 							<p className="text">
-								Our Pathologists are world-renowned, with
-								expertise in several subspecialties
+								Our Pathologists are available to serve as
+								Principal Investigators and Consultants
 							</p>
 						</div>
 					</div>
@@ -155,8 +163,8 @@ function Services() {
 						</div>
 						<div className="text-wrapper">
 							<p className="text">
-								Our Pathologists are world-renowned, with
-								expertise in several subspecialties
+								Our Pathologists are also employed full-time and
+								at all of our global locations
 							</p>
 						</div>
 					</div>

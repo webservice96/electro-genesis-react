@@ -32,7 +32,7 @@ function ServiceOurClient() {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								Hematogenix® globally provides services to
+								Workflow 24 globally provides services to
 								pharma companies, biotech companies, diagnostic
 								developers, and oncologists for diagnostics
 								services.

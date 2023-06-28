@@ -25,15 +25,15 @@ function NextGeneration() {
 
 							<p className="mt-5 pe-5">
 								The use of NGS has ushered in a new era of
-								precision oncology, and Hematogenix employs this
+								precision oncology, and Workflow 24 employs this
 								advanced technology to understand a tumor’s
 								molecular characteristics in order to improve
 								patient classification and predict patient
 								response to targeted therapy. The scientific
-								experts at Hematogenix have validated multiple
+								experts at Workflow 24 have validated multiple
 								NGS assays to cover AML, MDS, and other
 								hematological disorders. Additionally, the
-								Hematogenix Bioinformatics team has developed
+								Workflow 24 Bioinformatics team has developed
 								proprietary analysis pipelines to harness the
 								vast data provided by NGS.
 							</p>

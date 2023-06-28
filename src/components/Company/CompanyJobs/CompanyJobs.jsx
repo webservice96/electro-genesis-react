@@ -9,77 +9,77 @@ const jobs = [
 		title: "Accessioning Technician",
 		jobType: "Full-time",
 		location: "Chicago, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "operation",
 	},
 	{
 		title: "Project Manager",
 		jobType: "Full-time",
 		location: "Wasington, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "operation",
 	},
 	{
 		title: "Clinical Study Coordinator",
 		jobType: "Full-time",
 		location: "Chicago, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "operation",
 	},
 	{
 		title: "Quality Auditor",
 		jobType: "Full-time",
 		location: "Torento, Canada",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "operation",
 	},
 	{
 		title: "Medical Billing & Collections Specialist",
 		jobType: "Full-time",
 		location: "Chicago, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "marketing",
 	},
 	{
 		title: "Cytogenetics Laboratory Technician",
 		jobType: "Full-time",
 		location: "California, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "scientific",
 	},
 	{
 		title: "Medical Technologist",
 		jobType: "Full-time",
 		location: "Chicago, USA",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "scientific",
 	},
 	{
 		title: "Molecular Technologist",
 		jobType: "Full-time",
 		location: "London, UK",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "scientific",
 	},
 	{
 		title: "IT Specialist",
 		jobType: "Full-time",
 		location: "Dehli, India",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "it",
 	},
 	{
 		title: "Desktop Support Specialist",
 		jobType: "Full-time",
 		location: "Mokka, Saudi",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "it",
 	},
 	{
 		title: "Software Tester",
 		jobType: "Full-time",
 		location: "London, UK",
-		mailTo: "jobs@hematogenix.com",
+		mailTo: "jobs@workflow24.com",
 		category: "it",
 	},
 ];
@@ -148,7 +148,7 @@ function CompanyJobs() {
 								data-aos-duration="2000"
 							>
 								<p className="mb-md-4">
-									Hematogenix is a fast-growing specialty
+									workflow24 is a fast-growing specialty
 									reference laboratory committed to excellence
 									and high-quality services. We treat all
 									individuals with mutual respect and

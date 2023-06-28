@@ -1,12 +1,18 @@
+import { useEffect, useRef, useState } from "react";
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Style.css";
-
-import { useState } from "react";
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { AudioIcon } from "../../Icons/SvgIcons";
+import { useDispatch, useSelector } from "react-redux";
+import { bgNoisePlayer } from "../../../features/noisePlayer/noisePlayer";
 
 function Banner({ isPost = false, title, video, className }) {
-	const [audioPlay, setAudioPlay] = useState(true);
+	const dispatch = useDispatch();
+	const { isPlayer } = useSelector((state) => state.bgNoise);
+
+	const [audioPlay, setAudioPlay] = useState(false);
+
+	console.log("Audio on/off:-", audioPlay);
 
 	const handleClickScroll = () => {
 		const element = document.getElementById("page-content");
@@ -15,15 +21,26 @@ function Banner({ isPost = false, title, video, className }) {
 		}
 	};
 
+	const handeAudioPlayer = () => {
+		setAudioPlay(!isPlayer);
+		dispatch(bgNoisePlayer(audioPlay))
+	};
+
 	return (
 		<>
 			<header
 				className={`home-hero-banner position-relative ${className}`}
 				id="home-hero-banner"
 			>
-				<div className="header-background video">
-					<video autoPlay muted="muted" loop="loop">
-						<source type="video/mp4" src={video} />
+				<div className="header-background video" id="banner-video">
+					<video
+						id="backgroundVideo"
+						autoPlay
+						muted="muted"
+						loop="loop"
+						playsInline
+					>
+						<source src={video} type="video/mp4" />
 					</video>
 				</div>
 				<div className="home-hero-text">
@@ -43,7 +60,10 @@ function Banner({ isPost = false, title, video, className }) {
 					data-aos="fade-up"
 					data-aos-duration="3000"
 				>
-					<Container fluid="xl" className="audio-arrow-slide-container">
+					<Container
+						fluid="xl"
+						className="audio-arrow-slide-container"
+					>
 						<Row className="justify-content-between">
 							<Col lg={2} xs={6}>
 								<div className="arrow-down-container">
@@ -120,10 +140,8 @@ function Banner({ isPost = false, title, video, className }) {
 											<div className="post-slider-progress-bar">
 												<div className="audio-container d-flex justify-content-end">
 													<button
-														onClick={() =>
-															setAudioPlay(
-																!audioPlay
-															)
+														onClick={
+															handeAudioPlayer
 														}
 														className={`audio-btn ${
 															audioPlay
@@ -163,7 +181,8 @@ function Banner({ isPost = false, title, video, className }) {
 																		2022-03-19
 																	</span>
 																	<span className="slide-title">
-																		Hematogenix®
+																		Workflow
+																		24
 																		Launches
 																		FDA
 																		Approved
@@ -211,9 +230,7 @@ function Banner({ isPost = false, title, video, className }) {
 								) : (
 									<div className="audio-container d-flex justify-content-end">
 										<button
-											onClick={() =>
-												setAudioPlay(!audioPlay)
-											}
+											onClick={handeAudioPlayer}
 											className={`audio-btn ${
 												audioPlay
 													? "audio-on"
@@ -232,7 +249,7 @@ function Banner({ isPost = false, title, video, className }) {
 								)}
 								<div className="audio-container d-flex justify-content-end d-none">
 									<button
-										onClick={() => setAudioPlay(!audioPlay)}
+										onClick={handeAudioPlayer}
 										className={`audio-btn ${
 											audioPlay ? "audio-on" : "audio-off"
 										} d-flex align-items-center`}

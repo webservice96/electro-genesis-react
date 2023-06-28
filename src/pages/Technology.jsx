@@ -10,7 +10,7 @@ function Technology() {
 		<>
 			<Banner
 				isBanner={true}
-				title="Bringing Precision Medicine to Everyone"
+				title="Bringing Precision Business Intelligence"
 				video={"/assets/videos/technologies-hd.mp4"}
 				className={`technologies-banner`}
 			/>
@@ -26,7 +26,7 @@ function Technology() {
 								data-aos="fade-up"
 								data-aos-duration="2000"
 							>
-								<h2 className="grand_title text-md-start">
+								<h2 className="grand_title main-pages-header-title text-md-start">
 									Our laboratories feature the most advanced
 									instruments available. We continuously
 									invest in state-of-the-art technologies to
@@ -271,7 +271,7 @@ function Technology() {
 								<h2 className="grand_title ">
 									We are here to support you.
 								</h2>
-								<h6 className="fs-5">
+								<h6 className="fs-5 main-pages-header-title">
 									Contact us to find out how our services can
 									help achieve your goals.
 								</h6>
@@ -280,7 +280,7 @@ function Technology() {
 										lable="Contact us"
 										link={"/contact"}
 									/>
-									<span className="">
+									<span className="main-pages-header-title">
 										A member of our team will contact you
 										shortly.
 									</span>
@@ -297,6 +297,7 @@ function Technology() {
 									autoPlay
 									muted="muted"
 									loop="loop"
+									playsInline
 									className="w-100 h-100"
 								>
 									<source

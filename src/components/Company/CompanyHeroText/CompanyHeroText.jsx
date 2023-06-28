@@ -13,8 +13,8 @@ function CompanyHeroText() {
 							data-aos="fade-up"
 							data-aos-duration="2000"
 						>
-							<h1>
-								Hematogenix® provides reference laboratory
+							<h1 className="main-pages-header-title">
+								Workflow 24 provides reference laboratory
 								services in North America, Europe, China, and
 								Asia-Pacific. We assist our clients with finding
 								new and more effective ways to diagnose, treat,

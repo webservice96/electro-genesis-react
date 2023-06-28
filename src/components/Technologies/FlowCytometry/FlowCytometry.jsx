@@ -44,11 +44,11 @@ function FlowCytometry() {
 							</h3>
 
 							<p className="mt-5 pe-5">
-								Hematogenix® offers the same flow cytometry
+							Workflow 24 offers the same flow cytometry
 								capabilities at all of our locations. Our assays
 								are harmonized by using the same platforms,
 								cytometer settings, and calibration standards
-								throughout our global laboratories. Hematogenix®
+								throughout our global laboratories. Workflow 24
 								also employs either automated liquid handling
 								systems or dried-down formats for precise and
 								reproducible antibody mixtures in our flow
@@ -282,7 +282,7 @@ function FlowCytometry() {
 								Our expert flow cytometry scientists and disease
 								specialists can assist you with identifying the
 								most appropriate assay for your clinical trial.
-								Hematogenix® has globally validated a multitude
+								Workflow 24 has globally validated a multitude
 								of assays for immunophenotyping, MRD detection,
 								CAR-T cell monitoring, receptor occupancy, and
 								others. We offer a flexible list of biomarker

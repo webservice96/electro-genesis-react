@@ -25,7 +25,6 @@ html,
 body {
 	width: 100%;
 	min-height: 100%;
-	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;

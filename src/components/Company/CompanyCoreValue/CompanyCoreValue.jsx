@@ -9,7 +9,7 @@ import SectionNumber from "../../common/SectionNumber/SectionNumber";
 const coreValues = [
 	{
 		title: "Service",
-		desc: "At Hematogenix, our high-quality science is coupled with an exceptional customer experience. Our expert staff is known for their supportive and professional manner. It is our goal to go above and beyond your expectations to support your success.",
+		desc: "At Workflow 24, our high-quality science is coupled with an exceptional customer experience. Our expert staff is known for their supportive and professional manner. It is our goal to go above and beyond your expectations to support your success.",
 		photo: "https://hematogenix.com/_nuxt/image/9a0547.auto",
 	},
 	{
@@ -19,7 +19,7 @@ const coreValues = [
 	},
 	{
 		title: "Personal",
-		desc: "Hematogenix looks beyond the boxes marked on a test request form. What we see each time is a patient waiting eagerly for a diagnostic decision to be made. We work to understand the differences each patient's disease presents and how our diagnosis will impact their treatment.",
+		desc: "Workflow 24 looks beyond the boxes marked on a test request form. What we see each time is a patient waiting eagerly for a diagnostic decision to be made. We work to understand the differences each patient's disease presents and how our diagnosis will impact their treatment.",
 		photo: "https://hematogenix.com/_nuxt/image/4e78dc.auto",
 	},
 ];

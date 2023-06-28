@@ -30,7 +30,7 @@ function MinimalResidualDisease() {
 								(PFS) rates, when compared to patients with
 								detected MRD. MRD detection requires highly
 								sensitive methods to assess these hidden cells.
-								Hematogenix has validated multiple and
+								Workflow 24 has validated multiple and
 								complementary MRD assays by NGS and Flow
 								Cytometry for AML and B-cell malignancies (e.g.,
 								CLL, MM, and others).

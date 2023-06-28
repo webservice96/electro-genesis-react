@@ -39,7 +39,7 @@ function Histology() {
 								data-aos="fade-up"
 								data-aos-duration="2000"
 							>
-								The Histology Department at Hematogenix®
+								The Histology Department at Workflow 24
 								provides a full range of anatomic pathology
 								tests and services.
 							</h3>
@@ -54,11 +54,11 @@ function Histology() {
 								appropriate to the type of tissue and
 								investigation required. In addition to routine
 								testing of commonly used biomarkers for single
-								and duplex IHC assays, Hematogenix® also
+								and duplex IHC assays, Workflow 24 also
 								provides expertise in multiplex IHC assays (up
 								to 6 colors) utilizing our very own proprietary
 								multiplex IHC assays. Histology testing and
-								validation services at Hematogenix® are guided
+								validation services at Workflow 24 are guided
 								by our experienced pathologists in multiple
 								subspecialties.
 							</p>
@@ -73,7 +73,7 @@ function Histology() {
 								laboratories provide the same quality of
 								expertise and testing at all of our global
 								locations (US, EU, Asia-Pacific and China).
-								Hematogenix® offers an array of validated
+								Workflow 24 offers an array of validated
 								IHC/ISH assays across multiple top-tier
 								automated IHC staining platforms.
 							</p>

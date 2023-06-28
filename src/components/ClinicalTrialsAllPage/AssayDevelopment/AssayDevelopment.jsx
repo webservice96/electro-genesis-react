@@ -18,7 +18,7 @@ function AssayDevelopment() {
 									data-aos="fade-right"
 									data-aos-duration="2000"
 								>
-									Hematogenix®’s scientific experts are well
+									Workflow 24 scientific experts are well
 									equipped to develop an assay that is
 									specific to your clinical trial.
 								</h2>
@@ -55,7 +55,7 @@ function AssayDevelopment() {
 								>
 									We have a proven track record validating and
 									utilizing our assays for multiple Phase 3
-									registrational trials. Hematogenix has also
+									registrational trials. Workflow 24 has also
 									co-developed several assays as a companion
 									diagnostic.
 								</p>

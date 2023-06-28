@@ -22,13 +22,13 @@ function TestOffering() {
 								data-aos-duration="2000"
 							>
 								<p>
-									Hematogenix® is at the forefront of
-									biomarker assay development, from early
-									exploratory markers to personalized markers
-									for companion diagnostic testing. The
-									scientific team has extensive experience
-									evaluating custom biomarkers for different
-									disease indications and sample types, while
+									Workflow 24 is at the forefront of biomarker
+									assay development, from early exploratory
+									markers to personalized markers for
+									companion diagnostic testing. The scientific
+									team has extensive experience evaluating
+									custom biomarkers for different disease
+									indications and sample types, while
 									utilizing multiple technologies and
 									methodologies.
 								</p>

@@ -28,6 +28,8 @@ import Technology from "../pages/Technology";
 import NotFound404 from "../pages/NotFound404";
 import Company from "../pages/Company";
 import Contact from "../pages/Contact";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import CookiePolicy from "../pages/CookiePolicy";
 
 const routes = createBrowserRouter([
 	{
@@ -39,23 +41,23 @@ const routes = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: "/expertise",
+				path: "/advanced-modelling",
 				element: <Expertise />,
 			},
 			{
-				path: "/service",
+				path: "/business-intel",
 				element: <Service />,
 			},
 			{
-				path: "/clinical-trials",
+				path: "/system-efficiencies",
 				element: <ClinicalTrail />,
 			},
 			{
-				path: "/technologies",
+				path: "/industry-4.0",
 				element: <Technology />,
 			},
 			{
-				path: "/company",
+				path: "/our-story",
 				element: <Company />,
 			},
 			{
@@ -141,6 +143,14 @@ const routes = createBrowserRouter([
 			{
 				path: "technologies/digital-pathology",
 				element: <DigitalPathologyPage />,
+			},
+			{
+				path: "privacy-policy",
+				element: <PrivacyPolicy />,
+			},
+			{
+				path: "cookie-policy",
+				element: <CookiePolicy />,
 			},
 			{
 				path: "*",

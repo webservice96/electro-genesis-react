@@ -17,19 +17,19 @@ function Processes() {
 						>
 							<div className="text-content">
 								<h2 className="mb-3">
-									Hematogenix® is committed to providing the
+									Workflow 24 is committed to providing the
 									highest level of quality services compliant
 									with all laws, rules, and applicable
 									regulations.
 								</h2>
 								<p>
-									Hematogenix® is at the forefront of
-									biomarker assay development, from early
-									exploratory markers to personalized markers
-									for companion diagnostic testing. The
-									scientific team has extensive experience
-									evaluating custom biomarkers for different
-									disease indications and sample types, while
+									Workflow 24 is at the forefront of biomarker
+									assay development, from early exploratory
+									markers to personalized markers for
+									companion diagnostic testing. The scientific
+									team has extensive experience evaluating
+									custom biomarkers for different disease
+									indications and sample types, while
 									utilizing multiple technologies and
 									methodologies.
 								</p>
@@ -73,7 +73,7 @@ function Processes() {
 								data-aos-duration="2000"
 							>
 								<h2 className="mb-3">
-									Hematogenix® will not use or disclose
+									Workflow 24 will not use or disclose
 									protected health information (PHI) or
 									confidential client information without
 									prior consent, and is fully compliant with
@@ -91,13 +91,13 @@ function Processes() {
 								data-aos-duration="2000"
 							>
 								<p className="mt-5">
-									Hematogenix® offers a secure method for data
+									Workflow 24 offers a secure method for data
 									transfer, sample tracking, and trial
 									management called HematoPass. Both internal
 									and external internet and interface
 									connectivity to the system is encrypted,
 									password protected, and access is granted
-									only with authorization. Hematogenix®
+									only with authorization. Workflow 24
 									utilizes layered physical security measures
 									through electronic badge access, security
 									cameras, and alarm monitoring systems, and
@@ -114,7 +114,7 @@ function Processes() {
 									requirements. We are compliant with the
 									current EU General Data Protection
 									Regulation (GDPR), and abide strictly to our
-									Hematogenix® Privacy Policy.
+									Workflow 24 Privacy Policy.
 								</p>
 							</div>
 						</Col>
@@ -144,14 +144,14 @@ function Processes() {
 								(CMS) regulates all clinical laboratory testing
 								performed on humans in the U.S. through the
 								Clinical Laboratory Improvement Amendments
-								(CLIA). Hematogenix® is CLIA- certified to
+								(CLIA). Workflow 24 is CLIA- certified to
 								accept Medicare and Medicaid payments as a US
 								laboratory providing quality testing services.
 								Clinical diagnostic tests without US Food and
 								Drug Administration (FDA) approval (class I and
 								II in Vitro Diagnostic medical device-based
 								methods) must meet CLIA performance
-								specifications. Hematogenix® maintains full
+								specifications. Workflow 24 maintains full
 								compliance with regulations for labeling non-FDA
 								approved tests.
 							</p>
@@ -180,14 +180,14 @@ function Processes() {
 							data-aos-duration="2000"
 						>
 							<p className="">
-								Hematogenix® is accredited through the College
+								Workflow 24 is accredited through the College
 								of American Pathologists (CAP) Laboratory
 								Accreditation Program for comprehensive
 								integrated Pathology services, and employs
 								in-house Staff Pathologists from Chicago,
 								Illinois USA headquarters, as well as many
 								partnering pathologists and specialists.
-								Hematogenix® staff pathologists and
+								Workflow 24 staff pathologists and
 								PhD-credentialed scientists train to master
 								cutting-edge diagnostic techniques and new
 								technologies, while specializing in pertinent
@@ -232,7 +232,7 @@ function Processes() {
 								provide assurance that the data and reported
 								results are credible and accurate, and that the
 								rights, integrity, and confidentiality of trial
-								subjects are protected. Hematogenix® is
+								subjects are protected. Workflow 24 is
 								compliant with these standards, and supportive
 								to all pharmaceutical clients sponsoring
 								GCP-compliant clinical trials.
@@ -264,7 +264,7 @@ function Processes() {
 							<p className="mb-3">
 								Audits provide independent evidence of
 								compliance status with relevant regulatory
-								requirements and sponsor contracts. Hematogenix®
+								requirements and sponsor contracts. Workflow 24
 								conducts internal audits through its Quality
 								Assurance program, and welcomes audits from
 								external partners. We request advance notice to
@@ -273,8 +273,8 @@ function Processes() {
 							<p className="">
 								If a regulatory body or certification agency
 								requests test performance or quality assurance
-								data for Hematogenix® testing, please contact
-								the Hematogenix® Quality & Regulatory
+								data for Workflow 24 testing, please contact
+								the Workflow 24 Quality & Regulatory
 								department.
 							</p>
 						</div>
@@ -324,13 +324,13 @@ function Processes() {
 									data-aos-duration="2000"
 								>
 									Our Quality and Regulatory department leads
-									Hematogenix® Compliance and Quality
+									Workflow 24 Compliance and Quality
 									Assurance programs globally, and is based
 									within company headquarters in Chicago,
 									Illinois, USA.
 								</h2>
 								<p data-aos="fade-up" data-aos-duration="2000">
-									Hematogenix® utilizes standardize validation
+									Workflow 24 utilizes standardize validation
 									practices for the installation qualification
 									(IQ), operational qualification (OQ), and
 									performance qualification (PQ) of laboratory
@@ -342,7 +342,7 @@ function Processes() {
 									protocols are maintained, and reagent,
 									sample and operator information is recorded
 									in SOP-specific worksheets, data files, and
-									notebooks. Hematogenix® has a numbering
+									notebooks. Workflow 24 has a numbering
 									system to systematically identify and label
 									SOPs, and maintains top line informational
 									management hardware, software, personnel,
@@ -356,7 +356,7 @@ function Processes() {
 									data-aos-duration="2000"
 								>
 									Continual Process Improvement at
-									Hematogenix® ensures we strive for
+									Workflow 24 ensures we strive for
 									excellence and take every opportunity to
 									make changes that decrease errors and
 									successfully deliver to clients. We engage

@@ -40,7 +40,7 @@ function MolecularGenetic() {
 								data-aos-duration="2000"
 							>
 								The Molecular Genetics Department at
-								Hematogenix® offers a vast array of molecular
+								Workflow 24 offers a vast array of molecular
 								diagnostic tests to facilitate patient care.
 							</h3>
 

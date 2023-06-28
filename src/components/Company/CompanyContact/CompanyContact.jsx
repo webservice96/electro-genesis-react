@@ -40,7 +40,7 @@ function CompanyContact() {
 								data-aos-duration="1000"
 							>
 								<Button
-									link={`mailto:careers@hematogenix.com`}
+									link={`mailto:careers@workflow24.com`}
 									lavel={"Send us your resume"}
 									icon={faArrowRight}
 								/>

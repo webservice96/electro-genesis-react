@@ -10,32 +10,32 @@ function Contact() {
 				<ContactPlace
 					country={"United States"}
 					address={
-						"Hematogenix 8150 W 185th St. Tinley Park, IL 60487"
+						"Workflow 24 8150 W 185th St. Tinley Park, IL 60487"
 					}
 					officePhoto={"assets/img/contact/contact-united-state.jpg"}
 					mapLink={"https://goo.gl/maps/DbuyLkfPHdjadwCX9"}
 					tollFreeNumber={"+1 888.436.2861"}
 					telephone={"+1 708.444.0444"}
 					fax={"+1 708-444-0445"}
-					email={"ClientServices@hematogenix.com"}
+					email={"ClientServices@workflow24.com"}
 				/>
 
 				<ContactPlace
 					country={"United Kingdom"}
 					address={
-						"Hematogenix Pinnacle House, 2 Oakwood Square Cheadle Royal Business Park, Cheadle, SK8 3SB, UK"
+						"Workflow 24 Pinnacle House, 2 Oakwood Square Cheadle Royal Business Park, Cheadle, SK8 3SB, UK"
 					}
 					officePhoto={"assets/img/contact/united-kingdom.jpg"}
 					mapLink={"https://goo.gl/maps/RKcbXyfU8hPUj2HJ7"}
 					telephone={"+44.161.938.2121"}
 					fax={"+44.808.171.8795"}
-					email={"ClientServices@hematogenix.com"}
+					email={"ClientServices@workflow24.com"}
 				/>
 
 				<ContactPlace
 					country={"Malaysia"}
 					address={
-						"Hematogenix A4-1, Block A, Jalan Radius 1/1b Jalan Teknokrat 2/1, Radius Business Park, Cyber 4 63000 Cyberjaya, Selangor Malaysia"
+						"Workflow 24 A4-1, Block A, Jalan Radius 1/1b Jalan Teknokrat 2/1, Radius Business Park, Cyber 4 63000 Cyberjaya, Selangor Malaysia"
 					}
 					officePhoto={"assets/img/contact/malaysia.jpg"}
 					mapLink={""}

@@ -10,7 +10,7 @@ function Expertise() {
 	return (
 		<>
 			<Banner
-				title="Transforming Discoveries One Day at a Time"
+				title="Advance Modelling One Day at a Time"
 				video={
 					"https://hematogenix.sfo3.cdn.digitaloceanspaces.com/Hematogenix/video/expertise/expertise-hd.mp4"
 				}
@@ -25,7 +25,7 @@ function Expertise() {
 							data-aos-duration="2000"
 						>
 							<h3 className="description expartise">
-								Our scientific experts at Hematogenix® have the
+								Our scientific experts at Workflow 24 have the
 								experience and tools that allow them to be
 								highly responsive to the needs of our clients.
 							</h3>

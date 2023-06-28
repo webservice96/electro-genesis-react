@@ -9,6 +9,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { useDispatch } from "react-redux";
 import { menuIconMode } from "../../../features/scrollPositionTracker/scrollPositionTrackerSlice";
+import { Link } from "react-router-dom";
+
+const technologies = [
+	{
+		titile: "Flow Cytometry",
+		preview: "/assets/img/technology/techno-1.png",
+		moreLink: "technologies/flow-cytometry",
+	},
+	{
+		titile: "Molecular Genetics",
+		preview: "/assets/img/technology/Illumina.png",
+		moreLink: "technologies/molecular-genetics",
+	},
+	{
+		titile: "Cytogenetics / FISH",
+		preview: "/assets/img/technology/cytovysion.png",
+		moreLink: "technologies/cytogenetics-fish",
+	},
+	{
+		titile: "Histology / IHC",
+		preview: "/assets/img/technology/benchmark.png",
+		moreLink: "technologies/histology",
+	},
+	{
+		titile: "Immunoassays & Clinical Chemistry",
+		preview: "/assets/img/technology/roche-cobas.png",
+		moreLink: "technologies/immunoassays",
+	},
+	{
+		titile: "Digital Pathology",
+		preview: "/assets/img/technology/digital-pathology.png",
+		moreLink: "technologies/digital-pathology",
+	},
+];
 
 function OurTechnology() {
 	const dispatch = useDispatch();
@@ -46,14 +80,12 @@ function OurTechnology() {
 						<span className="bottom-line"></span>
 						<Row className="align-items-center">
 							<Col lg={{ span: 9 }}>
-								<h1 className="section-title">
-									Our Technologies
-								</h1>
+								<h1 className="section-title">Industry 4.0</h1>
 							</Col>
 							<Col lg={3}>
 								<Button
-									link={`/technologies`}
-									lavel={"Technology"}
+									link={`/industry-4.0`}
+									lavel={"Industry 4.0"}
 									icon={faArrowRight}
 								/>
 							</Col>
@@ -68,15 +100,16 @@ function OurTechnology() {
 						<Row>
 							<Col lg={6} className="pe-5">
 								<h3 className="subtitle">
-									Our laboratories feature the most advanced
-									instruments available.
+									Our solution architecture features cutting
+									edge features revolving around The Unified
+									Named Space Controller.
 								</h3>
 							</Col>
 							<Col lg={6} className="pe-5">
 								<p className="description">
-									We continuously invest in state-of-the-art
-									technologies to provide the highest quality
-									of data to our clients.
+									We continuously invest in unlocking new
+									pathways using AI and Machine to provide the
+									highest quality of data to our clients.
 								</p>
 							</Col>
 						</Row>
@@ -94,7 +127,7 @@ function OurTechnology() {
 							type: "loop",
 							perPage: 4,
 							perMove: 1,
-							autoplay: false,
+							autoplay: true,
 							pagination: false,
 							arrows: true,
 							breakpoints: {
@@ -125,54 +158,29 @@ function OurTechnology() {
 
 						<div className="technology-slider mb-5">
 							<SplideTrack>
-								<SplideSlide>
-									<div className="techno-sliode-item">
-										<div className="number">
-											<span>01</span>
-										</div>
-										<div className="slide-thumb">
-											<img
-												src="/assets/img/technology/techno-1.png"
-												alt="Not found!"
-											/>
-										</div>
-										<div className="technology-name">
-											<h4>Flow Cytometry</h4>
-										</div>
-									</div>
-								</SplideSlide>
-								<SplideSlide>
-									<div className="techno-sliode-item">
-										<div className="number">
-											<span>01</span>
-										</div>
-										<div className="slide-thumb">
-											<img
-												src="/assets/img/technology/techno-1.png"
-												alt="Not found!"
-											/>
-										</div>
-										<div className="technology-name">
-											<h4>Flow Cytometry</h4>
-										</div>
-									</div>
-								</SplideSlide>
-								<SplideSlide>
-									<div className="techno-sliode-item">
-										<div className="number">
-											<span>01</span>
-										</div>
-										<div className="slide-thumb">
-											<img
-												src="/assets/img/technology/techno-1.png"
-												alt="Not found!"
-											/>
-										</div>
-										<div className="technology-name">
-											<h4>Flow Cytometry</h4>
-										</div>
-									</div>
-								</SplideSlide>
+								{technologies.map((technology, index) => (
+									<SplideSlide key={index}>
+										<Link
+											to={`${technology.moreLink}`}
+											className="d-md-flex"
+										>
+											<div className="techno-sliode-item">
+												<div className="number">
+													<span>{index + 1}</span>
+												</div>
+												<div className="slide-thumb">
+													<img
+														src={technology.preview}
+														alt={technology.titile}
+													/>
+												</div>
+												<div className="technology-name">
+													<h4>{technology.titile}</h4>
+												</div>
+											</div>
+										</Link>
+									</SplideSlide>
+								))}
 							</SplideTrack>
 						</div>
 

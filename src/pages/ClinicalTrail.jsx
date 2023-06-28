@@ -14,7 +14,7 @@ function ClinicalTrail() {
 		<>
 			<Banner
 				isBanner={true}
-				title="Impacting the Lives of Cancer Patients Worldwide"
+				title="Creating Efficiencies In Critical Industries"
 				video={"/assets/videos/clinical-trials-hd.mp4"}
 				className={`clinical-banner`}
 			/>
@@ -30,7 +30,7 @@ function ClinicalTrail() {
 								data-aos="fade-up"
 								data-aos-duration="2000"
 							>
-								<h2 className="grand_title text-md-start">
+								<h2 className="grand_title main-pages-header-title text-md-start">
 									Our use of cutting-edge technologies, highly
 									sensitive assays, and interpretation from
 									expert pathologists provides a level of
@@ -326,7 +326,7 @@ function ClinicalTrail() {
 								<h2 className="grand_title ">
 									We are here to support you.
 								</h2>
-								<h6 className="fs-5">
+								<h6 className="fs-5 main-pages-header-title">
 									Contact us to find out how our services can
 									help achieve your goals.
 								</h6>
@@ -335,7 +335,7 @@ function ClinicalTrail() {
 										lable="Contact us"
 										link={"/contact"}
 									/>
-									<span className="">
+									<span className="main-pages-header-title">
 										A member of our team will contact you
 										shortly.
 									</span>
@@ -349,6 +349,7 @@ function ClinicalTrail() {
 									muted="muted"
 									loop="loop"
 									className="w-100 h-100"
+									playsInline
 								>
 									<source
 										type="video/mp4"

@@ -20,6 +20,7 @@ function NotFound() {
 				muted="muted"
 				loop="loop"
 				className="notfound-bg-video"
+				playsInline
 			>
 				<source type="video/webm" src={`assets/videos/404-hd.webm`} />
 			</video>

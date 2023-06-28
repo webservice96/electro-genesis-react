@@ -29,7 +29,7 @@ function ServiceCustomerStories() {
 									<div className="story-item">
 										<span className="story-excerpt">
 											“We greatly appreciate all the hard
-											work from the Hematogenix team!
+											work from the Workflow 24 team!
 											Everything for our trial was handled
 											with ease. Would definitely use them
 											again for other studies. ”

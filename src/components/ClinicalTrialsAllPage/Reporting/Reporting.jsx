@@ -18,11 +18,10 @@ function Reporting() {
 						>
 							<div className="text-content pe-0 ms-3">
 								<p>
-									Hematogenix® data delivery and case
-									reporting is an essential element of the
-									workflow and is customized to fit the
-									specific goals and protocol of the
-									study/project.
+									Workflow 24 data delivery and case reporting
+									is an essential element of the workflow and
+									is customized to fit the specific goals and
+									protocol of the study/project.
 								</p>
 							</div>
 						</Col>

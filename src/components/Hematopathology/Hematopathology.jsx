@@ -54,10 +54,10 @@ function Hematopathology() {
 									and is considered one of the most difficult
 									hematological disorders to characterize due
 									to its complex and heterogeneous nature.
-									Hematogenix’s experienced hematopathologists
+									Workflow 24 experienced hematopathologists
 									are adept at interpreting AML, reviewing
 									thousands of cases annually. AML testing is
-									performed at Hematogenix by flow cytometry,
+									performed at Workflow 24 by flow cytometry,
 									molecular genetics, histology, FISH, and
 									cytogenetics. We have validated multiple
 									flow cytometry assays for immunophenotyping,
@@ -89,7 +89,7 @@ function Hematopathology() {
 							<h4 className="block-title">CLL</h4>
 							<div className="pragraph d-flex justify-content-center">
 								<p className="w-50 pe-2">
-									Hematogenix offers multiple testing
+									Workflow 24 offers multiple testing
 									methodologies for{" "}
 									<strong>
 										Chronic Lymphocytic Leukemia (CLL){" "}
@@ -108,7 +108,7 @@ function Hematopathology() {
 								<p className=" w-50 ps-2">
 									The CLL MRD assay by flow cytometry follows
 									the European Research Initiative on CLL
-									(ERIC) guidelines. Hematogenix also offers
+									(ERIC) guidelines. Workflow 24 also offers
 									an MRD assay by NGS for several B-cell
 									disorders, including CLL. These assays are
 									available at all of our locations (US, EU,
@@ -131,12 +131,12 @@ function Hematopathology() {
 								<p className="w-50 pe-2">
 									{" "}
 									<strong>Multiple Myeloma (MM) </strong>{" "}
-									testing at Hematogenix is available by flow
+									testing at Workflow 24 is available by flow
 									cytometry, molecular genetics, histology,
 									FISH, and cytogenetics. Some biomarkers
 									include CD38, CD138, cytoplasmic Kappa,
 									cytoplasmic Lambda, PD-L1, BCMA, as well as
-									other custom biomarkers. Hematogenix has
+									other custom biomarkers. Workflow 24 has
 									evaluated multiple BCMA clones and has
 									established and validated robust assays by
 									both IHC and flow cytometry. We have also
@@ -148,7 +148,7 @@ function Hematopathology() {
 									and minimal/measurable residual disease
 									(MRD) detection for MM. The MM MRD assay by
 									flow cytometry follows the EuroFlow
-									guidelines and protocols. Hematogenix also
+									guidelines and protocols. Workflow 24 also
 									offers an MRD assay by NGS for several
 									B-cell disorders, including MM. These assays
 									are available at all of our locations (US,

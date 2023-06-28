@@ -31,8 +31,8 @@ function Support() {
 				</Col>
 				<Col lg={6} className="pe-0">
 					<div className="support-right-video">
-						<video autoPlay muted="muted" loop="loop">
-							<source type="video/mp4" src="/assets/videos/promo-block-big.mp4" />
+						<video autoPlay muted="muted" loop="loop" playsInline>
+							<source type="video/mp4" src="/assets/videos/promo-block-small-uhd.mp4" />
 						</video>
 					</div>
 				</Col>
