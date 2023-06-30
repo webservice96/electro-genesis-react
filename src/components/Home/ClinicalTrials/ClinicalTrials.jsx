@@ -50,12 +50,12 @@ function ClinicalTrials() {
 				data-aos="fade-up"
 				data-aos-duration="1000"
 			>
-				<Row className="row-cols-lg-2 row-cols-1 g-0 align-items-center">
-					<Col>
+				<Row className="row-cols-lg-2 row-cols-1 align-items-center">
+					<Col className="p-0">
 						<div className="galnce-left-image h-100">
 							<img
 								className="w-100 img-fluid h-100"
-								src="/assets/img/b105ee.png"
+								src="/assets/images/workflow-24.7894.jpeg"
 								alt="Not found!"
 							/>
 						</div>

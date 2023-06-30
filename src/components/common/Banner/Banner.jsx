@@ -10,9 +10,7 @@ function Banner({ isPost = false, title, video, className }) {
 	const dispatch = useDispatch();
 	const { isPlayer } = useSelector((state) => state.bgNoise);
 
-	const [audioPlay, setAudioPlay] = useState(false);
-
-	console.log("Audio on/off:-", audioPlay);
+	const [audioPlay, setAudioPlay] = useState(isPlayer);
 
 	const handleClickScroll = () => {
 		const element = document.getElementById("page-content");
@@ -22,9 +20,12 @@ function Banner({ isPost = false, title, video, className }) {
 	};
 
 	const handeAudioPlayer = () => {
-		setAudioPlay(!isPlayer);
-		dispatch(bgNoisePlayer(audioPlay))
+		dispatch(bgNoisePlayer(!isPlayer));
 	};
+
+	useEffect(()=>{
+		setAudioPlay(isPlayer);
+	}, [isPlayer])
 
 	return (
 		<>

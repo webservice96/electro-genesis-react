@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const technologies = [
 	{
 		titile: "Flow Cytometry",
-		preview: "/assets/img/technology/techno-1.png",
+		preview: "/assets/images/robot-with-light-it.jpg",
 		moreLink: "technologies/flow-cytometry",
 	},
 	{

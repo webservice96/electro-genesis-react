@@ -7,16 +7,12 @@ const BackgroundNoise = () => {
 	const { isPlayer } = useSelector((state) => state.bgNoise);
 
 	const [hasInteracted, setHasInteracted] = useState(false);
-	const [isPaused, setIsPaused] = useState(false);
-	const audioRef = useRef(new Audio("/assets/audio/bg-noise.mp3"));
-
-	console.log("isPlayer:- ", isPlayer);
-	console.log("is pause:- ", isPaused);
+	const [isPaused, setIsPaused] = useState(isPlayer);
+	const audioRef = useRef(new Audio("/assets/audio/bg-noise-2.mpeg"));
 
 	useEffect(() => {
 		const handleInteraction = () => {
 			setHasInteracted(true);
-			// dispatch(bgNoisePlayer(!isPlayer));
 		};
 
 		document.addEventListener("click", handleInteraction);
@@ -27,12 +23,15 @@ const BackgroundNoise = () => {
 	}, []);
 
 	useEffect(() => {
+		dispatch(bgNoisePlayer(hasInteracted));
+	}, [hasInteracted]);
+
+	useEffect(() => {
 		if (hasInteracted) {
 			if (isPaused) {
 				audioRef.current.pause();
 			} else {
 				audioRef.current.play().catch((error) => {
-					// Handle the error here, if necessary
 					console.error("Failed to play audio:", error);
 				});
 			}
@@ -41,8 +40,7 @@ const BackgroundNoise = () => {
 
 	useEffect(() => {
 		setIsPaused(isPlayer);
-		console.log('after dis.');
-	}, [dispatch]);
+	}, [isPlayer]);
 
 	return null;
 };

@@ -4,12 +4,12 @@
 }
 
 .imgae-slider-block .img-slider-item {
-    height: 480px;
+    height: 90vh;
 }
 
 .imgae-slider-block .img-slider-item img {
     max-height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 .imgae-slider-block .img-lab-caption {

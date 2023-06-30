@@ -4,7 +4,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 function ImageSlider() {
 	return (
-		<section className="imgae-slider-block bg-white" data-aos="fade-down-right">
+		<section
+			className="imgae-slider-block bg-white"
+			data-aos="fade-down-right"
+		>
 			<div className="image-sliders">
 				<Splide
 					options={{
@@ -14,20 +17,16 @@ function ImageSlider() {
 						pagination: false,
 						perPage: 1,
 						perMove: 1,
-                        speed: 100
+						speed: 100,
 					}}
 				>
 					<SplideSlide>
 						<div className="img-slider-item">
-							<img src="/assets/img/slider/img1.jpg" className="img-fluid" alt="Image 1" />
-							<span className="img-lab-caption">
-							Workflow 24 Labs
-							</span>
-						</div>
-					</SplideSlide>
-					<SplideSlide>
-						<div className="img-slider-item">
-							<img src="/assets/img/slider/img2.jpg" className="img-fluid" alt="Image 2" />
+							<img
+								src="/assets/images/side-view-woman-working-digital-monitors.jpg"
+								className="img-fluid-"
+								alt="Image 2"
+							/>
 							<span className="img-lab-caption">
 								Workflow 24 Labs
 							</span>
@@ -35,7 +34,11 @@ function ImageSlider() {
 					</SplideSlide>
 					<SplideSlide>
 						<div className="img-slider-item">
-							<img src="/assets/img/slider/img3.jpg" className="img-fluid" alt="Image 3" />
+							<img
+								src="/assets/images/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation.jpg"
+								className="img-fluid-"
+								alt="Image 3"
+							/>
 							<span className="img-lab-caption">
 								Workflow 24 Labs
 							</span>
