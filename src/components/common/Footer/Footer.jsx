@@ -2,70 +2,37 @@ import React from "react";
 import "./Style.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 function Footer() {
+	const { isBanner } = useSelector((state) => state.bannerState);
+
 	return (
-		<footer className="site-footer position-relative">
+		<footer
+			className={`site-footer position-relative ${
+				!isBanner && "default-footer-bg"
+			}`}
+		>
 			<Container fluid className="footer-top">
 				<Row>
-					<Col >
-						<Link to={"expertise"}>
-							<h4 className="footer-title">Advanced Modelling</h4>
-						</Link>
-
-						<ul>
-							<li>
-								<Link to={"expertise/hematopathology"}>
-									<span>Hematopathology</span>
-								</Link>
-							</li>
-							<li>
-								<Link to={"expertise/solid-tumor-pathology"}>
-									<span>Solid Tumor Pathology</span>
-								</Link>
-							</li>
-							<li>
-								<Link to={"expertise/minimal-residual-disease"}>
-									<span>Minimal Residual Disease (MRD)</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="expertise/companion-diagnostics-cdx">
-									<span>Companion Diagnostics (CDx)</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="expertise/next-generation-sequencing">
-									<span>
-										Next-Generation Sequencing (NGS)
-									</span>
-								</Link>
-							</li>
-							<li>
-								<Link to={"expertise/immuno-oncology"}>
-									<span>Immuno-Oncology</span>
-								</Link>
-							</li>
-						</ul>
-					</Col>
-					<Col >
+					<Col>
 						<Link to={"service"}>
 							<h4 className="footer-title">Business Intel</h4>
 						</Link>
 						<ul>
 							<li>
 								<Link to="/service#capabilities">
-									<span>Capabilities</span>
+									<span>Project Management</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="/service#pathology">
-									<span>Pathology</span>
+									<span>Assay Development</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="/service#test-offering">
-									<span>Test Offering</span>
+									<span>Companion Diagnostics</span>
 								</Link>
 							</li>
 							<li>
@@ -75,94 +42,92 @@ function Footer() {
 							</li>
 						</ul>
 					</Col>
-					<Col >
+					<Col>
 						<Link to={"clinical-trials"}>
 							<h4 className="footer-title">Efficiencies</h4>
 						</Link>
 						<ul>
 							<li>
 								<Link to="clinical-trials/test-offering">
-									<span>Test Offering</span>
+									<span>Automation</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="clinical-trials/processes">
-									<span>Processes</span>
+									<span>Real-time</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="clinical-trials/assay-development">
-									<span>Assay Development</span>
+									<span>Self service</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="clinical-trials/logistics">
-									<span>Logistics</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="clinical-trials/companion-diagnostics">
-									<span>Companion Diagnostics</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="clinical-trials/project-management">
-									<span>Project Management</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="clinical-trials/global">
-									<span>Global</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="clinical-trials/reporting">
-									<span>Reporting</span>
+									<span>Scalability</span>
 								</Link>
 							</li>
 						</ul>
 					</Col>
-					<Col >
+
+					<Col>
 						<Link to={"technologies"}>
 							<h4 className="footer-title">Industry 4.0</h4>
 						</Link>
-
 						<ul>
 							<li>
 								<Link to="technologies/flow-cytometry">
-									<span>Flow Cytometry</span>
+									<span>Sensor Data</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="technologies/molecular-genetics">
-									<span>Molecular Genetics</span>
+									<span>Visualisation</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="technologies/cytogenetics-fish">
-									<span>Cytogenetics / FISH</span>
+									<span>Predictive Analytics</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="technologies/histology">
-									<span>Histology / IHC</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="technologies/immunoassays">
-									<span>
-										Immunoassays & Clinical Chemistry
-									</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="technologies/digital-pathology">
-									<span>Digital Pathology</span>
+									<span>Decision Science</span>
 								</Link>
 							</li>
 						</ul>
 					</Col>
-					<Col >
+
+					<Col>
+						<Link to={"expertise"}>
+							<h4 className="footer-title">Advanced Modelling</h4>
+						</Link>
+
+						<ul>
+							<li>
+								<Link to={"expertise/hematopathology"}>
+									<span>Predictive Modelling</span>
+								</Link>
+							</li>
+							<li>
+								<Link to={"expertise/solid-tumor-pathology"}>
+									<span>Prescriptive Modelling</span>
+								</Link>
+							</li>
+							<li>
+								<Link to={"expertise/minimal-residual-disease"}>
+									<span>Digital twinning</span>
+								</Link>
+							</li>
+							<li>
+								<Link to="expertise/companion-diagnostics-cdx">
+									<span>Graph Modelling</span>
+								</Link>
+							</li>
+						</ul>
+					</Col>
+
+					<Col>
 						<h4 className="footer-title">Our Story</h4>
 						<ul>
 							<li>
@@ -172,27 +137,17 @@ function Footer() {
 							</li>
 							<li>
 								<Link to="/company#leaders">
-									<span>Leaders</span>
+									<span>Team</span>
 								</Link>
 							</li>
 							<li>
 								<Link to="/company#history">
-									<span>History</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="/company#culture">
-									<span>Culture</span>
-								</Link>
-							</li>
-							<li>
-								<Link to="/company#mission">
 									<span>Mission</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/company#careers">
-									<span>Careers</span>
+								<Link to="/company#culture">
+									<span>Delta Mindset</span>
 								</Link>
 							</li>
 						</ul>

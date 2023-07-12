@@ -10,28 +10,35 @@ import CompanyCultureBlock from "../components/Company/CompanyCultureBlock/Compa
 import CompanyCoreValue from "../components/Company/CompanyCoreValue/CompanyCoreValue";
 import CompanyJobs from "../components/Company/CompanyJobs/CompanyJobs";
 import CompanyContact from "../components/Company/CompanyContact/CompanyContact";
+import Footer from "../components/common/Footer/Footer";
+import GradientBg from "../components/GradientBg/GradientBg";
+import PopupSearchMenu from "../components/common/PopupSearchMenu/PopupSearchMenu";
+import { ScrollRestoration } from "react-router-dom";
 
 function Company() {
 	return (
 		<>
+			<GradientBg variant={3} />
+			<PopupSearchMenu />
 			<Banner
 				isBanner={true}
 				title="Our Story. Unbending, Yet Agile."
 				video={"/assets/videos/company-hd.mp4"}
 				className={`company-banner`}
 			/>
-
 			<Layout className="company position-relative bg-white">
 				<CompanyHeroText />
-                <CompanyLeaders />
+				<CompanyLeaders />
 				<CompanyClientClock />
 				<CompanyTeamMembers />
 				<CompanyHistory />
 				<CompanyCultureBlock />
 				<CompanyCoreValue />
-				<CompanyJobs />
+				{/* <CompanyJobs /> */}
 				<CompanyContact />
 			</Layout>
+			<Footer />
+			<ScrollRestoration />
 		</>
 	);
 }

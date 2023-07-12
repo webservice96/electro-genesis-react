@@ -50,27 +50,26 @@
 	background: linear-gradient(-180deg, rgba(250, 150, 136, 0), #fa9688);
 }
 
-.header-background video{
+.header-background video {
 	width: 100%;
 	height: 100vh;
 	min-height: 100vh;
 	object-fit: cover;
 }
 
-.clinical-banner .video:after{
-	background: linear-gradient(-180deg,rgba(253,200,165,0),#fdc8a5);
+.clinical-banner .video:after {
+	background: linear-gradient(-180deg, rgba(253, 200, 165, 0), #fdc8a5);
 }
-.technologies-banner .video:after{
-	background: linear-gradient(-180deg,rgba(117,232,227,0),#75e8e3);
+.technologies-banner .video:after {
+	background: linear-gradient(-180deg, rgba(117, 232, 227, 0), #75e8e3);
 }
-.service-banner .video:after{
+.service-banner .video:after {
 	background: none;
 }
 
 .company-banner .video:after {
-	background: linear-gradient(-180deg,rgba(237,115,106,0),#ed736a);
+	background: linear-gradient(-180deg, rgba(237, 115, 106, 0), #ed736a);
 }
-
 
 .home-hero-text h2 {
 	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.13);
@@ -341,18 +340,36 @@ span.arrow-down-icon svg:not(.shadow-icon) path {
 }
 
 .banner-slider-arrow .splide__arrow--prev {
-    left: auto;
-    right: 42px;
+	left: auto;
+	right: 42px;
 }
 
 .banner-slider-arrow button {
-    background: none;
+	background: none;
 }
 
 .banner-slider-arrow {
-    opacity: 0;
+	opacity: 0;
 }
 
 .post-sliders:hover .banner-slider-arrow {
-    opacity: 1;
+	opacity: 1;
+}
+.company-banner {
+	background-color: #ed6760;
+}
+.home-page-hero {
+	background-color: #dea4a0;
+}
+.advanced-modelling-hero {
+	background-color: #ff8b7e;
+}
+.technologies-banner {
+	background-color: #55cce2;
+}
+.service-banner {
+	background-color: #c3d0ac;
+}
+.clinical-banner {
+	background-color: #ffbe9a;
 }

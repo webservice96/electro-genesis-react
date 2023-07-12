@@ -23,18 +23,6 @@ function ImageSlider() {
 					<SplideSlide>
 						<div className="img-slider-item">
 							<img
-								src="/assets/images/side-view-woman-working-digital-monitors.jpg"
-								className="img-fluid-"
-								alt="Image 2"
-							/>
-							<span className="img-lab-caption">
-								Workflow 24 Labs
-							</span>
-						</div>
-					</SplideSlide>
-					<SplideSlide>
-						<div className="img-slider-item">
-							<img
 								src="/assets/images/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation.jpg"
 								className="img-fluid-"
 								alt="Image 3"

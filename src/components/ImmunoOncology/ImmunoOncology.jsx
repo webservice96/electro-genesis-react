@@ -60,8 +60,8 @@ function ImmunoOncology() {
 									continue to design and develop
 									immunotherapies, the need to assess the
 									efficacies of these therapies grows. The
-									Workflow 24 clinical, scientific and
-									project management teams serve our biopharma
+									Workflow 24 clinical, scientific and project
+									management teams serve our biopharma
 									partners as they advance these therapies.
 								</p>
 								<p>

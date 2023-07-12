@@ -286,6 +286,10 @@
 		margin-bottom: 0;
 	}
 
+	.imgae-slider-block .img-slider-item{
+		height: 480px;
+	}
+
 	.imgae-slider-block .img-slider-item img {
 		height: 100%;
 	}

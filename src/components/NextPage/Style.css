@@ -1,0 +1,38 @@
+.next-page-wrapper {
+	position: relative;
+	height: 90vh;
+}
+
+.next-page-img-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.next-page-img-wrapper img {
+	position: relative;
+	margin: 0 auto;
+	top: -10%;
+	display: block;
+	height: 110%;
+	width: auto;
+}
+
+.next-page-container h2 {
+	font-size: 8.8235294118vw;
+	font-family: aeonik-regular;
+	color: #fff;
+	line-height: 1em;
+	letter-spacing: -0.03em;
+}
+
+.next-page-btn .arrow-down-icon svg {
+	transform: rotate(-90deg) !important;
+}
+
+.next-page-btn .arrow-down-icon svg:not(.shadow-icon) path {
+	stroke: #68774e;
+}

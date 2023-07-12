@@ -14,6 +14,7 @@ function Expertise() {
 				video={
 					"https://hematogenix.sfo3.cdn.digitaloceanspaces.com/Hematogenix/video/expertise/expertise-hd.mp4"
 				}
+				className={"advanced-modelling-hero"}
 			/>
 			<Layout className="bg-white expertise-template">
 				<Container className="">
@@ -51,7 +52,9 @@ function Expertise() {
 										hematological disorders, including AML,
 										CLL, MM, and others.
 									</h3>
-									<ReadMoreButton link={"/expertise/hematopathology"} />
+									<ReadMoreButton
+										link={"/expertise/hematopathology"}
+									/>
 								</Col>
 								<Col
 									md={6}
@@ -115,12 +118,19 @@ function Expertise() {
 										Our pathologists are world-renowned
 										experts in multiple subspecialties.
 									</h3>
-									<ReadMoreButton link={"/expertise/solid-tumor-pathology"} />
+									<ReadMoreButton
+										link={
+											"/expertise/solid-tumor-pathology"
+										}
+									/>
 								</Col>
 							</Row>
 						</div>
-						<Row className="pagination" data-aos="fade-up"
-							data-aos-duration="1000">
+						<Row
+							className="pagination"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
 							<Col md={2}>
 								<div className="number">
 									<span>1.2</span>
@@ -156,7 +166,11 @@ function Expertise() {
 										regimen.
 									</h3>
 
-									<ReadMoreButton link={"/expertise/minimal-residual-disease"} />
+									<ReadMoreButton
+										link={
+											"/expertise/minimal-residual-disease"
+										}
+									/>
 								</Col>
 								<Col
 									md={7}
@@ -172,8 +186,11 @@ function Expertise() {
 								</Col>
 							</Row>
 						</div>
-						<Row className="pagination" data-aos="fade-up"
-							data-aos-duration="1000">
+						<Row
+							className="pagination"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
 							<Col md={2}>
 								<div className="number">
 									<span>1.2</span>
@@ -205,7 +222,11 @@ function Expertise() {
 										Our mission is to advance the reach of
 										precision medicine to all patients.
 									</h3>
-									<ReadMoreButton link={"/expertise/companion-diagnostics-cdx"} />
+									<ReadMoreButton
+										link={
+											"/expertise/companion-diagnostics-cdx"
+										}
+									/>
 								</Col>
 								<Col
 									md={6}
@@ -221,8 +242,11 @@ function Expertise() {
 								</Col>
 							</Row>
 						</div>
-						<Row className="pagination" data-aos="fade-up"
-							data-aos-duration="1000">
+						<Row
+							className="pagination"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
 							<Col md={2}>
 								<div className="number">
 									<span>1.2</span>
@@ -259,7 +283,11 @@ function Expertise() {
 										molecular characteristics of cancer
 										cells.
 									</h3>
-									<ReadMoreButton link={"/expertise/next-generation-sequencing"} />
+									<ReadMoreButton
+										link={
+											"/expertise/next-generation-sequencing"
+										}
+									/>
 								</Col>
 								<Col
 									md={6}
@@ -275,8 +303,11 @@ function Expertise() {
 								</Col>
 							</Row>
 						</div>
-						<Row className="pagination" data-aos="fade-up"
-							data-aos-duration="1000">
+						<Row
+							className="pagination"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
 							<Col md={2}>
 								<div className="number">
 									<span>1.2</span>
@@ -326,12 +357,17 @@ function Expertise() {
 										the immune system can be channeled to
 										eradicate cancer cells.
 									</h3>
-									<ReadMoreButton link={"/expertise/immuno-oncology"} />
+									<ReadMoreButton
+										link={"/expertise/immuno-oncology"}
+									/>
 								</Col>
 							</Row>
 						</div>
-						<Row className="pagination" data-aos="fade-up"
-							data-aos-duration="1000">
+						<Row
+							className="pagination"
+							data-aos="fade-up"
+							data-aos-duration="1000"
+						>
 							<Col md={2}>
 								<div className="number">
 									<span>1.2</span>

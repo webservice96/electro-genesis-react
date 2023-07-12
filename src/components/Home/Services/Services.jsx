@@ -6,7 +6,7 @@ import Button from "../../Button/Button";
 
 function Services() {
 	return (
-		<section className="service-section">
+		<section className="service-section pb-5">
 			<Container className="mb-5">
 				<div className="section-header position-relative">
 					<span className="bottom-line"></span>
@@ -32,15 +32,15 @@ function Services() {
 					<Row data-aos="fade-up" data-aos-duration="1000">
 						<Col lg={6} className="pe-5">
 							<h3 className="subtitle">
-								Our laboratories feature the most advanced
+								Our solutions feature the most advanced
 								instruments available.
 							</h3>
 						</Col>
 						<Col lg={6} className="pe-5">
 							<p className="description">
-								We continuously invest in state-of-the-art
-								technologies to provide the highest quality of
-								data to our clients.
+								Streamline business operations by connecting
+								every stakeholder under one platform, enabling
+								the workflows to act and perform on-the-go.
 							</p>
 						</Col>
 					</Row>
@@ -59,9 +59,7 @@ function Services() {
 										alt="Not found!"
 									/>
 								</div>
-								<div className="image-text">
-									Pathology Services
-								</div>
+								<div className="image-text">Industry 4.0</div>
 							</div>
 							<div className="col service-item">
 								<div className="image">
@@ -71,7 +69,9 @@ function Services() {
 										alt="Not found!"
 									/>
 								</div>
-								<div className="image-text">Test Offering</div>
+								<div className="image-text">
+									Unified Name Space
+								</div>
 							</div>
 							<div className="col service-item">
 								<div className="image">
@@ -82,46 +82,31 @@ function Services() {
 									/>
 								</div>
 								<div className="image-text">
-									Assay Development
+									Single Dashboard
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="col-md-6">
 						<div className="service-right-text">
-							<div className="title-text mb-5">
+							<div className="title-text mb-md-5">
 								<h3 className="subtitle">
-									Propelling Cancer Diagnostics & Treatments
+									Propelling contemporary solutions for modern
+									industries
 								</h3>
 							</div>
 							<ul className="underline-text">
 								<li className="underline-item mb-3 pb-3">
-									<div>CAP-Accredited</div>
-									<img
-										className="w-25"
-										src="/assets/img/4.png"
-										alt="Not found!"
-									/>
+									<div>ISO 9001</div>
 								</li>
 								<li className="underline-item mb-3 pb-3">
-									<div>CLIA-Certified</div>
-									<img
-										className="w-25"
-										src="/assets/img/5.png"
-										alt="Not found!"
-									/>
-								</li>
-								<li className="underline-item mb-3 pb-3">
-									<div>GCP-Compliant</div>
-								</li>
-								<li className="underline-item mb-3 pb-3">
-									<div>A Global Reference Laboratory</div>
+									<div>ISO 45001</div>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</Row>
-				<Row
+				{/* <Row
 					className="row-cols-lg-3 row-cols-1 g-3 py-5 w-75 m-auto"
 					data-aos="fade-up"
 					data-aos-duration="1000"
@@ -168,7 +153,7 @@ function Services() {
 							</p>
 						</div>
 					</div>
-				</Row>
+				</Row> */}
 			</Container>
 		</section>
 	);

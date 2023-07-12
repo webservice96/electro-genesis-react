@@ -11,34 +11,33 @@ function ExpertiseBlock() {
 		>
 			<div className="floating-images d-mobile-none">
 				<img
-					src="/assets/img/expertise/expertise-1.jpg"
+					src="/assets/img/expertise/expertise-1.jpeg"
 					className="img-1"
 					alt="Not found!"
 					data-aos="fade-up"
 					data-aos-duration="2000"
 				/>
 				<img
-					src="/assets/img/expertise/expertise-2.jpg"
+					src="/assets/img/expertise/expertise-2.jpeg"
 					className="img-2"
 					alt="Not found!"
 					data-aos="fade-up"
 					data-aos-duration="2000"
 				/>
 				<img
-					src="/assets/img/expertise/expertise-3.jpg"
+					src="/assets/img/expertise/expertise-3.jpeg"
 					className="img-3"
 					alt="Not found!"
 					data-aos="fade-up"
 					data-aos-duration="2000"
 				/>
 				<img
-					src="/assets/img/expertise/expertise-4.jpg"
+					src="/assets/img/expertise/expertise-4.jpeg"
 					className="img-4"
 					alt="Not found!"
 					data-aos="fade-up"
 					data-aos-duration="2000"
 				/>
-				
 			</div>
 
 			<div className="title-bio-list-container position-relative">
@@ -55,10 +54,12 @@ function ExpertiseBlock() {
 							<span className="sub-title">Our Bio</span>
 							<span className="bio-subtile-line"></span>
 							<p className="mt-4 text-white">
-								Our scientific, pathology, and regulatory teams
-								have the experience needed to propel novel drug
-								discoveries and the development of companion
-								diagnostics.
+								Streamlined business and manufacturing solutions
+								to enhance the efficiency of all business
+								operations (Manufacturing, Advanced systems,
+								Automation, Robotics, etc.) in the ecosystem
+								with provides real time intelligence using
+								Machine Learning and AI algorithms.
 							</p>
 						</div>
 					</Col>
@@ -74,7 +75,7 @@ function ExpertiseBlock() {
 								<li className="bio-item">
 									<span className="number">01</span>
 									<span className="label">
-										Hematopathology
+										Carbon systems workflow
 									</span>
 									<span className="icon">
 										<svg
@@ -106,9 +107,7 @@ function ExpertiseBlock() {
 								</li>
 								<li className="bio-item">
 									<span className="number">02</span>
-									<span className="label">
-										Solid Tumor Pathology
-									</span>
+									<span className="label">Industry 4.0</span>
 									<span className="icon">
 										<svg
 											width="17"
@@ -140,7 +139,7 @@ function ExpertiseBlock() {
 								<li className="bio-item">
 									<span className="number">03</span>
 									<span className="label">
-										Minimal Residual Disease (MRD)
+										Advanced Modelling
 									</span>
 									<span className="icon">
 										<svg
@@ -173,7 +172,7 @@ function ExpertiseBlock() {
 								<li className="bio-item">
 									<span className="number">04</span>
 									<span className="label">
-										Companion Diagnostics (CDx)
+										System Efficiencies
 									</span>
 									<span className="icon">
 										<svg
@@ -206,7 +205,7 @@ function ExpertiseBlock() {
 								<li className="bio-item">
 									<span className="number">05</span>
 									<span className="label">
-										Next-Generation Sequencing (NGS)
+										Manufacturing Processes
 									</span>
 									<span className="icon">
 										<svg
@@ -239,7 +238,7 @@ function ExpertiseBlock() {
 								<li className="bio-item">
 									<span className="number">06</span>
 									<span className="label">
-										Immuno-Oncology
+										Hydraulic Pumps
 									</span>
 									<span className="icon">
 										<svg

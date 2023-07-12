@@ -7,43 +7,17 @@ import ImageSlider from "../components/Home/ImageSlider/ImageSlider";
 import Services from "../components/Home/Services/Services";
 import Layout from "../Layout/Main/Layout";
 import Banner from "../components/common/Banner/Banner";
-
-import BIRDS from "vanta/dist/vanta.birds.min";
-import * as THREE from "three";
+import GradientBg from "../components/GradientBg/GradientBg";
 
 function Home() {
-	// const [vantaEffect, setVantaEffect] = useState(0);
-	// const vantaRef = useRef(null);
-
-	// useEffect(() => {
-	// 	if (!vantaEffect) {
-	// 		setVantaEffect(
-	// 			BIRDS({
-	// 				el: vantaRef.current,
-	// 				THREE: THREE,
-	// 				mouseControls: true,
-	// 				touchControls: true,
-	// 				gyroControls: false,
-	// 				minHeight: 600.0,
-	// 				minWidth: 600.0,
-	// 				scale: 1.0,
-	// 				scaleMobile: 1.0,
-	// 			})
-	// 		);
-	// 	}
-	// 	return () => {
-	// 		if (vantaEffect) vantaEffect.destroy();
-	// 	};
-	// }, [vantaEffect]);
-
 	return (
 		<>
+			<GradientBg variant={1} />
 			<Banner
 				isBanner={true}
 				title="Leveraging A.I For Critical Business Intelligence"
 				video={"/assets/videos/homepage-hd.mp4"}
-				isPost={true}
-				className={'home-page-hero'}
+				className={"home-page-hero"}
 			/>
 
 			<Layout>

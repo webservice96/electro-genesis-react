@@ -30,6 +30,7 @@ import Company from "../pages/Company";
 import Contact from "../pages/Contact";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import CookiePolicy from "../pages/CookiePolicy";
+import NextPage from "../components/NextPage/NextPage";
 
 const routes = createBrowserRouter([
 	{
@@ -53,12 +54,8 @@ const routes = createBrowserRouter([
 				element: <ClinicalTrail />,
 			},
 			{
-				path: "/industry-4.0",
+				path: "/industry",
 				element: <Technology />,
-			},
-			{
-				path: "/our-story",
-				element: <Company />,
 			},
 			{
 				path: "/contact",
@@ -157,6 +154,10 @@ const routes = createBrowserRouter([
 				element: <NotFound404 />,
 			},
 		],
+	},
+	{
+		path: "/our-story",
+		element: [<Company />, <NextPage />],
 	},
 ]);
 

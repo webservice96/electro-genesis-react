@@ -84,7 +84,7 @@ function ClinicalTrials() {
 										</div>
 										<div className="icon-text">
 											{" "}
-											Test Offering{" "}
+											Streamlined Business Ops{" "}
 										</div>
 									</div>
 								</div>
@@ -108,7 +108,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Processes
+											Single Dashboard
 										</div>
 									</div>
 								</div>
@@ -132,7 +132,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Assay Development
+											Unified Name Space
 										</div>
 									</div>
 								</div>
@@ -176,7 +176,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Companion Diagnostics
+											Digital Twinning
 										</div>
 									</div>
 								</div>
@@ -198,7 +198,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Project Management
+											Processes
 										</div>
 									</div>
 								</div>
@@ -241,7 +241,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Companion Diagnostics
+											Project Management
 										</div>
 									</div>
 								</div>
@@ -273,7 +273,7 @@ function ClinicalTrials() {
 											</svg>
 										</div>
 										<div className="icon-text">
-											Companion Diagnostics
+											Problem Statement
 										</div>
 									</div>
 								</div>
