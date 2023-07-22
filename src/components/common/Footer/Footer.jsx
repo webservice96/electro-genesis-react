@@ -16,54 +16,54 @@ function Footer() {
 			<Container fluid className="footer-top">
 				<Row>
 					<Col>
-						<Link to={"service"}>
+						<Link to="/business-intel">
 							<h4 className="footer-title">Business Intel</h4>
 						</Link>
 						<ul>
 							<li>
-								<Link to="/service#capabilities">
+								<Link to="/project-management">
 									<span>Project Management</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/service#pathology">
+								<Link to="/assay-development">
 									<span>Assay Development</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/service#test-offering">
+								<Link to="/companion-diagnostics">
 									<span>Companion Diagnostics</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/service#assay-development">
+								<Link to="/assay-development">
 									<span>Assay Development</span>
 								</Link>
 							</li>
 						</ul>
 					</Col>
 					<Col>
-						<Link to={"clinical-trials"}>
+						<Link to={"/system-efficiencies"}>
 							<h4 className="footer-title">Efficiencies</h4>
 						</Link>
 						<ul>
 							<li>
-								<Link to="clinical-trials/test-offering">
+								<Link to="/project-management">
 									<span>Automation</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="clinical-trials/processes">
+								<Link to="/assay-development">
 									<span>Real-time</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="clinical-trials/assay-development">
+								<Link to="/companion-diagnosticst">
 									<span>Self service</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="clinical-trials/logistics">
+								<Link to="/assay-development">
 									<span>Scalability</span>
 								</Link>
 							</li>
@@ -71,27 +71,27 @@ function Footer() {
 					</Col>
 
 					<Col>
-						<Link to={"technologies"}>
+						<Link to={"/industry"}>
 							<h4 className="footer-title">Industry 4.0</h4>
 						</Link>
 						<ul>
 							<li>
-								<Link to="technologies/flow-cytometry">
+								<Link to="/project-management">
 									<span>Sensor Data</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="technologies/molecular-genetics">
+								<Link to="/assay-development">
 									<span>Visualisation</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="technologies/cytogenetics-fish">
+								<Link to="/companion-diagnostics">
 									<span>Predictive Analytics</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="technologies/histology">
+								<Link to="/assay-development">
 									<span>Decision Science</span>
 								</Link>
 							</li>
@@ -99,28 +99,28 @@ function Footer() {
 					</Col>
 
 					<Col>
-						<Link to={"expertise"}>
+						<Link to={"/advanced-modelling"}>
 							<h4 className="footer-title">Advanced Modelling</h4>
 						</Link>
 
 						<ul>
 							<li>
-								<Link to={"expertise/hematopathology"}>
+								<Link to={"/project-management"}>
 									<span>Predictive Modelling</span>
 								</Link>
 							</li>
 							<li>
-								<Link to={"expertise/solid-tumor-pathology"}>
+								<Link to={"/assay-development"}>
 									<span>Prescriptive Modelling</span>
 								</Link>
 							</li>
 							<li>
-								<Link to={"expertise/minimal-residual-disease"}>
+								<Link to={"/companion-diagnostics"}>
 									<span>Digital twinning</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="expertise/companion-diagnostics-cdx">
+								<Link to="/assay-development">
 									<span>Graph Modelling</span>
 								</Link>
 							</li>
@@ -131,22 +131,22 @@ function Footer() {
 						<h4 className="footer-title">Our Story</h4>
 						<ul>
 							<li>
-								<Link to="/company#about">
+								<Link to="/our-story#about">
 									<span>About</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/company#leaders">
+								<Link to="/our-story#team">
 									<span>Team</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/company#history">
+								<Link to="/our-story#mission">
 									<span>Mission</span>
 								</Link>
 							</li>
 							<li>
-								<Link to="/company#culture">
+								<Link to="/our-story">
 									<span>Delta Mindset</span>
 								</Link>
 							</li>

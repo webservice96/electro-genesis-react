@@ -43,7 +43,7 @@ function CompanyTeamMembers() {
 	const barRef = useRef(null);
 	return (
 		<>
-			<div className="company-team-members section-padding">
+			<div className="company-team-members section-padding" id="team">
 				<div className="company-team-header mb-md-5">
 					<Container>
 						<Row>

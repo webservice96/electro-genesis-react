@@ -120,7 +120,7 @@ function PopupSearchMenu() {
 									onClick={() => handleMenuOpen()}
 								/>
 								<NavLink
-									to="/industry-4.0"
+									to="/industry"
 									level="Industry 4.0"
 									target=""
 									onClick={() => handleMenuOpen()}
@@ -158,18 +158,6 @@ function PopupSearchMenu() {
 							<Row className="align-items-center">
 								<Col xs={6}>
 									<ul className="first-menu mb-4">
-										<NavLink
-											to="/company#careers"
-											level="Careers"
-											target=""
-											onClick={() => handleMenuOpen()}
-										/>
-										{/* <NavLink
-											to="/resources"
-											level="Resources"
-											target=""
-											onClick={() => handleMenuOpen()}
-										/> */}
 										<NavLink
 											to="/contact"
 											level="Contact"
@@ -213,18 +201,6 @@ function PopupSearchMenu() {
 							</div>
 							<div className="popup-right-bottom">
 								<ul className="first-menu mb-4">
-									<NavLink
-										to="/company#careers"
-										level="Careers"
-										target=""
-										onClick={() => handleMenuOpen()}
-									/>
-									{/* <NavLink
-										to="/resources"
-										level="Resources"
-										target=""
-										onClick={() => handleMenuOpen()}
-									/> */}
 									<NavLink
 										to="/contact"
 										level="Contact"

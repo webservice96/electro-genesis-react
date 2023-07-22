@@ -20,7 +20,7 @@ function Services() {
 						</Col>
 						<Col lg={3}>
 							<Button
-								link={`/service`}
+								link={`/business-intel`}
 								lavel={"Services"}
 								icon={faArrowRight}
 							/>

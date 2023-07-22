@@ -94,7 +94,7 @@ const routes = createBrowserRouter([
 				element: <ProcessesPage />,
 			},
 			{
-				path: "clinical-trials/assay-development",
+				path: "assay-development",
 				element: <AssayDevelopmentPage />,
 			},
 			{
@@ -102,11 +102,11 @@ const routes = createBrowserRouter([
 				element: <LogisticsPage />,
 			},
 			{
-				path: "clinical-trials/companion-diagnostics",
+				path: "companion-diagnostics",
 				element: <CompanionDiagnosticPage />,
 			},
 			{
-				path: "clinical-trials/project-management",
+				path: "project-management",
 				element: <ProjectManagementPage />,
 			},
 			{

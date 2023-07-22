@@ -4,10 +4,12 @@ import Banner from "../components/common/Banner/Banner";
 import { Col, Container, Row } from "react-bootstrap";
 import "../Service_Clinical_Technology.css";
 import { ReadMoreButton } from "../components/common/ReadMoreButton/ReadMoreButton";
+import GradientBg from "../components/GradientBg/GradientBg";
 
 function Technology() {
 	return (
 		<>
+			<GradientBg variant={2} />
 			<Banner
 				isBanner={true}
 				title="Bringing Precision Business Intelligence"
@@ -27,11 +29,11 @@ function Technology() {
 								data-aos-duration="2000"
 							>
 								<h2 className="grand_title main-pages-header-title text-md-start">
-									Our laboratories feature the most advanced
-									instruments available. We continuously
-									invest in state-of-the-art technologies to
-									provide the highest quality of data to our
-									clients.
+									At Workflow 24, our solutions utilise
+									feature the most comprehensive unification
+									systems available. We continuously invest in
+									state-of-the-art technologies to provide the
+									highest quality of data to our clients.
 								</h2>
 							</div>
 						</Col>
@@ -54,12 +56,16 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Flow Cytometry
+											Material Management
 										</h2>
 										<h3 className="subtitle">
-											— We deliver a vast array of
-											molecular diagnostic tests to
-											facilitate patient care.
+											— Factories with Industry 4.0
+											capabilities can shift their
+											operations on a dime, flexibly
+											adapting to meet changing customer
+											demands, enhance productivity,
+											reduce waste, and accelerate
+											production.
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -71,7 +77,7 @@ function Technology() {
 								</div>
 								<div className="card-image ">
 									<img
-										src="/assets/img/technology/techno-1.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d5e561b5a07179d2d0_1-Armadio%20Scolapiatti%20A.webp"
 										alt=""
 									/>
 								</div>
@@ -91,11 +97,14 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Molecular Genetics
+											Operational Architecture
 										</h2>
 										<h3 className="subtitle">
-											— We provide an in-depth look at
-											diseases at the cellular level.
+											— keep the big picture of Industry
+											4.0 transformation in mind as the
+											map that continues to guide and
+											direct the organisation’s Industry
+											4.0 journey.
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -107,7 +116,7 @@ function Technology() {
 								</div>
 								<div className="card-image ">
 									<img
-										src="/assets/img/technology/Illumina.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d568f74d524c0b8e52_2-Armadio%20con%20ruote%20A.webp"
 										alt=""
 									/>
 								</div>
@@ -127,12 +136,16 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Cytogenetics / FISH
+											Connected Ecosystems
 										</h2>
 										<h3 className="subtitle">
-											— We offer cytogenetic testing for
-											the detection of chromosomal
-											abnormalities.
+											— A connected factory ecosystem is
+											driven primarily by IT/OT
+											convergence, which empowers
+											operational excellence, maximises
+											uptime, and increases throughput by
+											allowing manufacturers to have a
+											unified view of their enterprises
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -144,7 +157,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="/assets/img/technology/cytogenetic-1.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d55599abe31cc77e80_3-Armadietto%20Spogliatoio%20A.webp"
 										alt=""
 									/>
 								</div>
@@ -164,12 +177,13 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Histology / IHC
+											Configurable Processes
 										</h2>
 										<h3 className="subtitle">
-											— We provide a full range of
-											anatomic pathology tests and
-											services.
+											— The principle of configurability
+											permeates every part of a factory
+											that embraces Industry 4.0. Unlike
+											customisation
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -179,7 +193,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="/assets/img/technology/benchmark.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d51983345542b576f5_4-Tavolo%20a%20giorno%20a.webp"
 										alt=""
 									/>
 								</div>
@@ -199,13 +213,12 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Immunoassays & Clinical Chemistry
+											Complex Simplicity
 										</h2>
 										<h3 className="subtitle">
-											— We offer supportive biomarker
-											testing by utilizing fully automated
-											systems with rapid
-											turn-around-times.
+											— the ability to communicate and
+											display complex processes in a
+											simplified format.
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -215,7 +228,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="/assets/img/technology/roche-cobas.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d51983345542b576f5_4-Tavolo%20a%20giorno%20a.webp"
 										alt=""
 									/>
 								</div>
@@ -235,11 +248,14 @@ function Technology() {
 									</div>
 									<div className="card-title">
 										<h2 className="grand_title mb-3">
-											Digital Pathology
+											Intelligent Insights
 										</h2>
 										<h3 className="subtitle">
-											— We believe that digital pathology
-											is the future of pathology.
+											— With multidirectional data
+											synthesised from ever-changing
+											sources, analytics can be
+											communicated in real-time via
+											operational dashboards.
 										</h3>
 										<ReadMoreButton
 											lable="More"
@@ -251,7 +267,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="/assets/img/technology/digital-pathology.png"
+										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d5c7c585508b52d0d8_5_Tavolo%20con%20anta%20A.webp"
 										alt=""
 									/>
 								</div>

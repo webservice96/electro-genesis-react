@@ -84,7 +84,7 @@ function OurTechnology() {
 							</Col>
 							<Col lg={3}>
 								<Button
-									link={`/industry-4.0`}
+									link={`/industry`}
 									lavel={"Industry 4.0"}
 									icon={faArrowRight}
 								/>

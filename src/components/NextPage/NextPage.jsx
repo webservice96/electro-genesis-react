@@ -17,7 +17,7 @@ function NextPage() {
 					<Row>
 						<Col>
 							<div className="arrow-down-container">
-								<Link to="/">
+								<Link to="/business-intel">
 									<button className="big-circle-btn next-page-btn">
 										<span className="bg"></span>
 

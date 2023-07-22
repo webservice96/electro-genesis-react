@@ -53,162 +53,15 @@ function ServiceStackingCard() {
 
 	return (
 		<>
-			<div ref={containerRef} id="services-stacking" className="services-stacking mb-4">
-				<div className="bg-gray-pink stack" id="pathology">
-					<div className="block-inner pt-5">
-						<TitleHeader title={"Pathology Services"} />
-
-						<div className="content-text-part max-width">
-							<Row>
-								<Col
-									md={6}
-									data-aos="fade-right"
-									data-aos-duration="2000"
-								>
-									<div className="image-box margin-less">
-										<img
-											className="w-75"
-											src="/assets/img/b3af76.png"
-											alt="image"
-										/>
-										<ul className="list w-75 mobile-w-100">
-											<li className="item">
-												<span className="name">
-													World-renowned pathologists
-													with expertise in multiple
-													subspecialties
-												</span>
-											</li>
-											<li className="item">
-												<span className="name">
-													Full-time and employed in
-													all global locations
-												</span>
-											</li>
-											<li className="item">
-												<span className="name">
-													Available to serve as
-													Principal Investigators and
-													Consultants
-												</span>
-											</li>
-										</ul>
-									</div>
-								</Col>
-								<Col
-									md={6}
-									data-aos="fade-left"
-									data-aos-duration="2000"
-								>
-									<h3 className="description mb-5">
-										World-renowned pathologists with
-										expertise in many different
-										subspecialties lead Workflow 24
-										research studies, analyses, and
-										integrated reporting.
-									</h3>
-									<div className="d-flex flex-column w-75 mobile-w-100">
-										<div
-											className="col service-item"
-											data-aos="fade-up"
-											data-aos-duration="2000"
-										>
-											<div className="image">
-												<img
-													className="w-75"
-													src="/assets/img/technology/cytovysion.png"
-													alt="Not found!"
-												/>
-											</div>
-											<div className="image-text ms-3">
-												<h6 className="fs-4">
-													Cytogenetics / FISH
-												</h6>
-												<ReadMoreButton lable="More" link={"/technologies/cytogenetics-fish"} />
-											</div>
-										</div>
-										<div
-											className="col service-item"
-											data-aos="fade-up"
-											data-aos-duration="2000"
-										>
-											<div className="image">
-												<img
-													className="w-75"
-													src="/assets/img/technology/benchmark.png"
-													alt="Not found!"
-												/>
-											</div>
-											<div className="image-text ms-2">
-												<h6 className="fs-4">
-													Histology / IHC
-												</h6>
-												<ReadMoreButton lable="More" link={"/technologies/histology"} />
-											</div>
-										</div>
-										<div
-											className="col service-item"
-											data-aos="fade-up"
-											data-aos-duration="2000"
-										>
-											<div className="image">
-												<img
-													className="w-75"
-													src="/assets/img/technology/digital-pathology.png"
-													alt="Not found!"
-												/>
-											</div>
-											<div className="image-text ms-2">
-												<h6 className="fs-4">
-													Digital Pathology
-												</h6>
-												<ReadMoreButton lable="More" link={"/technologies/digital-pathology"} />
-											</div>
-										</div>
-										<div
-											className="col service-item"
-											data-aos="fade-up"
-											data-aos-duration="2000"
-										>
-											<div className="image">
-												<img
-													className="w-75"
-													src="/assets/img/technology/Illumina.png"
-													alt="Not found!"
-												/>
-											</div>
-											<div className="image-text ms-2">
-												<h6 className="fs-4">
-													Molecular Genetics
-												</h6>
-												<ReadMoreButton lable="More" link={"/technologies/molecular-genetics"} />
-											</div>
-										</div>
-									</div>
-								</Col>
-							</Row>
-						</div>
-						<Row
-							className="pagination mx-3 pb-3"
-							data-aos="fade-down"
-							data-aos-easing="linear"
-							data-aos-duration="1000"
-						>
-							<Col md={2}>
-								<div className="number">
-									<span>1.2</span>
-								</div>
-							</Col>
-							<Col md={8}>
-								<div className="text ms-3">
-									<span>Pathology Services</span>
-								</div>
-							</Col>
-						</Row>
-					</div>
-				</div>
-
-				<div className="bg-gray-pink bg-gray-secondary-pink stack" id="test-offering">
+			<div
+				ref={containerRef}
+				id="services-stacking"
+				className="services-stacking mb-4"
+			>
+				<div
+					className="bg-gray-pink bg-gray-secondary-pink stack"
+					id="test-offering"
+				>
 					<div className="block-inner  pt-5">
 						<TitleHeader title={"Test Offering"} />
 
@@ -234,9 +87,8 @@ function ServiceStackingCard() {
 										indications and sample types, while
 										utilizing multiple technologies and
 										methodologies. Some examples of
-										biomarker assays developed at
-										Workflow 24 include: PD-L1, BCMA, and
-										FLT3.
+										biomarker assays developed at Workflow
+										24 include: PD-L1, BCMA, and FLT3.
 									</p>
 								</Col>
 								<Col

@@ -5,10 +5,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import "../components/Hematopathology/Style.css";
 import { ReadMoreButton } from "../components/common/ReadMoreButton/ReadMoreButton";
 import TitleHeader from "../components/common/TitleHeader/TitleHeader";
+import GradientBg from "../components/GradientBg/GradientBg";
 
 function Expertise() {
 	return (
 		<>
+			<GradientBg variant={5} />
 			<Banner
 				title="Advance Modelling One Day at a Time"
 				video={

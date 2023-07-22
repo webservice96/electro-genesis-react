@@ -6,25 +6,28 @@ import TechnologiesTitle from "../../common/TechnologiesTitle/TechnologiesTitle"
 function DigitalPathology() {
 	return (
 		<>
-			<section className="block-inner bg-gray-pink Flow-Cytometry-section">
-				<TechnologiesTitle title="Digital Pathology" />
+			<section className="block-inner bg-gray-pink">
+				<TechnologiesTitle title="Flow Cytometry" />
+
 				<div className="content-text-part max-width">
 					{/* text and image row */}
-					<Row className="justifiy-content-center">
+					<Row>
 						<Col
 							md={5}
 							data-aos="fade-right"
 							data-aos-duration="2000"
 						>
-							<div className="flowcy_image-box">
+							<div
+								className="flowcy_image-box"
+								data-aos="fade-right"
+								data-aos-duration="2000"
+							>
 								<img
-									src="/assets/img/technology/digital-pathology.png"
+									src="/assets/img/technology/techno-1.png"
 									alt="image"
 								/>
-								<div className="image-caption mb-1">
-									<span className="pt-0">
-										Digital Pathology
-									</span>
+								<div className="image-caption">
+									<span>Navios EX (10 color)</span>
 								</div>
 							</div>
 						</Col>
@@ -34,19 +37,22 @@ function DigitalPathology() {
 							data-aos="fade-left"
 							data-aos-duration="2000"
 						>
-							<p className=" pe-5">
-								Our expert knowledge and global thinking
-								propelled us to adopt Digital Pathology, which
-								integrates efficient high throughput platforms
-								and quality by design procedures. We utilizes
-								smart systems that are empowered by a
-								sophisticated in-house IT infrastructure to
-								manage the images, and automate the processes of
-								organizing, archiving, and retrieving the
-								slides. We offer a flexible and broad range of
-								digital pathology services, including slide
-								scanning (with 20x and 40x magnification),
-								archiving, and storage.
+							<h3 className="flowcy_description">
+								Harnessing Multi-Parameter Flow Cytometry
+								Capabilities for In-Depth Characterization of
+								Cellular Biomarkers
+							</h3>
+
+							<p className="mt-5 pe-5">
+								Workflow 24 offers the same flow cytometry
+								capabilities at all of our locations. Our assays
+								are harmonized by using the same platforms,
+								cytometer settings, and calibration standards
+								throughout our global laboratories. Workflow 24
+								also employs either automated liquid handling
+								systems or dried-down formats for precise and
+								reproducible antibody mixtures in our flow
+								cytometry assays.
 							</p>
 						</Col>
 					</Row>
@@ -63,63 +69,7 @@ function DigitalPathology() {
 					</Col>
 					<Col md={8}>
 						<div className="text">
-							<span>Digital Pathology</span>
-						</div>
-					</Col>
-				</Row>
-			</section>
-
-			<section className="block-inner bg-gray-pink bg-gray-secondary-pink Analysis-section">
-				<TechnologiesTitle title="Image Analysis" />
-				<div className="content-text-part max-width mb-5">
-					{/* text and image row */}
-					<Row>
-						<Col
-							md={{ span: 4, offset: 0 }}
-							data-aos="fade-right"
-							data-aos-duration="2000"
-						>
-							<p>
-							Workflow 24 employs the latest technologies in
-								machine learning and computerized algorithms to
-								navigate the complex interpretation of digital
-								images.
-							</p>
-							<p>
-								The goal is to be a leader in this new era of
-								modern pathology practice and enable our
-								partners to utilize these technologies in
-								gathering and analyzing biomarker data from
-								tumor tissue.
-							</p>
-						</Col>
-						<Col
-							md={{ span: 7, offset: 1 }}
-							data-aos="fade-left"
-							data-aos-duration="2000"
-						>
-							<div className="flowcy_image-box margin-top-lass">
-								<img
-									src="/assets/img/technology/analysis.png"
-									alt="image"
-								/>
-							</div>
-						</Col>
-					</Row>
-				</div>
-				<Row
-					className="pagination"
-					data-aos="fade-up"
-					data-aos-duration="2000"
-				>
-					<Col md={2}>
-						<div className="number">
-							<span>1.2</span>
-						</div>
-					</Col>
-					<Col md={8}>
-						<div className="text">
-							<span>Image Analysis</span>
+							<span>Flow Cytometry</span>
 						</div>
 					</Col>
 				</Row>

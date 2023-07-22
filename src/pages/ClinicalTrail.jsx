@@ -6,12 +6,14 @@ import "../Service_Clinical_Technology.css";
 import { ReadMoreButton } from "../components/common/ReadMoreButton/ReadMoreButton";
 import CustomModal from "../components/common/Modals/CustomModal";
 import { useState } from "react";
+import GradientBg from "../components/GradientBg/GradientBg";
 
 function ClinicalTrail() {
 	// modal state
 	const [show, setShow] = useState(false);
 	return (
 		<>
+			<GradientBg variant={5} />
 			<Banner
 				isBanner={true}
 				title="Creating Efficiencies In Critical Industries"
@@ -55,7 +57,12 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											TEST OFFERING
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/test-offering"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/clinical-trials/test-offering"
+											}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -78,8 +85,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>02</span>
 									</div>
@@ -87,7 +97,10 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											PROCESSES
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/processes"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/clinical-trials/processes"}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -110,8 +123,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>03</span>
 									</div>
@@ -119,7 +135,12 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											ASSAY DEVELOPMENT
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/assay-development"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/clinical-trials/assay-development"
+											}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -142,8 +163,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>04</span>
 									</div>
@@ -151,7 +175,10 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											LOGISTICS
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/logistics"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/clinical-trials/logistics"}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -171,8 +198,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>05</span>
 									</div>
@@ -180,7 +210,12 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											COMPANION DIAGNOSTICS
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/companion-diagnostics"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/clinical-trials/companion-diagnostics"
+											}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -200,8 +235,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>06</span>
 									</div>
@@ -209,7 +247,12 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											PROJECT MANAGEMENT
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/project-management"} />
+										<ReadMoreButton
+											lable="More"
+											link={
+												"/clinical-trials/project-management"
+											}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -229,8 +272,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>07</span>
 									</div>
@@ -238,7 +284,10 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											GLOBAL
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/global"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/clinical-trials/global"}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -275,8 +324,11 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative" data-aos="fade-up"
-									data-aos-duration="2000">
+								<li
+									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
+									data-aos="fade-up"
+									data-aos-duration="2000"
+								>
 									<div className="o-number text-center mt-0 z-index ms-3">
 										<span>08</span>
 									</div>
@@ -284,7 +336,10 @@ function ClinicalTrail() {
 										<h2 className="grand_title mb-3">
 											REPORTING
 										</h2>
-										<ReadMoreButton lable="More" link={"/clinical-trials/reporting"} />
+										<ReadMoreButton
+											lable="More"
+											link={"/clinical-trials/reporting"}
+										/>
 									</div>
 									<div className="icon-svg z-index me-4">
 										<svg
@@ -322,7 +377,11 @@ function ClinicalTrail() {
 				<section className="support-bg contact-cta-area">
 					<div className="d-flex contact-cta-row position-relative">
 						<div className="contat_us_text bg-white border-right-runded d-flex align-items-center">
-							<div className="left-textAnd-button mobile-w-100 w-75 mx-auto text-center" data-aos="fade-right" data-aos-duration="2000">
+							<div
+								className="left-textAnd-button mobile-w-100 w-75 mx-auto text-center"
+								data-aos="fade-right"
+								data-aos-duration="2000"
+							>
 								<h2 className="grand_title ">
 									We are here to support you.
 								</h2>
@@ -342,7 +401,11 @@ function ClinicalTrail() {
 								</div>
 							</div>
 						</div>
-						<div className="video-div" data-aos="fade-left" data-aos-duration="2000">
+						<div
+							className="video-div"
+							data-aos="fade-left"
+							data-aos-duration="2000"
+						>
 							<div className="w-100 h-100">
 								<video
 									autoPlay

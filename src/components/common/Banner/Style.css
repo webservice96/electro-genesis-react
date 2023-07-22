@@ -358,18 +358,23 @@ span.arrow-down-icon svg:not(.shadow-icon) path {
 .company-banner {
 	background-color: #ed6760;
 }
-.home-page-hero {
-	background-color: #dea4a0;
+.home-page-hero,
+.bg-color-1 {
+	background-color: #f1868a;
 }
-.advanced-modelling-hero {
+.advanced-modelling-hero,
+.bg-color-5 {
 	background-color: #ff8b7e;
 }
-.technologies-banner {
+.technologies-banner,
+.bg-color-2 {
 	background-color: #55cce2;
 }
-.service-banner {
-	background-color: #c3d0ac;
+.service-banner,
+.bg-color-3 {
+	background-color: #def7dc;
 }
-.clinical-banner {
+.clinical-banner,
+.bg-color-4 {
 	background-color: #ffbe9a;
 }
