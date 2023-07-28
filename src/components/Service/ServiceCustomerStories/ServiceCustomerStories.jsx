@@ -40,7 +40,7 @@ function ServiceCustomerStories() {
 												Translational Lead
 											</span>
 											<span className="location">
-												Pharma Company
+												Renewable Energy company
 											</span>
 										</span>
 									</div>
@@ -60,8 +60,7 @@ function ServiceCustomerStories() {
 												Director
 											</span>
 											<span className="location">
-												Clinical Development & Biomarker
-												Research, Pharma
+												Forensics company
 											</span>
 										</span>
 									</div>
@@ -80,7 +79,7 @@ function ServiceCustomerStories() {
 												Lead Clinical Scientist
 											</span>
 											<span className="location">
-												Companion Diagnostic Company
+												Wind Energy Farm
 											</span>
 										</span>
 									</div>

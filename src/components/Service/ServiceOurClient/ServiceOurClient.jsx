@@ -32,8 +32,8 @@ function ServiceOurClient() {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								Workflow 24 globally provides services to
-								pharma companies, biotech companies, diagnostic
+								Workflow 24 globally provides services to pharma
+								companies, biotech companies, diagnostic
 								developers, and oncologists for diagnostics
 								services.
 							</h6>
@@ -50,17 +50,17 @@ function ServiceOurClient() {
 							data-aos-offset="400"
 						>
 							<div className="percentage-box d-flex justify-content-center align-items-center flex-column">
-								<span className="percentage d-block">15%</span>
+								<span className="percentage d-block">55%</span>
 								<span className="percentage-text text-center d-block w-50">
-									Oncologists (Diagnostic Services)
+									Renewables
 								</span>
 							</div>
 						</Col>
 						<Col md={3} data-aos="fade-up" data-aos-duration="1000">
 							<div className="percentage-box d-flex justify-content-center align-items-center flex-column">
-								<span className="percentage d-block">55%</span>
+								<span className="percentage d-block">15%</span>
 								<span className="percentage-text text-center d-block w-50">
-									Pharma
+									Biotech
 								</span>
 							</div>
 						</Col>
@@ -73,7 +73,7 @@ function ServiceOurClient() {
 							<div className="percentage-box d-flex justify-content-center align-items-center flex-column">
 								<span className="percentage d-block">15%</span>
 								<span className="percentage-text text-center d-block w-50">
-									Diagnostic Developers
+									Manufacturing
 								</span>
 							</div>
 						</Col>
@@ -86,7 +86,7 @@ function ServiceOurClient() {
 							<div className="percentage-box d-flex justify-content-center align-items-center flex-column">
 								<span className="percentage d-block">15%</span>
 								<span className="percentage-text d-block text-center w-50">
-									Biotech
+									Forensics
 								</span>
 							</div>
 						</Col>

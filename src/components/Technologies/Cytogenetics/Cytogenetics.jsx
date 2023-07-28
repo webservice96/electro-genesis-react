@@ -60,22 +60,6 @@ function Cytogenetics() {
 						</Col>
 					</Row>
 				</div>
-				<Row
-					className="pagination"
-					data-aos="fade-up"
-					data-aos-duration="2000"
-				>
-					<Col md={2}>
-						<div className="number">
-							<span>1.1</span>
-						</div>
-					</Col>
-					<Col md={8}>
-						<div className="text">
-							<span>Cytogenetics / FISH</span>
-						</div>
-					</Col>
-				</Row>
 			</section>
 		</>
 	);

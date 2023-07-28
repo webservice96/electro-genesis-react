@@ -33,11 +33,12 @@ function ClinicalTrail() {
 								data-aos-duration="2000"
 							>
 								<h2 className="grand_title main-pages-header-title text-md-start">
-									Our use of cutting-edge technologies, highly
-									sensitive assays, and interpretation from
-									expert pathologists provides a level of
-									quality that is required to accentuate the
-									efficacy of a novel therapeutic.
+									Our use of cutting-edge technologies,
+									Machine Learning, and Artificial
+									Intelligence from Big Data provides a level
+									of quality that is required to accentuate
+									the efficacy of a novel insights and
+									predictive solutions for businesses.
 								</h2>
 							</div>
 						</Col>
@@ -45,46 +46,6 @@ function ClinicalTrail() {
 					<Row>
 						<div className="item-list-wrepper py-5">
 							<ul className="list-parent-ul">
-								<li
-									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
-									data-aos="fade-up"
-									data-aos-duration="2000"
-								>
-									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>01</span>
-									</div>
-									<div className="title-button w-50 z-index-3">
-										<h2 className="grand_title mb-3">
-											TEST OFFERING
-										</h2>
-										<ReadMoreButton
-											lable="More"
-											link={
-												"/clinical-trials/test-offering"
-											}
-										/>
-									</div>
-									<div className="icon-svg z-index me-4">
-										<svg
-											width="120"
-											xmlSpace="preserve"
-											viewBox="0 0 200 200"
-											y="0"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											id="Layer_1"
-											version="1.1"
-											fill="none"
-											strokeWidth="2"
-											stroke="black"
-										>
-											<path
-												d="M92.2 68.1h48.9M162.7 71.9c-4.9 4-20.6 18.5-20.6 30.2 0 12.2 9.5 15.4 13.7 15.4 4.2 0 13.7-3.3 13.7-15.4 0-11.7-16.9-28.3-21.8-32.3L65.5 152c-7.9 7.9-20.8 7.9-28.7 0-7.9-7.9-7.9-20.8 0-28.7L119 41.2"
-												className="st0"
-											></path>
-										</svg>
-									</div>
-								</li>
 								<li
 									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
 									data-aos="fade-up"
@@ -123,46 +84,7 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li
-									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
-									data-aos="fade-up"
-									data-aos-duration="2000"
-								>
-									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>03</span>
-									</div>
-									<div className="title-button w-50 z-index-3">
-										<h2 className="grand_title mb-3">
-											ASSAY DEVELOPMENT
-										</h2>
-										<ReadMoreButton
-											lable="More"
-											link={
-												"/clinical-trials/assay-development"
-											}
-										/>
-									</div>
-									<div className="icon-svg z-index me-4">
-										<svg
-											width="120"
-											xmlSpace="preserve"
-											viewBox="0 0 200 200"
-											y="0"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											id="Layer_1"
-											version="1.1"
-											fill="none"
-											strokeWidth="2"
-											stroke="black"
-										>
-											<path
-												d="M121.8 94.9l-22.4 18-19.3-24.2 62.5-50.2L162 62.6l-30.8 24.8c-2.1 1.6-4.7 2.6-7.5 2.6-6.7 0-12.2-5.5-12.2-12.2 0-6.7 5.5-12.2 12.2-12.2 3.4 0 6.4 1.4 8.6 3.6 15.2 15.5 14 43.8 3.3 61-13.3 21.4-41.7 27.7-63.1 14.3-5.5-3.5-10.1-8-13.5-13.1M36 131.4h46.9M72.4 162h46.9M95 162v-10.4"
-												className="st0"
-											></path>
-										</svg>
-									</div>
-								</li>
+
 								<li
 									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
 									data-aos="fade-up"
@@ -198,80 +120,7 @@ function ClinicalTrail() {
 										</svg>
 									</div>
 								</li>
-								<li
-									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
-									data-aos="fade-up"
-									data-aos-duration="2000"
-								>
-									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>05</span>
-									</div>
-									<div className="title-button w-50 z-index-3">
-										<h2 className="grand_title mb-3">
-											COMPANION DIAGNOSTICS
-										</h2>
-										<ReadMoreButton
-											lable="More"
-											link={
-												"/clinical-trials/companion-diagnostics"
-											}
-										/>
-									</div>
-									<div className="icon-svg z-index me-4">
-										<svg
-											width="120"
-											xmlSpace="preserve"
-											viewBox="0 0 200 200"
-											y="0"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											id="Layer_1"
-											version="1.1"
-											fill="none"
-											strokeWidth="2"
-											stroke="black"
-										>
-											<path d="M145.2 122.7c-4.7 3.8-19.8 17.8-19.8 29.1 0 11.7 9.2 14.9 13.2 14.9s13.2-3.1 13.2-14.9c0-11.3-15.1-25.3-19.8-29.1h.1l-26.9-21-13.8-7.9L50.5 53c-4.1-4.1-3.4-11.3 1.5-16.3 4.9-4.9 12.2-5.6 16.3-1.5L109.2 76l7.9 13.8 21 26.9"></path>
-										</svg>
-									</div>
-								</li>
-								<li
-									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
-									data-aos="fade-up"
-									data-aos-duration="2000"
-								>
-									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>06</span>
-									</div>
-									<div className="title-button w-50 z-index-3">
-										<h2 className="grand_title mb-3">
-											PROJECT MANAGEMENT
-										</h2>
-										<ReadMoreButton
-											lable="More"
-											link={
-												"/clinical-trials/project-management"
-											}
-										/>
-									</div>
-									<div className="icon-svg z-index me-4">
-										<svg
-											width="120"
-											xmlSpace="preserve"
-											viewBox="0 0 200 200"
-											y="0"
-											x="0"
-											xmlns="http://www.w3.org/2000/svg"
-											id="Layer_1"
-											version="1.1"
-											fill="none"
-											strokeWidth="2"
-											stroke="black"
-										>
-											<path d="M149.8 81.8V64.9h-14.1c-6.4 0-18.5-4.6-18.5-13.1 0-6.2 5.4-7.8 7.6-7.8 2.2 0 7.6 1.7 7.6 7.8 0 8.5-12.1 13.1-18.5 13.1H99.7 85.6c-6.4 0-18.5-4.6-18.5-13.1 0-6.2 5.4-7.8 7.6-7.8 2.2 0 7.6 1.7 7.6 7.8 0 8.5-12.1 13.1-18.5 13.1H49.6v23.2h100.3v67.2H49.5V96.2"></path>
-										</svg>
-									</div>
-								</li>
+
 								<li
 									className="list-item-li d-flex justify-content-between align-items-center py-4 position-relative"
 									data-aos="fade-up"

@@ -51,56 +51,7 @@ function NextGeneration() {
 							</div>
 						</Col>
 					</Row>
-					<Row>
-						<Col
-							md={3}
-							data-aos="fade-right"
-							data-aos-duration="2000"
-						>
-							<div className="Companin_content-box mb-3">
-								<h4 className="block-title">PLATFORMS</h4>
-								<div className="List-box ">
-									<li className="item">Illumina MiSeqDx</li>
-									<li className="item">
-										Illumina NextSeq 550Dx
-									</li>
-								</div>
-							</div>
-						</Col>
-						<Col
-							md={{ span: 3, offset: 1 }}
-							data-aos="fade-left"
-							data-aos-duration="2000"
-						>
-							<div className="Companin_content-box mb-3">
-								<h4 className="block-title">ASSAYS</h4>
-								<div className="List-box ">
-									<li className="item">
-										Myeloid Genotyping Panel
-									</li>
-									<li className="item">Myeloid MRD Panel</li>
-									<li className="item">Custom Assays</li>
-								</div>
-							</div>
-						</Col>
-					</Row>
 				</div>
-				<Row
-					className="pagination m-0"
-					data-aos="fade-up"
-					data-aos-duration="2000"
-				>
-					<Col md={2}>
-						<div className="number">
-							<span>1.2</span>
-						</div>
-					</Col>
-					<Col md={8}>
-						<div className="text">
-							<span>Next-Generation Sequencing (NGS)</span>
-						</div>
-					</Col>
-				</Row>
 			</div>
 		</>
 	);

@@ -12,7 +12,7 @@ function Technology() {
 			<GradientBg variant={2} />
 			<Banner
 				isBanner={true}
-				title="Bringing Precision Business Intelligence"
+				title="Business Intelligence"
 				video={"/assets/videos/technologies-hd.mp4"}
 				className={`technologies-banner`}
 			/>
@@ -77,7 +77,7 @@ function Technology() {
 								</div>
 								<div className="card-image ">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d5e561b5a07179d2d0_1-Armadio%20Scolapiatti%20A.webp"
+										src="/assets/img/industry/artificial-intelligence_9938756.png"
 										alt=""
 									/>
 								</div>
@@ -116,7 +116,7 @@ function Technology() {
 								</div>
 								<div className="card-image ">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d568f74d524c0b8e52_2-Armadio%20con%20ruote%20A.webp"
+										src="/assets/img/industry/chip_9938805.png"
 										alt=""
 									/>
 								</div>
@@ -157,7 +157,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d55599abe31cc77e80_3-Armadietto%20Spogliatoio%20A.webp"
+										src="/assets/img/industry/light-bulb_9938806.png"
 										alt=""
 									/>
 								</div>
@@ -193,7 +193,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d51983345542b576f5_4-Tavolo%20a%20giorno%20a.webp"
+										src="/assets/img/industry/robotic-arm_9938796.png"
 										alt=""
 									/>
 								</div>
@@ -228,7 +228,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d51983345542b576f5_4-Tavolo%20a%20giorno%20a.webp"
+										src="/assets/img/industry/robotics_9938683.png"
 										alt=""
 									/>
 								</div>
@@ -267,7 +267,7 @@ function Technology() {
 								</div>
 								<div className="card-image">
 									<img
-										src="https://uploads-ssl.webflow.com/6200f6f82ad0ffe8dd997715/62ff86d5c7c585508b52d0d8_5_Tavolo%20con%20anta%20A.webp"
+										src="/assets/img/industry/robotic-surgery_9938803.png"
 										alt=""
 									/>
 								</div>

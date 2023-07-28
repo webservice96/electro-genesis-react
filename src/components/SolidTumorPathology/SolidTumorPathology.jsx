@@ -67,60 +67,7 @@ function SolidTumorPathology() {
 							</ul>
 						</Col>
 					</Row>
-					{/* only 2 column text row */}
-					<Row data-aos="fade-right" data-aos-duration="2000">
-						<div className="content-box">
-							<h4 className="block-title">
-								OUR PATHOLOGISTS ARE:
-							</h4>
-							<ul className="ourPatho_list">
-								<li className="item">
-									<span className="name">
-										Available to serve as Principal
-										Investigators and Consultants
-									</span>
-								</li>
-								<li className="item">
-									<span className="name">
-										Employed full-time and at all of our
-										locations
-									</span>
-								</li>
-								<li className="item">
-									<span className="name">
-										Experienced in performing Phase 3
-										clinical trials for bladder, breast,
-										colon, head &amp; neck, lung, melanoma,
-										ovarian, and other tumors.
-									</span>
-								</li>
-								<li className="item">
-									<span className="name">
-										Prepared to excel in inter-laboratory
-										reducibility studies (ILRs)
-									</span>
-								</li>
-							</ul>
-						</div>
-					</Row>
 				</div>
-				<Row
-					className="pagination"
-					data-aos="fade-left"
-					data-aos-easing="linear"
-					data-aos-duration="1000"
-				>
-					<Col md={2}>
-						<div className="number">
-							<span>1.2</span>
-						</div>
-					</Col>
-					<Col md={8}>
-						<div className="text ms-3">
-							<span>Solid Tumor Pathology</span>
-						</div>
-					</Col>
-				</Row>
 			</div>
 		</>
 	);

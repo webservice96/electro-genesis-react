@@ -103,10 +103,6 @@ function Service() {
 									standard of pharmaceutical research and
 									diagnostic services.
 								</h2>
-
-								<p className="pt-5">
-									Our laboratories are recognized as:
-								</p>
 							</div>
 						</Col>
 					</Row>
