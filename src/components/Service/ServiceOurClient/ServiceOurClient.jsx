@@ -32,9 +32,8 @@ function ServiceOurClient() {
 								data-aos="fade-up"
 								data-aos-duration="1000"
 							>
-								Workflow 24 globally provides services to pharma
-								companies, biotech companies, diagnostic
-								developers, and oncologists for diagnostics
+								Workflow 24 globally provides services to
+								industry, Manufacturing, and Renewables
 								services.
 							</h6>
 						</div>

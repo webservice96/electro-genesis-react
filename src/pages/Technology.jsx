@@ -12,7 +12,7 @@ function Technology() {
 			<GradientBg variant={2} />
 			<Banner
 				isBanner={true}
-				title="Business Intelligence"
+				title="Bringing Precision to The Science of Decision"
 				video={"/assets/videos/technologies-hd.mp4"}
 				className={`technologies-banner`}
 			/>
@@ -29,9 +29,9 @@ function Technology() {
 								data-aos-duration="2000"
 							>
 								<h2 className="grand_title main-pages-header-title text-md-start">
-									At Workflow 24, our solutions utilise
-									feature the most comprehensive unification
-									systems available. We continuously invest in
+									At Workflow 24, our solutions feature the
+									most comprehensive unification systems
+									available. We continuously invest in
 									state-of-the-art technologies to provide the
 									highest quality of data to our clients.
 								</h2>

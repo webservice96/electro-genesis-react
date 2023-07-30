@@ -42,7 +42,7 @@ function Expertise() {
 					<div className="block-inner pt-5">
 						<TitleHeader title={"Finite Element Analysis "} />
 						<div className="content-text-part max-width">
-							<Row>
+							<Row className="align-items-center">
 								<Col
 									md={6}
 									data-aos="fade-right"
@@ -70,92 +70,7 @@ function Expertise() {
 								>
 									<div className="image-box">
 										<img
-											src="/assets/img/expertise/hematopathology.png"
-											alt="image"
-										/>
-									</div>
-								</Col>
-							</Row>
-						</div>
-					</div>
-				</div>
-
-				{/* solid tumor pathology section */}
-				<div className="bg-gray-pink bg-gray-secondary-pink mt-2">
-					<div className="block-inner pt-5">
-						<TitleHeader title={"Solid Tumor Pathology"} />
-
-						<div className="content-text-part max-width">
-							{/* text and image row */}
-							<Row>
-								<Col
-									md={7}
-									data-aos="fade-right"
-									data-aos-duration="2000"
-								>
-									<div className="SolidTumor-image-box">
-										<img
-											src="/assets/img/expertise/solid-tumor-pathology.png"
-											alt="image"
-										/>
-									</div>
-								</Col>
-								<Col
-									md={5}
-									data-aos="fade-left"
-									data-aos-duration="2000"
-								>
-									<h3 className="solidTitle mb-5">
-										Our pathologists are world-renowned
-										experts in multiple subspecialties.
-									</h3>
-									<ReadMoreButton
-										link={
-											"/expertise/solid-tumor-pathology"
-										}
-									/>
-								</Col>
-							</Row>
-						</div>
-					</div>
-				</div>
-
-				{/* Next-Generation Sequencing section */}
-				<div className="bg-gray-pink mt-2">
-					<div className="block-inner pt-5">
-						<TitleHeader
-							title={"Next-Generation Sequencing (NGS)"}
-						/>
-
-						<div className="content-text-part max-width">
-							{/* text and image row */}
-							<Row>
-								<Col
-									md={6}
-									data-aos="fade-right"
-									data-aos-duration="2000"
-								>
-									<h3 className="Companion_description mb-5">
-										Along with our expert scientists and
-										biostatisticians, our NGS services will
-										assist you with better understanding the
-										molecular characteristics of cancer
-										cells.
-									</h3>
-									<ReadMoreButton
-										link={
-											"/expertise/next-generation-sequencing"
-										}
-									/>
-								</Col>
-								<Col
-									md={6}
-									data-aos="fade-left"
-									data-aos-duration="2000"
-								>
-									<div className="Companion_image-box">
-										<img
-											src="/assets/img/expertise/next-gene-sequencing.png"
+											src="/assets/img/nanotechnology_7498596.png"
 											alt="image"
 										/>
 									</div>

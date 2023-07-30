@@ -37,7 +37,7 @@ function Service() {
 									<span>01</span>
 								</div>
 								<h2 className="grand_title">
-									A Patient & Client-Centric Laboratory
+									Business Intel for any Industry
 								</h2>
 							</div>
 						</Col>
@@ -54,11 +54,11 @@ function Service() {
 									variant="top"
 									src="/assets/img/SALDATURA MIG 1.webp"
 								/>
-								<Card.Body>
+								{/* <Card.Body>
 									<Card.Title className="fs-3">
-										Science
+										title here ...
 									</Card.Title>
-								</Card.Body>
+								</Card.Body> */}
 							</Card>
 						</Col>
 						<Col md={4}>
@@ -67,11 +67,11 @@ function Service() {
 									variant="top"
 									src="/assets/img/SALDATURA TIG-p-500.webp"
 								/>
-								<Card.Body>
+								{/* <Card.Body>
 									<Card.Title className="fs-3">
-										Service
+										title here ...
 									</Card.Title>
-								</Card.Body>
+								</Card.Body> */}
 							</Card>
 						</Col>
 						<Col md={4}>
@@ -80,11 +80,11 @@ function Service() {
 									variant="top"
 									src="/assets/img/PIEGATURA 1-p-800.webp"
 								/>
-								<Card.Body>
+								{/* <Card.Body>
 									<Card.Title className="fs-3">
-										Patient
+										title here ...
 									</Card.Title>
-								</Card.Body>
+								</Card.Body> */}
 							</Card>
 						</Col>
 					</Row>
@@ -100,8 +100,8 @@ function Service() {
 							<div className=" text-center">
 								<h2 className="grand_title">
 									Workflow 24 is proud to offer the highest
-									standard of pharmaceutical research and
-									diagnostic services.
+									standards of industrial efficiencies and
+									predictive intelligence.
 								</h2>
 							</div>
 						</Col>

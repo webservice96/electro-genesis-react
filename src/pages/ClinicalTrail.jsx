@@ -52,7 +52,7 @@ function ClinicalTrail() {
 									data-aos-duration="2000"
 								>
 									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>02</span>
+										<span>01</span>
 									</div>
 									<div className="title-button w-50 z-index-3">
 										<h2 className="grand_title mb-3">
@@ -91,7 +91,7 @@ function ClinicalTrail() {
 									data-aos-duration="2000"
 								>
 									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>04</span>
+										<span>02</span>
 									</div>
 									<div className="title-button w-50 z-index-3">
 										<h2 className="grand_title mb-3">
@@ -127,7 +127,7 @@ function ClinicalTrail() {
 									data-aos-duration="2000"
 								>
 									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>07</span>
+										<span>03</span>
 									</div>
 									<div className="title-button w-50 z-index-3">
 										<h2 className="grand_title mb-3">
@@ -179,7 +179,7 @@ function ClinicalTrail() {
 									data-aos-duration="2000"
 								>
 									<div className="o-number text-center mt-0 z-index ms-3">
-										<span>08</span>
+										<span>04</span>
 									</div>
 									<div className="title-button w-50 z-index-3">
 										<h2 className="grand_title mb-3">

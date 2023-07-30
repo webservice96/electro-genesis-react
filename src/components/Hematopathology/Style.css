@@ -1,88 +1,87 @@
-
-.title{
-    position: relative;
-    max-width: 81.25%;
-    padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
-    font-size: 60px;
-    font-size: 3.5294117647vw;
-    font-family: aeonik-medium;
-    color: #2c2c2c;
-    line-height: 1em;
-    margin-left: 18.75%;
-    letter-spacing: -.02em;
+.title {
+	position: relative;
+	max-width: 81.25%;
+	padding: 0.9375rem 0 calc(1.28906rem + 0.36458vw);
+	font-size: 60px;
+	font-size: 3.5294117647vw;
+	font-family: aeonik-medium;
+	color: #2c2c2c;
+	line-height: 1em;
+	margin-left: 18.75%;
+	letter-spacing: -0.02em;
 }
 .title-border-top,
 .title-border-bottom {
-    width: 100%;
-    margin: auto;
-    transition: .5s;
+	width: 100%;
+	margin: auto;
+	transition: 0.5s;
 }
 
 .title-border-top {
-    margin-right: 10%;
+	margin-right: 10%;
 }
 
 .title-border-animation {
-    margin-right: 2% !important;
-    width: 98% !important;
-    transition: .5s;
+	margin-right: 2% !important;
+	width: 98% !important;
+	transition: 0.5s;
 }
 
 .title-bottom-border-animation {
-    margin-left: 0% !important;
-    width: 98% !important;
-    transition: .5s;
+	margin-left: 0% !important;
+	width: 98% !important;
+	transition: 0.5s;
 }
 
-.description{
-    position: relative;
-    font-size: 34px;
-    font-size: 2vw;
-    font-family: aeonik-regular;
-    color: #2c2c2c;
-    line-height: 1.1em;
-    margin-right: 100px;
+.description {
+	position: relative;
+	font-size: 34px;
+	font-size: 2vw;
+	font-family: aeonik-regular;
+	color: #2c2c2c;
+	line-height: 1.1em;
+	margin-right: 100px;
 }
 .image-box {
-    position: relative;
-    top: -87px;
-    padding: 0 30px 0 0px;
+	position: relative;
+	padding: 0 30px 0 0px;
+	text-align: center;
+	text-align: -webkit-center;
 }
 
 .hematolog-content-box {
-    width: 60% !important;
-    margin-bottom: 6.25rem;
+	width: 60% !important;
+	margin-bottom: 6.25rem;
 }
- .block-title{
-     position: relative;
-     margin-bottom: 1.25rem;
-     font-size: 13px;
-    font-size: .8125rem;
-     font-family: aeonik-regular;
-     color: #2c2c2c;
-     line-height: 1.5em;
-     text-transform: uppercase;
-     border-bottom: 1px solid #2c2c2c;
-     
-     
- }
- .pragraph p{
-    letter-spacing: .02em;
-    line-height: 1.5em;
-    margin-bottom: 1em;
- }
- .margin-left {
-     position: relative;
-     margin-left: 30%;
- }
- .number,.text{
-     font-size: 17px;
-     font-size: 1vw;
-     font-family: aeonik-regular;
-     color: #2c2c2c;
-     line-height: 1em;
- }
- .expartise{
-    font-size: 4.0625rem !important;
-    margin: 0px !important;
- }
+.block-title {
+	position: relative;
+	margin-bottom: 1.25rem;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-family: aeonik-regular;
+	color: #2c2c2c;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #2c2c2c;
+}
+.pragraph p {
+	letter-spacing: 0.02em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+.margin-left {
+	position: relative;
+	margin-left: 30%;
+}
+.number,
+.text {
+	font-size: 17px;
+	font-size: 1vw;
+	font-family: aeonik-regular;
+	color: #2c2c2c;
+	line-height: 1em;
+}
+.expartise {
+	font-size: 4.0625rem !important;
+	margin: 0px !important;
+}

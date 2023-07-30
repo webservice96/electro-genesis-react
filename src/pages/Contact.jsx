@@ -8,19 +8,6 @@ function Contact() {
 		<>
 			<Layout className="overflow-hidden contact-page-template">
 				<ContactPlace
-					country={"United States"}
-					address={
-						"Workflow 24 8150 W 185th St. Tinley Park, IL 60487"
-					}
-					officePhoto={"assets/img/contact/contact-united-state.jpg"}
-					mapLink={"https://goo.gl/maps/DbuyLkfPHdjadwCX9"}
-					tollFreeNumber={"+1 888.436.2861"}
-					telephone={"+1 708.444.0444"}
-					fax={"+1 708-444-0445"}
-					email={"ClientServices@workflow24.com"}
-				/>
-
-				<ContactPlace
 					country={"United Kingdom"}
 					address={
 						" 1 Marischal Square, Broad Street, AB10 1NL, Aberdeen, United Kingdom"
@@ -32,6 +19,18 @@ function Contact() {
 					email={"ClientServices@workflow24.com"}
 				/>
 
+				<ContactPlace
+					country={"United States"}
+					address={
+						"Workflow 24 8150 W 185th St. Tinley Park, IL 60487"
+					}
+					officePhoto={"assets/img/contact/contact-united-state.jpg"}
+					mapLink={"https://goo.gl/maps/DbuyLkfPHdjadwCX9"}
+					tollFreeNumber={"+1 888.436.2861"}
+					telephone={"+1 708.444.0444"}
+					fax={"+1 708-444-0445"}
+					email={"ClientServices@workflow24.com"}
+				/>
 				<ContactFormPopup />
 			</Layout>
 		</>
