@@ -25,7 +25,7 @@ function Home() {
 				<OurTechnology />
 				<Support />
 				<ClinicalTrials />
-				<ImageSlider />
+				{/* <ImageSlider /> */}
 				<Services />
 			</Layout>
 		</>

@@ -16,19 +16,17 @@ function Contact() {
 					mapLink={"https://goo.gl/maps/fCngng5agL8npRWKA"}
 					telephone={"+44.161.938.2121"}
 					fax={"+44.808.171.8795"}
-					email={"ClientServices@workflow24.com"}
+					email={"hello@workflow24.com"}
 				/>
 
 				<ContactPlace
 					country={"United States"}
 					address={
-						"Workflow 24 8150 W 185th St. Tinley Park, IL 60487"
+						"S-4, Kukatpally Industrial Estate, Balanagar, Hyderabad, 500037"
 					}
 					officePhoto={"assets/img/contact/contact-united-state.jpg"}
 					mapLink={"https://goo.gl/maps/DbuyLkfPHdjadwCX9"}
-					tollFreeNumber={"+1 888.436.2861"}
-					telephone={"+1 708.444.0444"}
-					fax={"+1 708-444-0445"}
+					telephone={"+91-40-29395585"}
 					email={"ClientServices@workflow24.com"}
 				/>
 				<ContactFormPopup />

@@ -286,7 +286,7 @@
 		margin-bottom: 0;
 	}
 
-	.imgae-slider-block .img-slider-item{
+	.imgae-slider-block .img-slider-item {
 		height: 480px;
 	}
 
@@ -977,6 +977,27 @@
 	}
 	.privacy-cookie-item h4 {
 		font-size: 18px;
+	}
+
+	.company-team-slider .col-md-4 {
+		margin-bottom: 50px;
+	}
+
+	.company-team-slider .col-md-4:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.company-team-members .photo-container img {
+		height: 553px;
+	}
+
+	.company-team-members .slide-item {
+		padding-bottom: 30px;
+	}
+	.company-team-members .slide-item:last-child {
+		padding-bottom: 0;
 	}
 }
 

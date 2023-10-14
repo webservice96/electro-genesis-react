@@ -31,10 +31,8 @@ function Company() {
 				<CompanyLeaders />
 				<CompanyClientClock />
 				<CompanyTeamMembers />
-				<CompanyHistory />
-				<CompanyCultureBlock />
+				{/* <CompanyHistory /> */}
 				<CompanyCoreValue />
-				{/* <CompanyJobs /> */}
 				<CompanyContact />
 			</Layout>
 			<Footer />

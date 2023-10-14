@@ -8,35 +8,20 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const teamMembers = [
 	{
-		photo: "https://hematogenix.com/_nuxt/image/2b9ab8.auto",
-		name: "Dr. Hytham Al-Masri",
-		position: "President & CEO",
+		photo: "/assets/img/our-story/member-1.jpeg",
+		name: "Pete Preston",
+		position: "CEO",
 	},
-	{
-		photo: "https://hematogenix.com/_nuxt/image/6b6b1e.auto",
-		name: "Renee Porras",
-		position: "Vice President of Global Operations",
-	},
-	{
-		photo: "https://hematogenix.com/_nuxt/image/1b0d93.auto",
-		name: "Mahdy Amine",
-		position: "SVP, General Counsel",
-	},
-	{
-		photo: "https://hematogenix.com/_nuxt/image/364d42.auto",
-		name: "Bridgette Bonilla",
-		position: "Vice President of Quality Assurance",
-	},
-	{
-		photo: "https://hematogenix.com/_nuxt/image/93c8bd.auto",
-		name: "Michael Salerno",
-		position: "Director of Operations",
-	},
-	{
-		photo: "https://hematogenix.com/_nuxt/image/611b72.auto",
-		name: "Hikmat Daghestani",
-		position: "Senior Scientific Director",
-	},
+	// {
+	// 	photo: "/assets/img/our-story/member-3.jpeg",
+	// 	name: "Naveen Reddy",
+	// 	position: "Director of Operations",
+	// },
+	// {
+	// 	photo: "/assets/img/our-story/member-2.jpg",
+	// 	name: "Deena Tissera",
+	// 	position: "Operations Manager",
+	// },
 ];
 
 function CompanyTeamMembers() {
@@ -69,45 +54,11 @@ function CompanyTeamMembers() {
 					data-aos="flip-down"
 					data-aos-duration="3000"
 				>
-					<Splide
-						hasTrack={false}
-						options={{
-							type: "loop",
-							perPage: 4,
-							perMove: 1,
-							autoplay: false,
-							pagination: false,
-							arrows: true,
-							breakpoints: {
-								768: {
-									perPage: 1,
-								},
-							},
-						}}
-						onMove={(splide) => {
-							var end = splide.Components.Controller.getEnd() + 1;
-							var rate = Math.min((splide.index + 1) / end, 1);
-							barRef.current.style.width =
-								String(100 * rate) + "%";
-						}}
-					>
-						<Container>
-							<div className="technology-slider-arrow">
-								<div className="splide__arrows">
-									<button className="splide__arrow splide__arrow--prev">
-										<FontAwesomeIcon icon={faArrowRight} />
-									</button>
-									<button className="splide__arrow splide__arrow--next">
-										<FontAwesomeIcon icon={faArrowRight} />
-									</button>
-								</div>
-							</div>
-						</Container>
-
+					<Container>
 						<div className="technology-slider mb-5">
-							<SplideTrack>
+							<Row className="justify-center">
 								{teamMembers.map((member) => (
-									<SplideSlide key={member.name}>
+									<Col md={4} key={member.photo}>
 										<div className="slide-item h-100">
 											<div className="photo-container">
 												<img
@@ -120,20 +71,11 @@ function CompanyTeamMembers() {
 												<p>{member.position}</p>
 											</div>
 										</div>
-									</SplideSlide>
+									</Col>
 								))}
-							</SplideTrack>
+							</Row>
 						</div>
-
-						<Container>
-							<div className="technology-slider-progress">
-								<div
-									className="technology-slider-progress-bar"
-									ref={barRef}
-								></div>
-							</div>
-						</Container>
-					</Splide>
+					</Container>
 				</div>
 			</div>
 		</>

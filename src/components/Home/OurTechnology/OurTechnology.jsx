@@ -19,17 +19,17 @@ const technologies = [
 	},
 	{
 		titile: "Molecular Genetics",
-		preview: "/assets/img/technology/Illumina.png",
+		preview: "/assets/img/home/tech-79841.jpeg",
 		moreLink: "technologies/molecular-genetics",
 	},
 	{
 		titile: "Cytogenetics / FISH",
-		preview: "/assets/img/technology/cytovysion.png",
+		preview: "/assets/img/home/tech-0216546.jpeg",
 		moreLink: "technologies/cytogenetics-fish",
 	},
 	{
 		titile: "Histology / IHC",
-		preview: "/assets/img/technology/benchmark.png",
+		preview: "/assets/img/home/tech-1614984.jpeg",
 		moreLink: "technologies/histology",
 	},
 	{

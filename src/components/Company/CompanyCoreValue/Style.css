@@ -1,5 +1,5 @@
-.company-core-value{
-    background-color: #ff4134;
+.company-core-value {
+	background-color: #ff4134;
 }
 
 .core-value-carousel {
@@ -20,6 +20,10 @@
 		translateX(calc(var(--direction) * -5rem));
 	filter: blur(calc(var(--abs-offset) * 1rem));
 	transition: all 0.3s ease-out;
+}
+
+.core-value-crd-img {
+	height: 256px;
 }
 
 .core-value-card {
